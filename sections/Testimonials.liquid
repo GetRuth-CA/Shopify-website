@@ -1,0 +1,38 @@
+<div class="sectionDiv">
+  <h2 class="TestimonialHeadline">
+  {{section.settings.TestimonialHeader}}
+  </h2>
+  <img src="{{section.settings.testimonialimage | img_url:'master'}}" style="padding-bottom:108px;"/>
+  <h3 class="PressHead">We've been featured on</h3>
+  <img src="{{section.settings.featuresimage | img_url:'master'}}" style="padding-bottom:108px;"/>
+</div>
+
+{% schema %}
+{
+	"name": "Testimonials",
+	"settings": [{
+			"type": "text",
+			"id": "TestimonialHeader",
+			"label": "Testimonial Header",
+			"default": "Here's what our beta-testers are saying"
+			
+		},
+		{
+			"type": "image_picker",
+			"id": "testimonialimage",
+			"label": "placeholder image!!!"
+		},
+		{
+			"type": "image_picker",
+			"id": "featuresimage",
+			"label": "another placeholder image!!!"
+		}
+
+	],
+	"presets": [{
+		"category": "image",
+		"name": "Testimonials"
+	}]
+}
+{% endschema %}
+

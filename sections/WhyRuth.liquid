@@ -1,0 +1,110 @@
+<div class="sectionDiv" style="margin-bottom:50px;">
+<h1 style="text-align:center" class="WhyRuthHead">{{section.settings.heading}}</h1>
+<p class="aboutparas">{{section.settings.aboutpara}}</p>
+
+<div class="section group">
+	<div class="col span_1_of_4">
+    <img src="{{section.settings.para1img | img_url:'master'}}"/>
+      <p class="columnHead">{{section.settings.para1head}}</p>
+      <p class="columnText">{{section.settings.para1text}}</p>
+	</div>
+	<div class="col span_1_of_4">
+	<img src="{{section.settings.para2img | img_url:'master'}}"/>
+      <p class="columnHead">{{section.settings.para2head}}</p>
+      <p class="columnText">{{section.settings.para2text}}</p>
+	</div>
+	<div class="col span_1_of_4">
+	<img src="{{section.settings.para3img | img_url:'master'}}"/>
+      <p class="columnHead">{{section.settings.para3head}}</p>
+      <p class="columnText">{{section.settings.para3text}}</p>
+	</div>
+	<div class="col span_1_of_4">
+	<img src="{{section.settings.para4img | img_url:'master'}}"/>
+      <p class="columnHead">{{section.settings.para4head}}</p>
+      <p class="columnText">{{section.settings.para4text}}</p>
+	</div>
+</div>
+</div>
+{% schema %}
+{
+"name": "Why Ruth Section",
+"settings": [
+{
+"type":"text",
+"label":"headline",
+"id":"heading"
+},
+{
+"type":"text",
+"label":"paragraph",
+"id":"aboutpara"
+},
+{
+"type":"image_picker",
+"label":"Pick paragraph icon 1",
+"id": "para1img"
+},
+{
+"type": "text",
+"label":"Para 1 Headline",
+"id": "para1head"
+},
+{
+"type": "text",
+"label":"Para 1 text",
+"id": "para1text"
+},
+{
+"type":"image_picker",
+"label":"Pick paragraph icon 2",
+"id": "para2img"
+},
+{
+"type": "text",
+"label":"Para 2 Headline",
+"id": "para2head"
+},
+{
+"type": "text",
+"label":"Para 2 text",
+"id": "para2text"
+},
+{
+"type":"image_picker",
+"label":"Pick paragraph icon 3",
+"id": "para3img"
+},
+{
+"type": "text",
+"label":"Para 3 Headline",
+"id": "para3head"
+},
+{
+"type": "text",
+"label":"Para 3 text",
+"id": "para3text"
+},
+{
+"type":"image_picker",
+"label":"Pick paragraph icon 4",
+"id": "para4img"
+},
+{
+"type": "text",
+"label":"Para 4 Headline",
+"id": "para4head"
+},
+{
+"type": "text",
+"label":"Para 4 text",
+"id": "para4text"
+}
+],
+"presets":[
+	{
+		"category":"image",
+		"name":"Why Ruth section"
+}
+]
+}
+{% endschema %}

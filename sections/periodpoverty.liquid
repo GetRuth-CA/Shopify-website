@@ -1,0 +1,39 @@
+<div class="sectionDiv" style="padding-bottom: 131px;">
+  <img src="{{section.settings.image1 | img_url:'master'}}" style="display: block;
+  margin-left: auto;
+  margin-right: auto;"/>
+  <h3 class="TestimonialHeadline" style="padding-top:26px;">{{section.settings.Headline}}</h3>
+  <p class="aboutparas">{{section.settings.Para}}</p>
+  
+<button class="buttonMore">Learn More</button>
+  
+</div>
+
+{% schema %}
+  {
+    "name": "Period Poverty",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Period Poverty image"
+        },
+        {
+            "type": "text",
+            "id": "Headline",
+            "label": "Headline"
+        },
+        {
+            "type": "text",
+            "id": "Para",
+            "label": "Paragraph"
+        }
+    ],
+    "presets": [
+        {
+            "category": "image",
+            "name":"Period poverty"
+        }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,39 @@
+<div class="greenSection">
+    <div class="sectionDiv">
+    <h1 class="BeigeHeader">{{section.settings.SectionHeading}}</h1>
+      <p class="columnHead" style="color:#FFFFFF;text-align:center">{{section.settings.Sectiontext}}</p>
+    </div>
+    </div>
+    
+    {% schema %}
+      {
+        "name": "quiz section",
+        "settings": [
+                    
+                        {
+                            "type": "text",
+                            "id": "SectionHeading",
+                            "label": "Section Heading"
+                        },
+                        {
+                            "type": "text",
+                            "id": "Sectiontext",
+                            "label": "Section text"
+                        }
+                        
+                    
+    
+        ],
+        "presets": [
+                      {
+                        "category":"image",
+                        "name":"Quiz section"
+    
+                      }
+    
+    ]
+      }
+    {% endschema %}
+    
+    
+    
