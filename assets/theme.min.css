@@ -1887,7 +1887,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     object-fit:cover;
     object-position:center;
     font-family:"object-fit: cover;
-     object-position: center";
+    object-position: center;
     position:absolute;
     top:0;
     left:0;
