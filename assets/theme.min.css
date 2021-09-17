@@ -472,10 +472,10 @@ html.supports-no-cookies .supports-cookies{
     justify-content:center;
     text-decoration:none;
     text-align:center;
-    border:1px solid currentColor;
+    border:0px solid currentColor;
     border-radius:6px;
     color:#ffffff;
-    background-color:#BB9977;
+    background-color:#768052;
     padding:1.2em 2.4em;
     font-style:normal;
     font-weight:var(--font-body-weight-bold);
@@ -483,16 +483,17 @@ html.supports-no-cookies .supports-cookies{
     white-space:normal;
     font-size:1.5rem;
     letter-spacing:.05em;
-    transition:box-shadow .2s ease-in-out
+    transition:box-shadow .2s ease-in-out;
+    box-shadow: 8px 8px #C1CC7A;
 }
 .button[aria-disabled=true],.button[disabled],.shopify-challenge__button[aria-disabled=true],.shopify-challenge__button[disabled],.shopify-payment-button .shopify-payment-button__button--unbranded[aria-disabled=true],.shopify-payment-button .shopify-payment-button__button--unbranded[disabled]{
     opacity:.5
 }
 .button:hover:not(:focus),.shopify-challenge__button:hover:not(:focus),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not(:focus){
-    box-shadow:0 0 0 .1rem currentColor
+    box-shadow:4px 4px 0 .1rem currentColor
 }
 .button:hover:focus:not(:focus-visible),.shopify-challenge__button:hover:focus:not(:focus-visible),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:focus:not(:focus-visible){
-    box-shadow:0 0 0 .1rem currentColor
+    box-shadow:4px 4px 0 .1rem currentColor
 }
 .button:active,.shopify-challenge__button:active,.shopify-payment-button .shopify-payment-button__button--unbranded:active{
     background-color:rgba(var(--color-button),.05);
