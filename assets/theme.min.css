@@ -4358,8 +4358,13 @@ tbody th,tfoot th{
     background:linear-gradient(to bottom,var(--color-secondary-background),var(--color-secondary-background) 67.5324%,var(--color-background) 67.5324%,var(--color-background) 100%)
 }
 .image-with-text--full_background{
-    background-color:var(--color-secondary-background);
-     height:1000px;
+    background-color:transparent;
+    height:962px;
+    width:100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0587/8674/2454/files/output-onlinepngtools.png?v=1631846763);
+    background-position: center;
+  background-repeat: no-repeat;
+
 }
 .image-with-text__inner{
     max-width:1200px;
@@ -5858,10 +5863,6 @@ src: url("montserrat-v18-latin-regular.woff2") format("woff2"),
 url("montserrat-v18-latin-regular.woff") format("woff");
 }
 
-.sectionDiv{
-  	max-width:1200px;
-  	margin: 10px auto;
-}
 h1 { 
   font-family: "playfair-display-v22-latin-700"!important;
   color: #768052;

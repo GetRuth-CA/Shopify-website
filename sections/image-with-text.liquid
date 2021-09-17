@@ -1,27 +1,6 @@
 {%- capture image_template -%}
   <div>
-    <div class="image-with-text__media
-      image-with-text__media--{{ section.settings.desktop_layout }}
-      {% unless section.settings.keep_image_ratio %} image-with-text__media--square{% endunless %}">
-
-      {%- if section.settings.image != blank -%}
-        <img srcset="{% if section.settings.image.width >= 311 %}{{ section.settings.image | img_url: '311x' }} 311w,{% endif %}
-            {% if section.settings.image.width >= 622 %}{{ section.settings.image | img_url: '622x' }} 622w,{% endif %}
-            {% if section.settings.image.width >= 503 %}{{ section.settings.image | img_url: '503x' }} 503w,{% endif %}
-            {% if section.settings.image.width >= 1006 %}{{ section.settings.image | img_url: '1006x' }} 1006w,{% endif %}
-            {% if section.settings.image.width >= 685 %}{{ section.settings.image | img_url: '685x' }} 685w,{% endif %}
-            {% if section.settings.image.width >= 1370 %}{{ section.settings.image | img_url: '1370x' }} 1370w{% endif %}"
-          sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 2), (min-width: 750px) calc((100vw - 19.5rem) / 2), calc(100vw - 6.4rem)"
-          src="{{ section.settings.image | img_url: '503x503' }}"
-          width="{{ section.settings.image.width }}"
-          height="{{ section.settings.image.height }}"
-          loading="lazy"
-          class="image-with-text__image{% if section.settings.keep_image_ratio %} image-with-text__image--auto{% endif %}"
-          alt="{{ section.settings.image.alt | escape }}">
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg image-with-text__image' }}
-      {%- endif -%}
-    </div>
+    
   </div>
 {%- endcapture -%}
 
