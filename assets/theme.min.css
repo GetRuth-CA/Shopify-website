@@ -4359,12 +4359,11 @@ tbody th,tfoot th{
 }
 .image-with-text--full_background{
     background-color:transparent;
+    background-image: url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/output-onlinepngtools.png?v=1631846763");
     height:962px;
-    width:100%;
-    background-image: url(https://cdn.shopify.com/s/files/1/0587/8674/2454/files/output-onlinepngtools.png?v=1631846763);
     background-position: center;
-  background-repeat: no-repeat;
-
+    background-repeat: no-repeat;
+  
 }
 .image-with-text__inner{
     max-width:1200px;
@@ -5863,6 +5862,12 @@ src: url("montserrat-v18-latin-regular.woff2") format("woff2"),
 url("montserrat-v18-latin-regular.woff") format("woff");
 }
 
+.sectionDiv{
+  	max-width:1200px;
+  	margin: 0px auto;
+    height:100%
+}
+
 h1 { 
   font-family: "playfair-display-v22-latin-700"!important;
   color: #768052;
@@ -5960,9 +5965,9 @@ h1 {
   
 }
   
-.WhyRuthHead {
+/* .WhyRuthHead {
  	padding-top:65px; 
-}
+} */
   
 .PressHead {
 	font-family: "montserrat-v18-latin-600"!important;
@@ -6040,9 +6045,4 @@ h1 {
   
 .specialH1{
  text-align:center; 
-}
-
-.sectionDiv{
-    max-width: 1200px;
-    text-align: center;
 }
