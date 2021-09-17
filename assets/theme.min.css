@@ -5878,7 +5878,7 @@ h1 {
   text-align:center;
   margin-left:auto;
   margin-right:auto;
-  width: 80%;
+  max-width: 560px;
   color: #404040;
   line-height: 1.8;
   font-size: 15px;
