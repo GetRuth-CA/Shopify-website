@@ -5,7 +5,7 @@
       <div class="section group">
         {% for item in section.settings.featuredcoll.products %}
         <a href="{{item.url}}">
-          <div class="col span_1_of_3">
+          <div class="colProd span_1_of_3">
             <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages"/>
             <br/>
             <p class="ProductTitle">{{item.title}}</p>
@@ -45,7 +45,7 @@
 }
 
 /*  COLUMN SETUP  */
-.col {
+.colProd {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 2%;
