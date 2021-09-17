@@ -1,0 +1,30 @@
+<div class="hero-image">
+    <h1>Hello</h1>
+</div> 
+
+{% schema %}
+{
+	"name": "NEW HERO",
+	"settings": [{
+			"type": "text",
+			"id": "HeroHeader",
+			"label": "Hero Header"	
+		},
+        {
+            "type": "text",
+            "id": "heropara",
+            "label": "Hero paragraphs"
+        },
+		{
+			"type": "image_picker",
+			"id": "heroimage",
+			"label": "placeholder image!!!"
+		}
+
+	],
+	"presets": [{
+		"category": "image",
+		"name": "new hero"
+	}]
+}
+{% endschema %}
