@@ -5980,26 +5980,28 @@ h1 {
 }
 
 .buttonMore {
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: 6px;
-  font-family: "montserrat-v18-latin-regular"!important;
-  color: #5D633B;
-  font-size: 14px;
-  background: #ffffff;
-  padding: 23px 63px 23px 63px;
-  border: solid #707070 2px;
-  text-decoration: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: "montserrat-v18-latin-regular"!important;
+    color: #5D633B;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 23px 63px 23px 63px;
+    border: solid #707070 2px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px #C1CC7A;
+    transition: box-shadow .2s ease-out;
 }
 
 .buttonMore:hover {
-  background: #3cb0fd;
   text-decoration: none;
   color: #FFFFFF;
-  background: #5D633B;
+  box-shadow: 5px 5px currentColor;
+  background-color: #5D633B;
 }
   
 .header2stuff{
