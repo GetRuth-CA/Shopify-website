@@ -158,7 +158,7 @@
         "type": "Testimonials",
         "settings": {
           "TestimonialHeader": "Here's what our beta-testers are saying",
-          "testimonialimage": "shopify:\/\/shop_images\/image.png",
+          "testimonialimage": "shopify:\/\/shop_images\/testi.png",
           "featuresimage": "shopify:\/\/shop_images\/image_d3363043-2ee8-448f-8172-4c0cbfe6a9e1.png"
         }
       },
