@@ -50,8 +50,13 @@
 	display: inline-block;
 	margin: 1% 0 1% 2%;
   text-align: center;
+  transition: transform .2s; /* Animation */;
 }
 .colProd:first-child { margin-left: 0; }
+
+.colProd:hover{
+  transform: scale(1.05);
+}
 
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
