@@ -6041,3 +6041,8 @@ h1 {
 .specialH1{
  text-align:center; 
 }
+
+.sectionDiv{
+    max-width: 1200px;
+    
+}
