@@ -5948,9 +5948,17 @@ h1 {
 }
   
 .greenSection {
- 	/* background-color: #5D633B; */
-  	padding: 84px 0px;
-  	
+ 	background-image: url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/illustration.png?v=1631907547");
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 194px;
+
+}
+  
+@media only screen and (max-width: 480px){
+  .greenSection {
+    background-position: bottom left;
+}
 }
   
 .BeigeHeader {
