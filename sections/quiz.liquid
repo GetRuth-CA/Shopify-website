@@ -4,16 +4,15 @@
       <p class="columnHead" style="color:#768052;text-align:center">{{section.settings.Sectiontext}}</p>
       <div class="section group">
         {% for item in section.settings.featuredcoll.products %}
-        <a href="{{item.url}}">
           <div class="colProd span_1_of_3">
+            <a href="{{item.url}}">
             <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages"/>
             <br/>
             <p class="ProductTitle">{{item.title}}</p>
             <p>{{item.price | money }}</p>
-          </div>
-        </a>
-        
-          {% render 'product-form',
+            </a>
+            
+            {% render 'product-form',
           section_id: section.id,
           product: item,
           current_variant: item.first_available_variant,
@@ -21,6 +20,9 @@
           show_quantity_selector: false,
           show_success_message: true
           %}
+          </div>
+        
+       
         
         {% endfor %}
         
