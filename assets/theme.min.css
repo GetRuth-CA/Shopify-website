@@ -6063,9 +6063,10 @@ h1 {
   
   #shopify-section-footer:before {
     content: " ";
-  background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/footer_bg_2x_d8a6ae88-449d-4906-ab79-5624d4cef337.png?v=1632746629");
+  background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/footer_bg_cropped.png?v=1632752093");
   		background-repeat: no-repeat;
   		background-position: center top;
   		background-size:cover;
-  height:100%
+    display:block;
+  height:500px;
   }
