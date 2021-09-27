@@ -2269,6 +2269,7 @@ html.no-js .product-form__select{
     display:flex;
     flex-direction:column;
     margin-top:2rem;
+  margin-bottom: 2rem;
       margin-left: auto;
 margin-right: auto;
 width: 60%;
