@@ -2269,6 +2269,9 @@ html.no-js .product-form__select{
     display:flex;
     flex-direction:column;
     margin-top:2rem
+      margin-left: auto;
+margin-right: auto;
+width: 60%;
 }
 .product-form__add-to-cart{
     min-height:4.4rem
