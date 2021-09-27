@@ -14,11 +14,11 @@
         </a>
         
           {% render 'product-form',
-          section_id: section.id,
+          section_id: {{section.id}},
           product: item,
-          current_variant: current_variant,
-          enable_dynamic_checkout: section.settings.enable_dynamic_checkout,
-          show_quantity_selector: section.settings.show_quantity_selector,
+          current_variant: first_available_variant,
+          enable_dynamic_checkout: true,
+          show_quantity_selector: true,
           show_success_message: true
           %}
         
