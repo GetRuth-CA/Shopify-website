@@ -15,7 +15,7 @@
         
           {% render 'product-form',
           section_id: {{section.id}},
-          product: item,
+          product: {{item}},
           current_variant: first_available_variant,
           enable_dynamic_checkout: true,
           show_quantity_selector: true,
