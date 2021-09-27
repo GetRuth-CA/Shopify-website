@@ -13,14 +13,14 @@
           </div>
         </a>
         
-        {% render 'product-form',
-        section_id: section.id,
-        product: product,
-        current_variant: current_variant,
-        enable_dynamic_checkout: section.settings.enable_dynamic_checkout,
-        show_quantity_selector: section.settings.show_quantity_selector,
-        show_success_message: true
-      %}
+          {% render 'product-form',
+          section_id: section.id,
+          product: item,
+          current_variant: current_variant,
+          enable_dynamic_checkout: section.settings.enable_dynamic_checkout,
+          show_quantity_selector: section.settings.show_quantity_selector,
+          show_success_message: true
+          %}
         
         {% endfor %}
         
