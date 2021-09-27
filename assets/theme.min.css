@@ -3791,8 +3791,8 @@ tbody th,tfoot th{
 }
 @media only screen and (min-width:46.85em){
     .footer--has-blocks .footer__content-wrapper{
-        padding-left:1rem;
-        padding-right:1rem
+        padding-left:4rem;
+        padding-right:4rem
     }
 }
 .footer__content{
