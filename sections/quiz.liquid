@@ -13,16 +13,7 @@
           </div>
         </a>
         <div class="product-card__quick-add">
-          {%- unless product.has_only_default_variant -%}
-            <div class="product-form__buttons product-form__buttons--show-options">
-              <button
-                name="add"
-                class="product-form__add-to-cart button"
-                data-show-options-button>
-                  {{ 'products.product.show_options' | t }}
-              </button>
-            </div>
-          {% endunless %}
+          
         {% endfor %}
         
       </div>
