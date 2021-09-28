@@ -2900,9 +2900,9 @@ width: 60%;
     opacity:0;
     will-change:opacity
 }
-.is-open .stage__overlay{
-    opacity:.75
-}
+/* .is-open .stage__overlay{
+/*     opacity:.75 */
+} */
 .transition-ready .stage__overlay{
     transition:opacity .2s ease-in-out
 }
