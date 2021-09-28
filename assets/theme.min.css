@@ -4082,7 +4082,7 @@ tbody th,tfoot th{
 .header{
   	position:relative;
     transition:transform .25s ease-out 0s;
-    background-color:rgba(255, 255, 255, 0.923);
+    background-color:rgba(246, 246, 246, 0.723);
 }
 .header__content-wrapper{
     width:100%;
