@@ -5905,6 +5905,7 @@ h1 {
 	display: table-cell;
 	margin: 1% 0 1% 2%;
   	text-align:center;
+  	width:60%
 }
 .col:first-child { margin-left: 0; }
 
