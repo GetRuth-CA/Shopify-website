@@ -472,10 +472,10 @@ html.supports-no-cookies .supports-cookies{
     justify-content:center;
     text-decoration:none;
     text-align:center;
-    border:1px solid currentColor;
+    border:0px solid currentColor;
     border-radius:6px;
     color:#ffffff;
-    background-color:#BB9977;
+    background-color:#768052;
     padding:1.2em 2.4em;
     font-style:normal;
     font-weight:var(--font-body-weight-bold);
@@ -483,16 +483,17 @@ html.supports-no-cookies .supports-cookies{
     white-space:normal;
     font-size:1.5rem;
     letter-spacing:.05em;
-    transition:box-shadow .2s ease-in-out
+    transition:box-shadow .2s ease-in-out;
+    box-shadow: 8px 8px #C1CC7A;
 }
 .button[aria-disabled=true],.button[disabled],.shopify-challenge__button[aria-disabled=true],.shopify-challenge__button[disabled],.shopify-payment-button .shopify-payment-button__button--unbranded[aria-disabled=true],.shopify-payment-button .shopify-payment-button__button--unbranded[disabled]{
     opacity:.5
 }
 .button:hover:not(:focus),.shopify-challenge__button:hover:not(:focus),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not(:focus){
-    box-shadow:0 0 0 .1rem currentColor
+    box-shadow:4px 4px 0 .1rem currentColor
 }
 .button:hover:focus:not(:focus-visible),.shopify-challenge__button:hover:focus:not(:focus-visible),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:focus:not(:focus-visible){
-    box-shadow:0 0 0 .1rem currentColor
+    box-shadow:4px 4px 0 .1rem currentColor
 }
 .button:active,.shopify-challenge__button:active,.shopify-payment-button .shopify-payment-button__button--unbranded:active{
     background-color:rgba(var(--color-button),.05);
@@ -1887,7 +1888,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     object-fit:cover;
     object-position:center;
     font-family:"object-fit: cover;
-     object-position: center";
+    object-position: center;
     position:absolute;
     top:0;
     left:0;
@@ -2267,7 +2268,11 @@ html.no-js .product-form__select{
 .product-form__buttons{
     display:flex;
     flex-direction:column;
-    margin-top:2rem
+    margin-top:2rem;
+  margin-bottom: 2rem;
+      margin-left: auto;
+margin-right: auto;
+width: 90%;
 }
 .product-form__add-to-cart{
     min-height:4.4rem
@@ -2895,9 +2900,9 @@ html.no-js .product-form__select{
     opacity:0;
     will-change:opacity
 }
-.is-open .stage__overlay{
-    opacity:.75
-}
+/* .is-open .stage__overlay{
+/*     opacity:.75 */
+} */
 .transition-ready .stage__overlay{
     transition:opacity .2s ease-in-out
 }
@@ -3790,8 +3795,8 @@ tbody th,tfoot th{
 }
 @media only screen and (min-width:46.85em){
     .footer--has-blocks .footer__content-wrapper{
-        padding-left:1rem;
-        padding-right:1rem
+        padding-left:4rem;
+        padding-right:4rem
     }
 }
 .footer__content{
@@ -4077,7 +4082,7 @@ tbody th,tfoot th{
 .header{
   	position:relative;
     transition:transform .25s ease-out 0s;
-    background-color:var(--color-background)
+    background-color:rgba(246, 246, 246, 0.723);
 }
 .header__content-wrapper{
     width:100%;
@@ -4358,8 +4363,13 @@ tbody th,tfoot th{
     background:linear-gradient(to bottom,var(--color-secondary-background),var(--color-secondary-background) 67.5324%,var(--color-background) 67.5324%,var(--color-background) 100%)
 }
 .image-with-text--full_background{
-    background-color:var(--color-secondary-background);
-     height:1000px;
+    background-color: transparent;
+    background-image: url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/Mask_Group_13_2x_7eb950e7-ecc5-4dab-8fed-cd73e69c6930.png?v=1632744063");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 1100px;
+  
 }
 .image-with-text__inner{
     max-width:1200px;
@@ -5860,8 +5870,10 @@ url("montserrat-v18-latin-regular.woff") format("woff");
 
 .sectionDiv{
   	max-width:1200px;
-  	margin: 10px auto;
+  	margin: 0px auto;
+    height:100%
 }
+
 h1 { 
   font-family: "playfair-display-v22-latin-700"!important;
   color: #768052;
@@ -5871,7 +5883,8 @@ h1 {
   text-align:center;
   margin-left:auto;
   margin-right:auto;
-  width: 80%;
+  max-width: 560px;
+  padding: 10px 10px;
   color: #404040;
   line-height: 1.8;
   font-size: 15px;
@@ -5918,9 +5931,9 @@ h1 {
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 880px) {
   	#aboutparas { width: 90%;}
-	.col {  margin: 5% 0 5% 0%; display:inline-block;}
+	.col {  margin: 5% 0 5% 0%; display:inline-block;padding:1px 15%;}
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
   
@@ -5940,13 +5953,22 @@ h1 {
 }
   
 .greenSection {
- 	background-color: #5D633B;
-  	padding: 84px 0px;
-  	
+ 	background-image: url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/illustration.png?v=1631907547");
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 194px;
+  	padding-top:84px;
+
+}
+  
+@media only screen and (max-width: 480px){
+  .greenSection {
+    background-position: bottom left;
+}
 }
   
 .BeigeHeader {
- 	color: #FFEED7;
+ 	color: #768052;
   	text-align:center;
 }
 
@@ -5959,9 +5981,9 @@ h1 {
   
 }
   
-.WhyRuthHead {
+/* .WhyRuthHead {
  	padding-top:65px; 
-}
+} */
   
 .PressHead {
 	font-family: "montserrat-v18-latin-600"!important;
@@ -5972,26 +5994,28 @@ h1 {
 }
 
 .buttonMore {
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: 6px;
-  font-family: "montserrat-v18-latin-regular"!important;
-  color: #5D633B;
-  font-size: 14px;
-  background: #ffffff;
-  padding: 23px 63px 23px 63px;
-  border: solid #707070 2px;
-  text-decoration: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: "montserrat-v18-latin-regular"!important;
+    color: #5D633B;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 23px 63px 23px 63px;
+    border: solid #707070 2px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px #C1CC7A;
+    transition: box-shadow .2s ease-out;
 }
 
 .buttonMore:hover {
-  background: #3cb0fd;
   text-decoration: none;
   color: #FFFFFF;
-  background: #5D633B;
+  box-shadow: 5px 5px currentColor;
+  background-color: #5D633B;
 }
   
 .header2stuff{
@@ -6014,7 +6038,7 @@ h1 {
   }
   
 #shopify-section-image-with-text-0 {
- height:750px; 
+ height:850px; 
 }
   
   #Subscribe{
@@ -6040,3 +6064,13 @@ h1 {
 .specialH1{
  text-align:center; 
 }
+  
+  #shopify-section-footer:before {
+    content: " ";
+  background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/footer_bg_cropped.png?v=1632752093");
+  		background-repeat: no-repeat;
+  		background-position: center top;
+  		background-size:cover;
+    display:block;
+  height:600px;
+  }
