@@ -2266,8 +2266,8 @@ html.no-js .product-form__select{
     display:none
 }
 .product-form__buttons{
-/*     display:flex;
-    flex-direction:column; */
+    display:flex;
+    flex-direction:column;
     margin-top:2rem;
   margin-bottom: 2rem;
       margin-left: auto;
