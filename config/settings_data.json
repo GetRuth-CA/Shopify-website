@@ -152,6 +152,7 @@
       },
       "1630648240b540e431": {
         "type": "quiz",
+        "disabled": true,
         "settings": {
           "SectionHeading": "What are you looking for today?",
           "Sectiontext": "We've got you covered",
