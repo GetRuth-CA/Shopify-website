@@ -2,11 +2,37 @@
   <h2 class="TestimonialHeadline">
   {{section.settings.TestimonialHeader}}
   </h2>
+  <div id="outer">
+  <div id="inner">
+    data
+  </div>
+  <div id="inner">
+    data
+  </div>
+  <div id="inner">
+    data
+  </div>
+</div>
   <img src="{{section.settings.testimonialimage | img_url:'master'}}" style="padding-bottom:108px;"/>
   <h3 class="PressHead">We've been featured on</h3>
   <img src="{{section.settings.featuresimage | img_url:'master'}}" style="padding-bottom:108px;"/>
 </div>
 
+<style>
+  #outer {
+  border: 13px solid #bed5cd;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+#inner {
+  display: inline-block;
+  white-space: normal;
+  width: 20em;
+  padding: 10px;
+  margin: 20px;
+}
+</style>
 {% schema %}
 {
 	"name": "Testimonials",
