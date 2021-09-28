@@ -15,12 +15,16 @@
     "font_body_base_size": 16,
     "edge_style": "round",
     "share_pinterest": false,
+    "checkout_header_image": "shopify:\/\/shop_images\/Mask_Group_13_2x_7eb950e7-ecc5-4dab-8fed-cd73e69c6930.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Copy_of_logo_text_2.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#fffbf5",
     "checkout_heading_font": "Playfair Display",
     "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#537344",
-    "checkout_button_color": "#577b46",
+    "checkout_accent_color": "#768052",
+    "checkout_button_color": "#768052",
+    "checkout_error_color": "#e84c37",
     "sections": {
       "header": {
         "type": "header",
