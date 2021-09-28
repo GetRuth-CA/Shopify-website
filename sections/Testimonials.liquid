@@ -14,7 +14,9 @@
   </div>
 </div>
   <h3 class="PressHead">We've been featured on</h3>
+  <div>
   <img src="{{section.settings.featuresimage | img_url:'master'}}" style="padding-bottom:108px;"/>
+  </div>
 </div>
 
 <style>
@@ -25,14 +27,16 @@
     scrollbar-width: none;
     max-width:1200px;
 }
+  
+#outer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 #inner {
   display: inline-block;
   white-space: normal;
   width: 370px;
   margin-left:auto;
   margin-right:auto;
-  
-  
 }
 </style>
 {% schema %}
