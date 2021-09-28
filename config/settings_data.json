@@ -152,6 +152,7 @@
       },
       "1630648240b540e431": {
         "type": "quiz",
+        "disabled": true,
         "settings": {
           "SectionHeading": "What are you looking for today?",
           "Sectiontext": "We've got you covered",
@@ -160,7 +161,6 @@
       },
       "16306527338b1b8ee8": {
         "type": "Testimonials",
-        "disabled": true,
         "settings": {
           "TestimonialHeader": "Here's what our beta-testers are saying",
           "testimonialimage": "shopify:\/\/shop_images\/testi.png",
