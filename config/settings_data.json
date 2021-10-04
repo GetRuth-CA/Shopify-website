@@ -177,7 +177,7 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "show_collection_image": true,
+          "show_collection_image": false,
           "show_description": false,
           "show_vendor": false
         }
