@@ -2,9 +2,9 @@
     <div class="sectionDiv">
     <h1 class="BeigeHeader" style="padding:1px 10%;">{{section.settings.SectionHeading}}</h1>
       <p class="columnHead" style="color:#768052;text-align:center">{{section.settings.Sectiontext}}</p>
-      <div id="outer">
+      <div id="sectionProd group">
         {% for item in section.settings.featuredcoll.products %}
-          <div id="inner">
+          <div id="colProd">
             <a href="{{item.url}}" style="text-decoration:inherit;">
             <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages"/>
             <br/>
@@ -86,17 +86,17 @@
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66%; }
-/* .span_1_of_3 { width: 32%; } */
+.span_1_of_3 { width: 32%; }
 
 /*  GROUPING  */
-/* .group:before,
+.group:before,
 .group:after { content:""; display:table-cell; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ } */
+.group { zoom:1; /* For IE 6/7 */ } 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 880px) {
-/*   .sectionProd{display:inline} */
+  .sectionProd{display:inline}
 	.colProd {  margin: 1% 0 1% 0%; display:inline-block;}
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
