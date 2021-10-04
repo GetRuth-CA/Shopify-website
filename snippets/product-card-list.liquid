@@ -95,11 +95,11 @@
           {{ 'products.product.view_details' | t }}
         </a>
       </div>
-      {%- if product_desc != blank -%}
+<!--       {%- if product_desc != blank -%}
         <div class="product-card__description-wrapper" aria-hidden="true">
           <p class="product-card__description">{{ product_desc | strip_html | truncate: 120 }}</p>
         </div>
-      {%- endif -%}
+      {%- endif -%} -->
       {%- if show_form -%}
         <div class="product-card__quick-add">
           {%- unless product.has_only_default_variant -%}
