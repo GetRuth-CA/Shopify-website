@@ -31,7 +31,10 @@
         {%- if show_form -%}
           <a href="{{ product.url }}" tabindex="-1" data-product-card-link>
         {%- endif -%}
-        <img
+        <img srcset="{% if product.featured_media.width >= 90 %}{{ product.featured_media | img_url: '90x' }} 90w,{% endif %}
+            {% if product.featured_media.width >= 180 %}{{ product.featured_media | img_url: '180x' }} 180w,{% endif %}
+            {% if product.featured_media.width >= 110 %}{{ product.featured_media | img_url: '110x' }} 110w,{% endif %}
+            {% if product.featured_media.width >= 220 %}{{ product.featured_media | img_url: '220x' }} 220w,{% endif %}"
           sizes="(min-width: 750px) 110px, 90px"
           src="{{ product.featured_media | img_url: 'master' }}"
           width="{{ product.featured_media.width }}"
