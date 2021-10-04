@@ -46,9 +46,9 @@
                       {% endif %}
 
                       {% if featured_media == media %}
-                        src="{{ media | img_url: '503x503' }}"
+                        src="{{ media | img_url: 'master' }}"
                       {% else %}
-                        data-src="{{ media | img_url: '503x503' }}"
+                        data-src="{{ media | img_url: 'master' }}"
                       {% endif %}
 
                       sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 2), (min-width: 750px) calc((100vw - 19.5rem) / 2), calc(100vw - 6.4rem)"
