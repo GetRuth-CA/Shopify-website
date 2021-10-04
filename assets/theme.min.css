@@ -491,7 +491,7 @@ html.supports-no-cookies .supports-cookies{
 }
 .button:hover:not(:focus),.shopify-challenge__button:hover:not(:focus),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not(:focus){
     box-shadow:0px 0px 0 .1rem currentColor;
-  	opacity:0.7;
+  	opacity:0.8;
 }
 .button:hover:focus:not(:focus-visible),.shopify-challenge__button:hover:focus:not(:focus-visible),.shopify-payment-button .shopify-payment-button__button--unbranded:hover:focus:not(:focus-visible){
     box-shadow:4px 4px 0 .1rem currentColor
