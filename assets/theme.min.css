@@ -3687,7 +3687,7 @@ tbody th,tfoot th{
     bottom:0;
     height:1px;
     width:100%;
-    background-color:var(--color-borders-and-lines)
+    
 }
 @media only screen and (min-width:46.85em){
     .featured-collections__item::after{
