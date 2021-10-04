@@ -15,7 +15,8 @@
 </div>
   <h3 class="PressHead">We've been featured on</h3>
   <div>
-  <img src="{{section.settings.featuresimage | img_url:'master'}}" style="padding-bottom:108px;"/>
+  <img src="{{section.settings.featuresimage | img_url:'master'}}" style="padding-bottom:108px;" src="desktopimg"/>
+  <img src="https://cdn.shopify.com/s/files/1/0587/8674/2454/files/press_logo_cloud.png?v=1633377348" id = "mobileimg"/>
   </div>
 </div>
 
@@ -34,6 +35,14 @@
   white-space: normal;
   width: 370px;
   padding:20px;
+}
+  
+  #desktopimg {display:block}
+  #mobileimg {display:none}
+  
+  @media all and (max-width: 499px) {
+    #desktopimg {display: none;}
+    #mobileimg {display: block;}
 }
 </style>
 {% schema %}
