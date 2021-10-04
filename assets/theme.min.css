@@ -2016,7 +2016,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 .product-card__image-wrapper{
     
-    width: 100%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
