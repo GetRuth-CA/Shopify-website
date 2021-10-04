@@ -2038,6 +2038,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 .product-card__title-wrapper{
     margin-bottom:1rem;
+  margin-top:1rem;
     display:flex;
     justify-content:space-between
 }
@@ -2052,7 +2053,9 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 .product-card__title{
     display:block;
     text-decoration:none;
-    align-self:flex-start
+    align-self:flex-start;
+  margin-left: auto;
+margin-right: auto;
 }
 .product-card__title:hover{
     text-decoration:underline
@@ -2423,7 +2426,9 @@ width: 90%;
     font-size:1.5rem;
     flex-direction:row;
     flex-wrap:wrap;
-    line-height:2.7rem
+    line-height:2.7rem;
+  margin-left: auto;
+margin-right: auto;
 }
 @media only screen and (min-width:46.85em){
     .price--listing{
