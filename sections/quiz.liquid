@@ -1,10 +1,10 @@
 <div class="greenSection">
     <div class="sectionDiv">
-    <h1 class="BeigeHeader" style="padding:1px 10%;">{{section.settings.SectionHeading}}</h1>
+    <h1 class="BeigeHeader">{{section.settings.SectionHeading}}</h1>
       <p class="columnHead" style="color:#768052;text-align:center">{{section.settings.Sectiontext}}</p>
-      <div id="sectionProd group">
+      <div class="sectionProd group">
         {% for item in section.settings.featuredcoll.products %}
-          <div id="colProd">
+          <div class="colProd span_1_of_3">
             <a href="{{item.url}}" style="text-decoration:inherit;">
             <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages"/>
             <br/>
@@ -12,14 +12,14 @@
             <p>{{item.price | money }}</p>
             </a>
             
-<!--             {% render 'product-form',
+            {% render 'product-form',
           section_id: section.id,
           product: item,
           current_variant: item.first_available_variant,
           enable_dynamic_checkout: false,
           show_quantity_selector: false,
           show_success_message: true
-          %} -->
+          %}
           </div>
         
        
@@ -50,71 +50,38 @@
   .ProductImages:hover{
   transform: scale(1.05);
   }
-
 /* .ProductImages:hover{
   transform: scale(1.05);
 } */
 /*  SECTIONS  */
 .sectionProd {
-/* 	clear: both; */
-	padding: 10px;
+	clear: both;
+	padding: 0px;
 	margin: 0px;
-/*   display: flex; */
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  scrollbar-width: none;
-    max-width:1200px;
+  display: flex;
 }
-  
-
 /*  COLUMN SETUP  */
 .colProd {
-/* 	display: inline-block;
-	margin: 1% 0 1% 8%;*/
-  text-align: center; 
+	display: inline-block;
+	margin: 1% 0 1% 8%;
+  text-align: center;
   transition: transform .2s; /* Animation */;
-  display: inline-block;
-  white-space: normal;
-  width: 370px;
-  margin-left:auto;
-  margin-right:auto;
 }
 .colProd:first-child { margin-left: 0; }
-
-
 /*  GRID OF THREE  */
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 66%; }
 .span_1_of_3 { width: 32%; }
-
 /*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table-cell; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ } 
-
+.group { zoom:1; /* For IE 6/7 */ }
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 880px) {
   .sectionProd{display:inline}
 	.colProd {  margin: 1% 0 1% 0%; display:inline-block;}
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
-  
-  #outer {
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-    scrollbar-width: none;
-    max-width:1200px;
-}
-#inner {
-  text-align:center;
-  display: inline-block;
-  white-space: normal;
-  width: 370px;
-  margin-left:auto;
-  margin-right:auto;
 }
 </style>
     
