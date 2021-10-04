@@ -54,7 +54,8 @@
     var stylesheet = loadCSS("{{ 'theme.min.css' | asset_url }}", preload);
     onloadCSS(stylesheet, function() { stylesheet.loaded = true; });
     </script>
-  </head>
+    {% render 'judgeme_core' %}
+</head>
 
   <body>
       <script type="text/javascript" src="https://apiv2.popupsmart.com/api/Bundle/371829" async></script>
