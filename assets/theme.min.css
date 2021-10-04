@@ -2023,9 +2023,9 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 @media only screen and (min-width:46.85em){
     .product-card__image-wrapper{
-        min-width:11rem;
+/*         min-width:11rem;
         height:11rem;
-        width:11rem
+        width:11rem */
     }
 }
 @media only screen and (min-width:61.85em){
