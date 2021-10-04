@@ -88,9 +88,7 @@
       <div class="product-card__price-wrapper">
         {% render 'product-price-listing', product: product %}
         {% render 'product-price', variant: product.selected_or_first_available_variant, product: product, wrapper_class: 'price--listing price--variants' %}
-        <a href="{{ product.url }}" class="rte product-card__view-details" data-product-card-link>
-          {{ 'products.product.view_details' | t }}
-        </a>
+        
       </div>
 <!--       {%- if product_desc != blank -%}
         <div class="product-card__description-wrapper" aria-hidden="true">
