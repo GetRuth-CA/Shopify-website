@@ -29,12 +29,26 @@
                     data-media-label="{{ 'products.slider.media_index_of_total' | t: index: forloop.index, indexTotal: forloop.length }}"{% endif %}>
 
                     <img
-                      
+                      {% if featured_media == media %}
+                        srcset="{% if media.preview_image.width >= 311 %}{{ media.preview_image | img_url: '311x' }} 311w,{% endif %}
+                        {% if media.preview_image.width >= 622 %}{{ media.preview_image | img_url: '622x' }} 622w,{% endif %}
+                        {% if media.preview_image.width >= 503 %}{{ media.preview_image | img_url: '503x' }} 503w,{% endif %}
+                        {% if media.preview_image.width >= 1006 %}{{ media.preview_image | img_url: '1006x' }} 1006w,{% endif %}
+                        {% if media.preview_image.width >= 685 %}{{ media.preview_image | img_url: '685x' }} 685w,{% endif %}
+                        {% if media.preview_image.width >= 1370 %}{{ media.preview_image | img_url: '1370x' }} 1370w{% endif %}"
+                      {% else %}
+                        data-srcset="{% if media.preview_image.width >= 311 %}{{ media.preview_image | img_url: '311x' }} 311w,{% endif %}
+                        {% if media.preview_image.width >= 622 %}{{ media.preview_image | img_url: '622x' }} 622w,{% endif %}
+                        {% if media.preview_image.width >= 503 %}{{ media.preview_image | img_url: '503x' }} 503w,{% endif %}
+                        {% if media.preview_image.width >= 1006 %}{{ media.preview_image | img_url: '1006x' }} 1006w,{% endif %}
+                        {% if media.preview_image.width >= 685 %}{{ media.preview_image | img_url: '685x' }} 685w,{% endif %}
+                        {% if media.preview_image.width >= 1370 %}{{ media.preview_image | img_url: '1370x' }} 1370w{% endif %}"
+                      {% endif %}
 
                       {% if featured_media == media %}
-                        src="{{ media | img_url: 'master' }}"
+                        src="{{ media | img_url: '503x503' }}"
                       {% else %}
-                        data-src="{{ media | img_url: 'master' }}"
+                        data-src="{{ media | img_url: '503x503' }}"
                       {% endif %}
 
                       sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 2), (min-width: 750px) calc((100vw - 19.5rem) / 2), calc(100vw - 6.4rem)"
@@ -104,7 +118,6 @@
         {%- endif -%}
       </div>
     </div>
-    
   </div>
 
   <div class="product__content product__content--template product__content--information">
@@ -192,13 +205,6 @@
   </div>
 </div>
 
-<div id="shopify-product-reviews" data-id="{{product.id}}" style="max-width:1200px; margin-left:auto; margin-right:auto;">{{ product.metafields.spr.reviews }}</div>
-
-{% comment %}Start automatically added Judge.me widget{% endcomment %}
-  <div class="custom-content">
-    {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: product %}
-  </div>
-{% comment %}End automatically added Judge.me widget{% endcomment %}
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
