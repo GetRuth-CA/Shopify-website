@@ -5320,7 +5320,11 @@ margin-top: 50px;
 }
 .blog-item__author{
     margin-right:1.5rem;
+  margin-left:auto
 }
+  .blog-item__date{
+  margin-right:auto;
+  }
 .blog-item__author,.blog-item__date{
     display:inline-flex;
     margin-bottom:1rem;
