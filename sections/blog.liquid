@@ -65,14 +65,14 @@
           {%- endif -%}
         </div>
 
-        {%- if article.tags.size > 0 -%}
+<!--         {%- if article.tags.size > 0 -%}
           <div class="blog-item-tags">
             {{ 'blogs.article.posted_in' | t }}
             {% for tag in article.tags %}
               <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-item-tags__link">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           </div>
-        {%- endif -%}
+        {%- endif -%} -->
 
         <ul class="blog-item-meta">
           <li>
