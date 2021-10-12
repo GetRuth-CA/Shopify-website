@@ -5305,7 +5305,11 @@ tbody th,tfoot th{
 }
 .blog-item{
     list-style:none;
-    padding:3rem 0
+    padding:3rem 3rem
+    border: 1px solid #ccc;
+border-radius: 6px;
+margin-bottom: 50px;
+margin-top: 50px;
 }
 .blog-item-title{
     margin-bottom:1rem
