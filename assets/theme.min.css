@@ -5326,7 +5326,7 @@ margin-top: 50px;
   margin-right:auto;
   }
 .blog-item__author,.blog-item__date{
-    display:inline-flex;
+    display:table;
     margin-bottom:1rem;
     font-size:1.3rem;
   text-align:center;
@@ -5350,8 +5350,10 @@ margin-top: 50px;
     color:var(--color-secondary-background-text)
 }
 .blog-item-meta{
-    list-style:none;
-    padding-left:0
+    display: table;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
 }
 @media only screen and (min-width:46.85em){
     .blog-item-meta{
