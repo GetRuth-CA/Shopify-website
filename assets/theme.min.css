@@ -5350,10 +5350,8 @@ margin-top: 50px;
     color:var(--color-secondary-background-text)
 }
 .blog-item-meta{
-    display: table;
-align-items: center;
-margin-left: auto;
-margin-right: auto;
+    list-style:none;
+    padding-left:0
 }
 @media only screen and (min-width:46.85em){
     .blog-item-meta{
