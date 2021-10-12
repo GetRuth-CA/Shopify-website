@@ -5312,13 +5312,15 @@ margin-bottom: 50px;
 margin-top: 50px;
 }
 .blog-item-title{
-    margin-bottom:1rem
+    margin-bottom:1rem;
+    text-align:center;
 }
 .blog-item-title__link{
     text-decoration:none
 }
 .blog-item__author{
-    margin-right:1.5rem
+    margin-right:1.5rem;
+    text-align:center;
 }
 .blog-item__author,.blog-item__date{
     display:inline-flex;
