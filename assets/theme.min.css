@@ -5320,12 +5320,12 @@ margin-top: 50px;
 }
 .blog-item__author{
     margin-right:1.5rem;
-    text-align:center;
 }
 .blog-item__author,.blog-item__date{
     display:inline-flex;
     margin-bottom:1rem;
-    font-size:1.3rem
+    font-size:1.3rem;
+  text-align:center;
 }
 .blog-item__image-wrapper{
     max-width:52rem;
