@@ -17,6 +17,7 @@
     "show_cart_drawer": false,
     "show_cart_note": true,
     "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/Ruth_logo_color_on_square.png",
     "checkout_header_image": "shopify:\/\/shop_images\/Mask_Group_13_2x_7eb950e7-ecc5-4dab-8fed-cd73e69c6930.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Copy_of_logo_text_2.png",
     "checkout_logo_position": "left",
