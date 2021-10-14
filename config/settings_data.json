@@ -6,7 +6,7 @@
     "color_button": "#bb9977",
     "color_headings_and_links": "#768052",
     "color_body_text": "#404040",
-    "color_secondary_background_text": "#2D4F1E",
+    "color_secondary_background_text": "#5d633b",
     "color_sale_price": "#E84C37",
     "color_field_text": "#2D4F1E",
     "color_field_borders": "#2d4f1e",
@@ -223,6 +223,13 @@
         "settings": {
           "show_share_buttons": true,
           "social_message": "Spread the word"
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "show_author": true,
+          "show_date": true
         }
       }
     },
