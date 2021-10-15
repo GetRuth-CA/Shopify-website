@@ -205,7 +205,8 @@
       "password-header": {
         "type": "password-header",
         "settings": {
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/Ruth_logo_color_on_square.png",
+          "logo_max_width": 210,
           "header": "Coming Soon"
         }
       },
