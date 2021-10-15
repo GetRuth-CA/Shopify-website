@@ -6080,6 +6080,14 @@ h1 {
  text-align:center; 
 }
   
+  .specialH6{
+  text-align:center;
+  font-family: "montserrat-v18-latin-600";
+  font-size: 18px;
+    color: #5d633b;
+    
+  }
+  
   #shopify-section-footer:before {
     content: " ";
   background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/footer_bg_cropped.png?v=1632752093");
