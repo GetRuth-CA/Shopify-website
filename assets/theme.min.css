@@ -1686,7 +1686,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     text-align:left
 }
 .header__mobile-navigation .menu-navigation__title{
-    margin-right:2rem
+    margin-right:0.2rem
 }
 .menu-navigation__title--main-menu::after{
     content:'';
