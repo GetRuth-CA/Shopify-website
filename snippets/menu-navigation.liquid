@@ -28,7 +28,7 @@
             aria-haspopup="true"
             aria-controls="MenuNavigation-{{ link.title | handleize }}"
           >
-            <a href="{{ link.url }}" class="menu-navigation__item menu-navigation__item--link" style="padding:0px;">
+            <a href="{{ link.url }}" class="menu-navigation__item menu-navigation__item--link" style="margin-left:20px;">
             <span class="menu-navigation__title menu-navigation__title--main-menu">{{ link.title | escape }}</span>
             </a>
             {% render 'icon-select' %}
