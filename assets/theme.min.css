@@ -1635,7 +1635,6 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 .menu-navigation__item--account{
     font-size:inherit;
-  	padding-left:0px;
 }
 .menu-navigation__item--account .icon-account{
     height:1.3rem;
