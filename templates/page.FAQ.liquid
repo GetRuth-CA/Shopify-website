@@ -1,83 +1,105 @@
 <div class="page">
-  
+
 
   <div class="rte">
-     <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+    <button class="accordion">Why the name 'Ruth'?</button>
+    <div class="panel">
+      <p>The name Ruth is special to us because we wanted to pay tribute to Ruth Bader Ginsburg, a powerful role model
+        who fought for social justice, equality, and female empowerment. We, at Ruth, are ruthlessly fighting with you
+        to save the Earth one sustainable product at a time.</p>
+    </div>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+    <button class="accordion">Where are Ruth Pads made?</button>
+    <div class="panel">
+      <p>They are manufactured in India.</p>
+    </div>
 
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div> 
-    
-    
+    <button class="accordion">Are these pad products home compostable or industrially compostable?</button>
+    <div class="panel">
+      <p>The products are not certified compostable yet and though the pads are 93% bio-based, the pad wrapper is still
+        made from plastic. From reaching out to industrial compost facilities across Canada, we found out that they are
+        reluctant to receive sanitary pads, given that they mainly accept food and yard waste. We are constantly working
+        on developing our pads and are aiming for 100% home compostable pad and packaging though!</p>
+    </div>
+
+    <button class="accordion">Why is the pads wrapper still made of plastic?</button>
+    <div class="panel">
+      <p>During our beta-testing phase, we had some beta-testers try out pads with a compostable wrapper, but they
+        experienced trouble opening the pad and it was ripping open strangely, even breaking apart when it was in
+        people's bags. We decided to prioritize the functionality of the pad wrappers over their compostability, but we
+        are working towards a 100% biodegradable pad & packaging.</p>
+    </div>
+
+    <button class="accordion">Landfills are not meant to break down materials, so how are Ruth Pads more sustainable
+      than other pads?</button>
+    <div class="panel">
+      <p>Very true! But plastic in traditional menstrual pads has a production process that can still be harmful to the
+        environment based on the petrochemicals used. Ruth pads are made from 93% renewable materials, which are
+        actually beneficial to the environment to produce. Kenaf fibre is good for soil health and used by farmers as a
+        rotational crop.</p>
+    </div>
+
+
   </div>
 </div>
 
 <style>
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordion:hover {
+    background-color: #ccc;
+  }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-  
   .accordion:after {
-  content: '+'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
+    content: '+';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
 
-.active:after {
-  content: "-"; /* Unicode character for "minus" sign (-) */
-}
-
-
+  .active:after {
+    content: "-";
+    /* Unicode character for "minus" sign (-) */
+  }
 </style>
 
 <script>
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
 </script>
