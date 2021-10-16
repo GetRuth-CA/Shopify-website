@@ -5322,7 +5322,7 @@ margin-top: 50px;
   display:flex;
   align-items: start;
     justify-content: center;
-  
+  transition: .2s ease-in;
 }
   
   .blog-item:hover{
