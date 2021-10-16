@@ -1765,7 +1765,8 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 @media only screen and (min-width:46.85em){
     .header__mobile-navigation .menu-dropdown__list-item{
-        padding-right:0
+        padding-right:0;
+      padding-left:10px;
     }
 }
 .menu-dropdown__item{
