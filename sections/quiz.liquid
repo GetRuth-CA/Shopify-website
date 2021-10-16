@@ -6,7 +6,7 @@
         {% for item in section.settings.featuredcoll.products %}
           <div class="colProd span_1_of_3">
             <a href="{{item.url}}" style="text-decoration:inherit;">
-            <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages"/>
+            <img src="{{item.featured_image | img_url: "master"}}" class="ProductImages" loading="lazy"/>
             <br/>
             <p class="ProductTitle">{{item.title}}</p>
             <p>{{item.price | money }}</p>
