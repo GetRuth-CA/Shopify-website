@@ -53,7 +53,7 @@
         </h2>
 		
         {%- if section.settings.show_author -%}
-          <span class="blog-item__author">{{ 'blogs.article.by_author' | t: author: article.author_name }}</span>
+          <span class="blog-item__author">{{ 'blogs.article.by_author' | t: author_name: article.author_name }}</span>
         {%- endif -%}
 
         {%- if section.settings.show_date -%}
