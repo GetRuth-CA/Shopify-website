@@ -506,8 +506,7 @@ html.supports-no-cookies .supports-cookies{
     color:var(--color-background)
 }
 .button--secondary:hover{
-    color:var(--color-button);
-    background-color:transparent
+    opacity:0.8;
 }
 .button--floating{
     background-color:var(--color-background);
