@@ -1656,7 +1656,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     justify-content:center;
     align-items:center;
     width:100%;
-/*     padding-right:2.9rem */
+    padding-right:0px;
 }
 .menu-navigation__item--has-dropdown[aria-expanded=false]+* *{
     visibility:hidden
