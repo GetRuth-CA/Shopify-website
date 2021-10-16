@@ -1569,7 +1569,8 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 .mobile-menu-navigation{
     height:100%;
     overflow-y:auto;
-    overflow-x:hidden
+    overflow-x:hidden;
+  backround-color: rgba(246, 246, 246, 0.723);
 }
 .menu-navigation{
     display:flex;
