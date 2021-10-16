@@ -1,7 +1,7 @@
 <div class="article-title center">
   <h1 class="article-title__heading h2">{{ article.title }}</h1>
   {% if section.settings.blog_show_author %}
-    <p class="article-title__text">{{ 'blogs.article.by_author' | t: author: article.author }}</p>
+    <p class="article-title__text">{{article.metafields.arena.author_name}}</p>
   {% endif %}
 
   {% if section.settings.blog_show_date %}
