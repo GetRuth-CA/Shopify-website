@@ -5332,6 +5332,12 @@ margin-top: 50px;
   margin-right:auto;
     max-height:200px;
     }
+    
+    .blog-item__image-wrapper{
+    
+    margin-bottom:1rem;
+  	width:300px;;
+}
   
   }
 .blog-item-title{
