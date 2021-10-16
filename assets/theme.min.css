@@ -1570,7 +1570,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     height:100%;
     overflow-y:auto;
     overflow-x:hidden;
-  backround-color: rgba(246, 246, 246, 0.723);
+  background-color: rgba(246, 246, 246, 0.723);
 }
 .menu-navigation{
     display:flex;
