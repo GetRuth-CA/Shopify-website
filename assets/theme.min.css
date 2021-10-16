@@ -5316,6 +5316,8 @@ tbody th,tfoot th{
 border-radius: 6px;
 margin-bottom: 50px;
 margin-top: 50px;
+  display:flex;
+  
 }
 .blog-item-title{
     margin-bottom:1rem;
