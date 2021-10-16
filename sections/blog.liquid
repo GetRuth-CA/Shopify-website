@@ -53,7 +53,9 @@
         </h2>
 		
         {%- if section.settings.show_author -%}
-          <span class="blog-item__author">{{ article.metafields.namespace.author_name }}</span>
+          {% if article.metafields.arena.author_name != blank %}
+          <span class="blog-item__author">{{ article.metafields.arena.author_name }}</span>
+          {%- endif -%}
         {%- endif -%}
 
         {%- if section.settings.show_date -%}
