@@ -5326,6 +5326,12 @@ margin-top: 50px;
     .blog-item{
     display:block;
     }
+    
+    .blog-item__image{
+    margin-left:auto;
+  margin-right:auto;
+    
+    }
   
   }
 .blog-item-title{
