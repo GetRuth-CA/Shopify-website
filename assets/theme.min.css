@@ -1795,7 +1795,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     text-decoration:none;
   font-size:inherit;
   font-color:inherit;
-  font-family:inherit;
+  font-family:"montserrat-v18-latin-regular";
 }
 .modal-wrapper{
     visibility:hidden;
