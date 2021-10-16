@@ -5352,10 +5352,11 @@ margin-top: 50px;
   margin-top:1px;
     margin-bottom:1rem;
     text-align:center;
-  font-family:"montserrat-v18-latin-600"!important;
+  
 }
 .blog-item-title__link{
-    text-decoration:none
+    text-decoration:none;
+  font-family:"montserrat-v18-latin-600"!important;
 }
 .blog-item__author{
     margin-right:1.5rem;
