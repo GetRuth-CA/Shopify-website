@@ -1292,7 +1292,7 @@ ul.cart-drawer__discounts{
     color:#117b64
 }
 .form-status-message--error{
-    border:2px solid #b10101;
+    
     background-color:#ffebeb;
     color:#b10101;
     border-radius:var(--border-radius-global)
