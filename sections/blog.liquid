@@ -38,7 +38,7 @@
                 {% if article.image.width >= 1370 %}{{ article.image | img_url: '1370x' }} 1370w{% endif %}"
               sizes="(min-width: 1200px) 1080px, (min-width: 750px) calc(100vw - 12rem), calc(100vw - 6.4rem)"
               src="{{ article.image | img_url: '600x' }}"
-				style ="max-height:320px; overflow:hidden; width: 2000px;"
+				
               loading="lazy"
               class="blog-item__image"
               alt="{{ article.image.alt | escape }}">
