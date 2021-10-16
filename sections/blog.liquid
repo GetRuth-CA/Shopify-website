@@ -62,7 +62,7 @@
 
         <div class="blog-item__description rte">
           {%- if article.excerpt.size > 0 -%}
-            {{ article.excerpt }}
+            {{ article.excerpt | strip_html | truncate: 150}}
           {%- else -%}
             {{ article.content | strip_html | truncate: 150 }}
           {%- endif -%}
