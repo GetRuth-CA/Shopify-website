@@ -25,20 +25,7 @@
   <ul class="template-blog__list">
     {% for article in blog.articles %}
       <li class="blog-item">
-        <h2 class="blog-item-title">
-          <a href="{{ article.url }}" class="h2 blog-item-title__link">{{ article.title }}</a>
-        </h2>
-
-        {%- if section.settings.show_author -%}
-          <span class="blog-item__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
-        {%- endif -%}
-
-        {%- if section.settings.show_date -%}
-          <span class="blog-item__date">
-            {{ article.published_at | time_tag: format: 'date' }}
-          </span>
-        {%- endif -%}
-
+        
         {%- if article.image -%}
           <a href="{{ article.url }}" class="blog-item__image-wrapper link-image">
             <img srcset="{% if article.image.width >= 311 %}{{ article.image | img_url: '311x' }} 311w,{% endif %}
@@ -56,6 +43,20 @@
               alt="{{ article.image.alt | escape }}">
           </a>
         {%- endif -%}
+        <h2 class="blog-item-title">
+          <a href="{{ article.url }}" class="h2 blog-item-title__link">{{ article.title }}</a>
+        </h2>
+
+        {%- if section.settings.show_author -%}
+          <span class="blog-item__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
+        {%- endif -%}
+
+        {%- if section.settings.show_date -%}
+          <span class="blog-item__date">
+            {{ article.published_at | time_tag: format: 'date' }}
+          </span>
+        {%- endif -%}
+
 
         <div class="blog-item__description rte">
           {%- if article.excerpt.size > 0 -%}
