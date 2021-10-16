@@ -28,7 +28,7 @@
         
         {%- if article.image -%}
         
-        <div style ="max-height:320px; overflow:hidden; width: 200rem;">
+        <div style ="max-height:320px; width: 200rem;">
 
             <img srcset="{% if article.image.width >= 311 %}{{ article.image | img_url: '311x' }} 311w,{% endif %}
                 {% if article.image.width >= 622 %}{{ article.image | img_url: '622x' }} 622w,{% endif %}
