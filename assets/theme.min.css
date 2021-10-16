@@ -1303,6 +1303,7 @@ ul.cart-drawer__discounts{
 }
 .form-status-message--error .form-status-message__heading{
   font-family: "montserrat-v18-latin-600";
+  font-size:20px;
     color:#b10101;
 }
 .form-status-message--success .form-status-message__heading{
