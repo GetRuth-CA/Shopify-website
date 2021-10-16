@@ -1605,7 +1605,7 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
     font-size:14px;
   	color:#404040;
     line-height:2.5rem;
-    padding:.9rem 0rem;
+    padding:.9rem 1.8rem;
     white-space:nowrap
 }
 .mobile-menu-navigation .menu-navigation__item{
