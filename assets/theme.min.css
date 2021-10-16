@@ -5321,6 +5321,13 @@ margin-top: 50px;
     justify-content: center;
   
 }
+  
+  @media only screen and (max-width: 1000px) {
+    .blog-item{
+    display:block;
+    }
+  
+  }
 .blog-item-title{
     margin-bottom:1rem;
     text-align:center;
