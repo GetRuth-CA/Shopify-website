@@ -28,7 +28,7 @@
         
         {%- if article.image -%}
         
-        <div style ="max-height:220px; overflow:hidden; width: 1000px;">
+        <div style ="max-height:220px; overflow:hidden; width: 2000px;">
           <a href="{{ article.url }}" class="blog-item__image-wrapper link-image">
             <img srcset="{% if article.image.width >= 311 %}{{ article.image | img_url: '311x' }} 311w,{% endif %}
                 {% if article.image.width >= 622 %}{{ article.image | img_url: '622x' }} 622w,{% endif %}
