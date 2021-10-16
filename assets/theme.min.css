@@ -5355,9 +5355,9 @@ margin-top: 50px;
   text-align:center;
 }
 .blog-item__image-wrapper{
-    max-width:52rem;
+    
     margin-bottom:1rem;
-  
+  	
 }
 .blog-item__image{
     width:100%
