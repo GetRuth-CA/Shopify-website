@@ -5349,7 +5349,7 @@ margin-top: 50px;
   
   }
 .blog-item-title{
-  margin-top:0rem;
+  margin-top:unset;
     margin-bottom:1rem;
     text-align:center;
 }
