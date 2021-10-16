@@ -5317,6 +5317,8 @@ border-radius: 6px;
 margin-bottom: 50px;
 margin-top: 50px;
   display:flex;
+  align-items: center;
+    justify-content: center;
   
 }
 .blog-item-title{
