@@ -42,29 +42,33 @@
               class="blog-item__image"
               alt="{{ article.image.alt | escape }}">
           </a>
+        
+        <div>
         {%- endif -%}
         <h2 class="blog-item-title">
           <a href="{{ article.url }}" class="h2 blog-item-title__link">{{ article.title }}</a>
         </h2>
-		<br/>
+		
         {%- if section.settings.show_author -%}
           <span class="blog-item__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
         {%- endif -%}
-<br/>
+
         {%- if section.settings.show_date -%}
           <span class="blog-item__date">
             {{ article.published_at | time_tag: format: 'date' }}
           </span>
         {%- endif -%}
 
-<br/>
+
         <div class="blog-item__description rte">
           {%- if article.excerpt.size > 0 -%}
             {{ article.excerpt }}
           {%- else -%}
             {{ article.content | strip_html | truncate: 150 }}
           {%- endif -%}
-        </div><br/>
+        </div>
+          
+       
 
 <!--         {%- if article.tags.size > 0 -%}
           <div class="blog-item-tags">
@@ -82,6 +86,8 @@
             </a>
           </li>
         </ul>
+          
+        </div>
       </li>
     {% endfor %}
   </ul>
