@@ -5954,7 +5954,7 @@ h1 {
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 880px) {
   	#aboutparas { width: 90%;}
-	.col {  margin: 5% 0 5% 0%; display:inline-block;padding:1px;}
+	.col {  margin: 5% 0 5% 0%; display:inline-block;padding:1px 15%;}
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
   
