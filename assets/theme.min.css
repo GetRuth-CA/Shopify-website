@@ -5392,8 +5392,11 @@ margin-top: 50px;
 }
 @media only screen and (min-width:46.85em){
     .blog-item-meta{
-        display:inline-flex;
-        align-items:center
+        display:block;
+      margin-left:auto;
+      margin-right:auto;
+      width:300px;
+        align-items:center;
     }
 }
 .blog-item-meta__comments{
