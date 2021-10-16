@@ -1792,7 +1792,10 @@ svg.icon:not(.icon--full-color) .icon-error__symbol,symbol.icon:not(.icon--full-
 }
 .menu-dropdown__item--link{
     display:block;
-    text-decoration:none
+    text-decoration:none;
+  font-size:inherit;
+  font-color:inherit;
+  font-family:inherit;
 }
 .modal-wrapper{
     visibility:hidden;
