@@ -52,7 +52,7 @@
       </label>
 
       <div class="quantity-input">
-        <button
+<!--         <button
           class="quantity-input__button button"
           type="button"
           aria-label="{{ 'products.product.decrease_quantity' | t: title: product.title }}"
@@ -60,7 +60,7 @@
           data-product-id="{{ product.id }}"
         >
           {%- render 'icon-minus' -%}
-        </button>
+        </button> -->
         <input
           class="quantity-input__element center"
           type="number"
@@ -72,14 +72,14 @@
           data-quantity-input
           data-product-id="{{ product.id }}"
         >
-        <button
+<!--         <button
           class="quantity-input__button button"
           type="button"
           aria-label="{{ 'products.product.increase_quantity' | t: title: product.title }}"
           data-quantity-selector
           data-quantity-selector-increase
           data-product-id="{{ product.id }}"
-        >
+        > -->
           {%- render 'icon-plus' -%}
         </button>
       </div>
