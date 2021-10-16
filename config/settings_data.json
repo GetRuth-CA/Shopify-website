@@ -195,7 +195,7 @@
       "product": {
         "type": "product",
         "settings": {
-          "show_quantity_selector": false,
+          "show_quantity_selector": true,
           "show_vendor": false,
           "enable_dynamic_checkout": false,
           "show_social_buttons": false
