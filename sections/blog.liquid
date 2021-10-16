@@ -65,7 +65,7 @@
 
         <div class="blog-item__description rte">
           {%- if article.excerpt.size > 0 -%}
-            {{ article.excerpt | strip_html | truncate: 250}}
+            {{ article.excerpt | strip_html | truncate: 350}}
           {%- else -%}
             {{ article.content | strip_html | truncate: 150 }}
           {%- endif -%}
