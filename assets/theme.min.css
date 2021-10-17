@@ -5327,7 +5327,7 @@ margin-top: 50px;
   
   .blog-item:hover{
   	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color: rgba(118,128,82,0.2)
+    background-color: rgba(118,128,82,0.05)
   }
   
   @media only screen and (max-width: 1000px) {
