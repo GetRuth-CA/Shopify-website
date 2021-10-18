@@ -2994,7 +2994,7 @@ margin-right: auto;
         float:left;
         text-align:center;
         padding-right:1rem;
-        font-family:var(--font-heading-family);
+        font-family:"montserrat-v18-latin-600";
         font-style:var(--font-heading-style)
     }
 }
