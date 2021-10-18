@@ -2960,7 +2960,7 @@ margin-right: auto;
     .table__head{
         display:table-header-group;
       
-        font-weight:var(--font-body-weight-bold);
+        
     }
 }
 .table__body th,.table__head th{
