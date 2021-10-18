@@ -2959,12 +2959,12 @@ margin-right: auto;
 @media only screen and (min-width:46.85em){
     .table__head{
         display:table-header-group;
-      font-family:"montserrat-v18-latin-600";
-        font-weight:var(--font-body-weight-bold)
+      
+        font-weight:var(--font-body-weight-bold);
     }
 }
 .table__body th,.table__head th{
-    font-family:var(--font-heading-family);
+    font-family:"montserrat-v18-latin-600";
     font-style:var(--font-heading-style);
     font-size:1.8rem;
     margin:0
