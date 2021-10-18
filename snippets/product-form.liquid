@@ -88,7 +88,7 @@
 
   {%- unless product.has_only_default_variant -%}
     {%- for option in product.options_with_values -%}
-      <div class="product-form__select form__input-wrapper form__input-wrapper--select" style="width:90%;">
+      <div class="product-form__select form__input-wrapper form__input-wrapper--select" style="width:90%; margin:0 auto;">
         <label class="product-form__select-label form__select-label" for="Option-{{ section_id }}-{{ forloop.index0 }}">
           {{ option.name }}
         </label>
