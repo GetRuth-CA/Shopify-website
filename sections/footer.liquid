@@ -27,7 +27,7 @@ or settings.social_linkedin_link != blank
 
         {%- if settings[social_link] != blank -%}
           <li class="footer-icons__social-item">
-            <a href="{{ settings[social_link] | escape }}" class="footer-icons__item-link" aria-describedby="a11y-external-message">
+            <a href="{{ settings[social_link] | escape }}" class="footer-icons__item-link" aria-describedby="a11y-external-message" target="_blank">
               {%- include icon_link -%}
               <span class="visually-hidden">{{ social }}</span>
             </a>
