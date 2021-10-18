@@ -4262,7 +4262,7 @@ tbody th,tfoot th{
     font-size:1rem;
     font-weight:var(--font-body-weight-bold);
     color:var(--color-background);
-    background:var(--color-headings-and-links);
+    background:#5D633B;
     border-radius:50%
 }
 .header__icon--cart-visible .header__cart-count-bubble{
