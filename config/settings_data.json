@@ -44,7 +44,7 @@
           "main_menu": "main-menu",
           "enable_secondary_background": false,
           "show_search": false,
-          "announcement_bar_enabled": true,
+          "announcement_bar_enabled": false,
           "announcement_bar_text": "10% off for the first 100 orders with code: LAUNCH",
           "announcement_bar_url": "shopify:\/\/collections\/all",
           "announcement_bar_color_background": "#577b46",
