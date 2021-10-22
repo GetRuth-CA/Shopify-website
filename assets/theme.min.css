@@ -311,6 +311,7 @@ iframe{
     }
 }
 .h3,h3{
+  	font-family: "montserrat-v18-latin-600";
     font-size:calc(var(--font-heading-base-size) * .77);
     line-height:1.1;
     letter-spacing:.05rem
