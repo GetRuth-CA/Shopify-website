@@ -107,6 +107,7 @@ option{
     color:var(--color-body-text)
 }
 [role=button],a,button,input,label,select,textarea{
+  color:#5D633B;
     touch-action:manipulation
 }
 body.prevent-scrolling{
