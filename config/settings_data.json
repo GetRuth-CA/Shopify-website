@@ -244,7 +244,14 @@
       "ambassador": {
         "type": "ambassador",
         "settings": {
-          "heading": "Ruth Brand Ambassador Program"
+          "heading": "Ruth Brand Ambassador Program",
+          "page_descr_1": "Do you love Ruth’s products and are passionate about leading a sustainable lifestyle? If so, make sure to apply to Ruth’s brand ambassador program!",
+          "sub_heading": "What would I do?",
+          "page_descr_2": "Ruth is currently looking for people to share their expertise on their eco-friendly lifestyle, periods and Ruth’s pads to their friends, family and wider communities. Join the Ruth family by applying to the Campus Events Specialist or the Sustainability Community Advocate role!",
+          "image_heading_1": "Campus Events Specialist",
+          "img_descr_1": "As a Campus Events Specialist you will assist with hosting virtual and in-person events promoting Ruth’s products. You will also have the opportunity to host virtual discussions on periods and sustainability through your social media platforms.",
+          "image_heading_2": "Sustainability Community Advocate",
+          "img_descr_2": "As the Sustainability Community Advocate you will have the chance to create content and promote Ruth’s products on your Instagram or TikTok accounts. In addition, you will also be given the opportunity to develop written material for our website."
         }
       }
     },
