@@ -240,6 +240,12 @@
           "show_author": true,
           "show_date": true
         }
+      },
+      "ambassador": {
+        "type": "ambassador",
+        "settings": {
+          "heading": "Ruth Brand Ambassador Program"
+        }
       }
     },
     "content_for_index": [
