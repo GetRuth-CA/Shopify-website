@@ -67,17 +67,35 @@
 {% stylesheet %}
 <style>
   
-  .ambassadorSections {
-  
-  display: flex;
+.founderstory {
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+
   }
-.ambassadorImg {
-width: 500px;
-display:block;
-}
+
+  @media only screen and (max-width: 1000px) {
+    .founderstory {
+      display: block;
+    }
+
+    .founderstoryImg {
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .foundername {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+  .founderstoryImg {
+    display: block;
+    border-radius: 2%;
+  }
   
 </style>
 
