@@ -6093,6 +6093,14 @@
      text-align:center;
      font-size: 50px;
 }
+
+@media only screen and (min-width:46.85em){
+  .specialH1{
+  font-size:40px;
+  
+  }
+
+}
  .specialH6{
      text-align:center;
      font-family: "montserrat-v18-latin-600";
