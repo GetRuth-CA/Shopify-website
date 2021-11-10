@@ -3,6 +3,21 @@
   margin-left: auto;
   margin-right: auto;width:250px"/>
   <h3 class="TestimonialHeadline" style="padding-top:26px;">{{section.settings.Headline}}</h3>
+  
+  <div class="counter">
+    <div class="counterCol">
+        <img class = "counterimg" src = "https://cdn.shopify.com/s/files/1/0587/8674/2454/files/pads_icon_089718c5-110f-4ade-bfd3-78fc9b6ebd7a.png?v=1635907882"/>
+        <h1 style = "margin: 10px 0; font-size:50px;">{{section.settings.donated}}</h1>
+        <h6 class = "specialH6">Pads donated</h6>
+      </div>
+      <div class="counterCol"  >
+        <img class = "counterimg"src = "https://cdn.shopify.com/s/files/1/0587/8674/2454/files/susty_icon_af2de7ee-c58b-4f11-abd2-cae63e95f796.png?v=1635907882"/>
+        <h1 style = "margin: 10px 0;  font-size:50px;">{{section.settings.plastics}}</h1>
+        <h6 class = "specialH6">Grams of plastics diverted</h6>
+      </div>
+    
+  </div>
+  
   <p class="aboutparas">{{section.settings.Para}}</p>
   
   <a href="pages/partners" style="text-decoration:inherit;"><button class="buttonMore">Learn More</button></a>
@@ -10,6 +25,23 @@
 </div>
 
 <style>
+  .counterimg{
+  width: 60px;
+    height:60px;
+  }
+  .counter {
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 600px;
+  }
+  
+  .counterCol {
+  display:block;
+  margin: 20px;
+  width: 250px;
+  }
 
 .sectionDivBottom{
   	max-width:1200px;
@@ -17,6 +49,14 @@
     height:100%;
   padding-bottom: 50px;">
 }
+  
+  @media only screen and (max-width: 800px) {
+  .counter {
+    display:block;}
+    
+   
+    .counterCol {width:80%; margin: 20px auto;}
+  }
 </style>
 
 {% schema %}
@@ -37,7 +77,19 @@
             "type": "text",
             "id": "Para",
             "label": "Paragraph"
-        }
+        },
+		{
+"type": "text",
+            "id": "plastics",
+            "label": "Plastics diverted"
+
+},
+{
+"type": "text",
+            "id": "donated",
+            "label": "Pads donated"
+
+}
     ],
     "presets": [
         {
