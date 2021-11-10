@@ -7,12 +7,12 @@
   <div class="counter">
     <div class="counterCol">
         <img class = "counterimg" src = "https://cdn.shopify.com/s/files/1/0587/8674/2454/files/pads_icon_089718c5-110f-4ade-bfd3-78fc9b6ebd7a.png?v=1635907882"/>
-        <h1 style = "margin: 10px 0; font-size:70px;">{{section.settings.donated}}</h1>
+        <h1 class="counterNum">{{section.settings.donated}}</h1>
         <h6 class = "specialH6">Pads donated</h6>
       </div>
       <div class="counterCol"  >
         <img class = "counterimg"src = "https://cdn.shopify.com/s/files/1/0587/8674/2454/files/susty_icon_af2de7ee-c58b-4f11-abd2-cae63e95f796.png?v=1635907882"/>
-        <h1 style = "margin: 10px 0;  font-size:70px;">{{section.settings.plastics}}</h1>
+        <h1 class="counterNum">{{section.settings.plastics}}</h1>
         <h6 class = "specialH6">Grams of plastics diverted</h6>
       </div>
     
@@ -25,6 +25,11 @@
 </div>
 
 <style>
+  
+  .counterNum {
+  margin: 10px 0;  font-size:70px;
+  
+  }
   .counterimg{
   width: 60px;
     height:60px;
@@ -54,7 +59,9 @@
   .counter {
     display:block;}
     
-   
+    .counterNum{
+    font-size:40px;
+    }
     .counterCol {width:80%; margin: 20px auto;}
   }
 </style>
