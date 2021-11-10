@@ -6094,7 +6094,7 @@
      font-size: 50px;
 }
 
-@media only screen and (min-width:46.85em){
+@media only screen and (max-width:46.85em){
   .specialH1{
   font-size:40px;
   
