@@ -13,7 +13,7 @@
   
   <div class="form__input-wrapper" data-form-input-wrapper>
       <label class="form__input-label" for="{{ formId }}-business">Name of Business</label>
-      <input type="text" id="{{ formId }}-business" class="form__input" name="contact[business]">
+      <input type="text" id="{{ formId }}-business" class="form__input" name="contact[business]" aria-required="true">
     </div>
 
     <div class="form__input-wrapper form__input-wrapper--half-width{% if form[name] or customer %} form__input-wrapper--floating-label{% endif %}" data-form-input-wrapper>
