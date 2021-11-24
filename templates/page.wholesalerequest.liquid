@@ -10,6 +10,11 @@
   {%- assign formId = 'WholesaleForm' -%}
   {%- form 'contact', id: formId, class: 'form', data-form: '' -%}
     {% render 'form-status', form: form, form_id: formId %}
+  
+  <div class="form__input-wrapper" data-form-input-wrapper>
+      <label class="form__input-label" for="{{ formId }}-business">{{ 'contact.form.business' | t }}</label>
+      <input type="text" id="{{ formId }}-business" class="form__input" name="contact[{{ 'contact.form.business' | t }}]">
+    </div>
 
     <div class="form__input-wrapper form__input-wrapper--half-width{% if form[name] or customer %} form__input-wrapper--floating-label{% endif %}" data-form-input-wrapper>
       <label class="form__input-label" for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
