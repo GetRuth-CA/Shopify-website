@@ -50,9 +50,14 @@
       <label class="form__input-label" for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
       <input type="tel" id="{{ formId }}-phone" class="form__input" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
     </div>
+  
+  <div class="form__input-wrapper" data-form-input-wrapper>
+      <label class="form__input-label" for="{{ formId }}-website">Website <span aria-hidden="true">*</span></label>
+      <input type="text" id="{{ formId }}-website" class="form__input" name="contact[website]" aria-required="true" required>
+    </div>
 
     <div class="form__input-wrapper">
-      <label class="form__textarea-label" for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
+      <label class="form__textarea-label" for="{{ formId }}-message">Tell us a little bit about your business</label>
       <textarea
         rows="10"
         id="{{ formId }}-message"
