@@ -12,12 +12,12 @@
     {% render 'form-status', form: form, form_id: formId %}
   
   <div class="form__input-wrapper" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-business">Name of Business</label>
+      <label class="form__input-label" for="{{ formId }}-business">Name of Business</label><span aria-hidden="true">*</span></label>
       <input type="text" id="{{ formId }}-business" class="form__input" name="contact[business]" aria-required="true" required>
     </div>
 
     <div class="form__input-wrapper form__input-wrapper--half-width{% if form[name] or customer %} form__input-wrapper--floating-label{% endif %}" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
+      <label class="form__input-label" for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label><span aria-hidden="true">*</span></label>
       <input type="text" id="{{ formId }}-name" class="form__input" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
     </div>
 
