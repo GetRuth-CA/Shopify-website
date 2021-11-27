@@ -46,7 +46,7 @@
           "enable_secondary_background": false,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Black Friday Sale on Now! 10% OFF entire store",
+          "announcement_bar_text": "FREE Shipping in Canada",
           "announcement_bar_url": "shopify:\/\/collections\/launch-collection",
           "announcement_bar_color_background": "#577b46",
           "announcement_bar_color_text": "#ffffff"
