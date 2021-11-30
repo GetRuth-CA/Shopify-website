@@ -46,7 +46,7 @@
           "enable_secondary_background": false,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Happy Giving Tuesday! Use Code: FREEGift at checkout for a gift on us!",
+          "announcement_bar_text": "Happy Giving Tuesday! Place an order today and get a FREE Gift on us!",
           "announcement_bar_url": "shopify:\/\/collections\/launch-collection",
           "announcement_bar_color_background": "#577b46",
           "announcement_bar_color_text": "#ffffff"
