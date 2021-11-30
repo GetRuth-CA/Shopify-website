@@ -264,6 +264,28 @@
           "grid_8": "Create professional connections",
           "grid_9": "Reference letter upon request"
         }
+      },
+      "aboutusContent": {
+        "type": "aboutusContent",
+        "settings": {
+          "Headline": "Our Mission & Vision",
+          "Headline2": "Our Mission is to ruthlessly make sustainable periods easy.",
+          "subHeadline1": "",
+          "subHeadline2": "",
+          "subHeadline3": "",
+          "subHeadline1description": "",
+          "subHeadline2description": "",
+          "subHeadline3description": "",
+          "Headline3": "",
+          "Headline3para": "",
+          "Headline4": "",
+          "Headline4para": ""
+        }
+      },
+      "product-redirect": {
+        "type": "product-redirect",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
