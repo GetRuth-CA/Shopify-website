@@ -60,7 +60,7 @@
                         {% assign property_first_char = property.first | slice: 0 %}
                         {%- unless property.last == blank or property_first_char == '_' -%}
                           <div class="cart__option">
-                            <dt>{{ property.first }}: </dt>
+                            <dt>{% unless property.first contains '_is_preorder' %}{{ property.first }}:{% endunless %} </dt>
 
                             {% comment %}
                               Check if there was an uploaded file associated
