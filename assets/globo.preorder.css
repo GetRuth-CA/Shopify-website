@@ -19,12 +19,12 @@
 .gPreorderTopMessage {
   font-size: 14px !important;
   background: none !important;
-  color: #EE4444 !important;
+  color: #758152 !important;
   text-align: left !important;
 }
 .gPreorderBottomMessage{
-  font-size: 14px !important;
-  background: #F5F3F3 !important;
+  font-size: 16px !important;
+  background: #FEEFD7 !important;
   color: #555555 !important;
   text-align: left !important;
 }
@@ -67,8 +67,8 @@
 
 .gPreorderWarning {
   color: #000 !important;
-  border: 1px solid #eec200 !important;
-  background-color: #fdf7e3 !important;
+  border: 1px solid #C1CC7A !important;
+  background-color: #FEEFD7 !important;
   font-size: 14px !important;
   text-align: left !important;
   position: relative;
