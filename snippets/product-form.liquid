@@ -148,7 +148,7 @@
       {{ form | payment_button }}
     {%- endif -%}
 
-    <button
+<!--     <button
       type="submit"
       name="add"
       class="product-form__add-to-cart no-js button"
@@ -162,7 +162,7 @@
             {{ 'products.product.add_to_cart' | t }}
           {%- endunless -%}
         </span>
-    </button>
+    </button> -->
     {% if show_instant_quantity %}
       <div class="hidden" data-quantity-input-wrapper data-quantity-input-instant="true">
         <label class="form__select-label hidden" for="InstantQuantity-{{ product.id }}-{{ section_id }}">
