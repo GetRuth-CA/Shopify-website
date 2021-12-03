@@ -286,6 +286,13 @@
         "type": "product-redirect",
         "settings": {
         }
+      },
+      "counter": {
+        "type": "counter",
+        "settings": {
+          "plastics": "18,136.8",
+          "donated": "2125"
+        }
       }
     },
     "content_for_index": [
