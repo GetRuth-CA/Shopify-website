@@ -2285,7 +2285,8 @@
      width: 90%;
 }
  .product-form__add-to-cart{
-     min-height:4.4rem 
+     min-height:4.4rem;
+   margin: 20px 0px
 }
  .product-form__add-to-cart[aria-disabled=true]{
      cursor:default 
