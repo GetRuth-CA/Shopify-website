@@ -47,8 +47,8 @@
           "enable_secondary_background": false,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Last minute shopping? Shop Ruth's Holiday Gift Cards Now!",
-          "announcement_bar_url": "shopify:\/\/collections\/ruths-holiday-gift-cards",
+          "announcement_bar_text": "FREE Shipping in Canada. Shop Now!",
+          "announcement_bar_url": "shopify:\/\/collections\/all",
           "announcement_bar_color_background": "#577b46",
           "announcement_bar_color_text": "#ffffff"
         }
