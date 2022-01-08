@@ -48,7 +48,7 @@
           "show_search": false,
           "announcement_bar_enabled": true,
           "announcement_bar_text": "FREE Shipping in Canada. Shop Now!",
-          "announcement_bar_url": "shopify:\/\/collections\/all",
+          "announcement_bar_url": "shopify:\/\/collections\/launch-collection",
           "announcement_bar_color_background": "#768052",
           "announcement_bar_color_text": "#ffffff"
         }
