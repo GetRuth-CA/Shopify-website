@@ -6192,8 +6192,8 @@ margin: 0 auto;
         justify-content: space-between;
     }
     #se-accept-cookies-checkbox {
-        color: #000; /* Change button text color here */
-        background-color: #f1d600; /* Change button background color here */
+        color: #fff; /* Change button text color here */
+        background-color: #768052; /* Change button background color here */
         transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
         -webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
         border-radius: 5px;
