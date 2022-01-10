@@ -6162,9 +6162,13 @@ line-height: 35px;
         opacity: 0;
         visibility: hidden;
         font-size: 12px;
-      max-width: 1200px;
+      max-width: 800px;
 margin: 0 auto;
     }
+	
+
+
+
     #se-cookies-message.se-cookies-message-open {
         opacity: 1;
         visibility: visible;
