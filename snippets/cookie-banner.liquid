@@ -1,57 +1,43 @@
-<style>
-  #cookies-banner {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background: #fff;
-    border-top: 1px solid #dcdcdc;
-  }
-</style>
-<div id="cookies-banner">
-  <span>This website uses cookies to ensure you get the best experience on our website.</span>
-  <button style="margin-left: 1em;" onclick="handleDecline()">Decline</button>
-  <button style="margin-left: 1em;" onclick="handleAccept()">Accept</button>
+{% assign text = "We use cookies to ensure that we give you the best experience on our website. If you continue we'll assume that you are understand this." %}
+{% assign more_info = "Learn more" %}
+{% assign privacy_url = "/pages/terms-conditions" %}
+{% assign button_text = "Accept" %}
+ 
+<div id="se-cookies-message-container">
+    <div id="se-cookies-message">
+        <div class="se-cookies-text">
+            {{text}} <a href="{{privacy_url}}">{{more_info}}</a>
+        </div>
+        <a href="javascript:SE_CloseCookiesWindow();" id="se-accept-cookies-checkbox">{{button_text}}</a>
+    </div>
 </div>
+ 
 <script>
-  function getBannerEl() {
-    return document.getElementById('cookies-banner');
+  function SE_setCookie (name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
   }
-  function hideBanner(res) {
-    getBannerEl().style.display = 'none';
+  function SE_getCookie (name) {
+    var pair = document.cookie.match(new RegExp(name + '=([^;]+)'));
+    return !!pair ? pair[1] : null;
   }
-  function showBanner() {
-   getBannerEl().style.display = 'block';
-  }
-  function handleAccept(e) {
-    window.Shopify.customerPrivacy.setTrackingConsent(true, hideBanner);
-    document.addEventListener('trackingConsentAccepted',function() {
-      console.log('trackingConsentAccepted event fired');
-    });
-  }
-  function handleDecline() {
-    window.Shopify.customerPrivacy.setTrackingConsent(false,hideBanner);
-  }
-  function initCookieBanner() {
-    const userCanBeTracked = window.Shopify.customerPrivacy.userCanBeTracked();
-    const userTrackingConsent = window.Shopify.customerPrivacy.getTrackingConsent();
-    if(!userCanBeTracked && userTrackingConsent === 'no_interaction') {
-      showBanner();
+  var cookiesName = 'cookies_accepted';
+  function SE_CheckCookies () {
+    if(!SE_getCookie(cookiesName)) {
+      var cookies_message = document.getElementById("se-cookies-message");
+      cookies_message.className += " se-cookies-message-open";
     }
   }
-  window.Shopify.loadFeatures([
-    {
-      name: 'consent-tracking-api',
-      version: '0.1',
-    }
-  ],
-  function(error) {
-    if (error) {
-      throw error;
-    }
-    initCookieBanner();
+  function SE_CloseCookiesWindow () {
+    SE_setCookie(cookiesName, true, 9999);
+    document.getElementById("se-cookies-message-container").removeChild(document.getElementById("se-cookies-message"));
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    SE_CheckCookies();
   });
 </script>
