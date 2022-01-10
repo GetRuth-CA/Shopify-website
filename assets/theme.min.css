@@ -6162,7 +6162,8 @@ line-height: 35px;
         opacity: 0;
         visibility: hidden;
         font-size: 12px;
-      
+      max-width: 1200px;
+margin: 0 auto;
     }
     #se-cookies-message.se-cookies-message-open {
         opacity: 1;
