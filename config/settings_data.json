@@ -294,6 +294,15 @@
           "plastics": "30,556.80",
           "donated": "3,675"
         }
+      },
+      "product-combo": {
+        "type": "product-combo",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_dynamic_checkout": false,
+          "show_social_buttons": true
+        }
       }
     },
     "content_for_index": [
