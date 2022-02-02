@@ -172,7 +172,7 @@
       "16306527338b1b8ee8": {
         "type": "Testimonials",
         "settings": {
-          "TestimonialHeader": "Here's what our beta-testers are saying",
+          "TestimonialHeader": "Here's what our customers are saying",
           "testimonialimage": "shopify:\/\/shop_images\/testi.png",
           "featuresimage": "shopify:\/\/shop_images\/press.png"
         }
