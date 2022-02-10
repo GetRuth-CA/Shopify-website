@@ -151,13 +151,23 @@ margin:40px 3.2rem;
 </style>
 
 
+
+
 <div class="page">
   
 
   <div class="rte">
-    <a class="image-with-text__button button" href="{{ section.settings.button_url }}" style="margin:0 auto;display:block;width:250px;color:#fff;
+    
+    <style>
+      .button{
+      margin:0 auto;display:block;width:250px;color:#fff;
     background-color:#768052;
-    box-shadow:8px 8px #C1CC7A;">
+    box-shadow:8px 8px #C1CC7A;
+      }
+    
+    </style>
+    
+    <a class="image-with-text__button button" href="{{ section.settings.button_url }}">
           Register for free
         </a>
 
