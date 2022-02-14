@@ -44,11 +44,11 @@
           "logo": "shopify:\/\/shop_images\/Copy_of_logo_text_2.png",
           "logo_max_width": 120,
           "main_menu": "main-menu",
-          "enable_secondary_background": false,
+          "enable_secondary_background": true,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Practice self love this Valentine's Day! BOGO 15% OFF. Buy a combo pack and get 15% off other items in the store. Discount automatically applied at checkout.",
-          "announcement_bar_url": "shopify:\/\/collections\/ruth-pads",
+          "announcement_bar_text": "Happy Valentine's Day! Shop our curated Valentine's Day gifts now",
+          "announcement_bar_url": "shopify:\/\/products\/combo-pack",
           "announcement_bar_color_background": "#768052",
           "announcement_bar_color_text": "#ffffff"
         }
