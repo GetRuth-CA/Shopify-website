@@ -15,7 +15,7 @@
         </div>
       {%- endif -%}
     
-    <p>In order to access your subscriptions, create an account with the same email address</p>
+    
 
       <div class="form__input-wrapper{% if form.errors contains 'form' %} form__input-wrapper--error{% endif %}" data-form-input-wrapper>
         <label class="form__input-label" for="CustomerEmail">{{ 'customer.login.email' | t }}</label>
@@ -62,6 +62,8 @@
       </a>
 
     {%- endform -%}
+    
+    <p>In order to access your subscriptions, create an account with the same email address</p>
   </div>
 
   <div class="hidden" data-reset-password-container>
