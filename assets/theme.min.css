@@ -2281,9 +2281,9 @@
      flex-direction:column;
      margin-top:2rem;
      margin-bottom: 2rem;
-     margin-left: auto;
+/*      margin-left: auto;
      margin-right: auto;
-     width: 90%;
+     width: 90%; */
 }
  .product-form__add-to-cart{
      min-height:4.4rem;
