@@ -95,6 +95,7 @@
           <p class="product-card__description">{{ product_desc | strip_html | truncate: 120 }}</p>
         </div>
       {%- endif -%} -->
+      {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: false, product: product %}
       {%- if show_form -%}
         <div class="product-card__quick-add">
           {%- unless product.has_only_default_variant -%}
