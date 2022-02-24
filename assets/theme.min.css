@@ -6235,3 +6235,12 @@ margin: 0 auto;
             padding-right: 0;
         }
     }
+
+select{
+background-color: #f6f6f6;
+border-radius: 6px;
+border-width: thin;
+border-style: solid;
+padding: 5px;
+
+}
