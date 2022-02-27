@@ -143,7 +143,7 @@
  :focus-visible{
      border-radius:.1rem;
      box-shadow:0 0 0 .4rem var(--focus-offset-color),0 0 0 .6rem var(--focus-color);
-     outline-offset:.4rem;
+     outline-offset:.1rem;
      outline:.2rem solid transparent 
 }
  :focus:not(:focus-visible){
