@@ -286,6 +286,7 @@
       "product-redirect": {
         "type": "product-redirect",
         "settings": {
+          "heading": "Ready to make a switch?"
         }
       },
       "counter": {
