@@ -286,7 +286,8 @@
       "product-redirect": {
         "type": "product-redirect",
         "settings": {
-          "heading": "Ready to make a switch?"
+          "heading": "Ready to make a switch?",
+          "redirect_link": "ruth-pads"
         }
       },
       "counter": {
