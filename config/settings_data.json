@@ -183,8 +183,8 @@
           "image1": "shopify:\/\/shop_images\/Group_47.png",
           "Headline": "We’re making sustainable periods accessible across Canada",
           "Para": "Each box of Ruth pads you order supports our mission and our commitment to donate menstrual products to shelters and organizations across Canada to help reduce period poverty nationally.",
-          "plastics": "30,556.80",
-          "donated": "3,675"
+          "plastics": "30.6",
+          "donated": "3,750"
         }
       },
       "collection-template": {
@@ -294,8 +294,8 @@
       "counter": {
         "type": "counter",
         "settings": {
-          "plastics": "30,556.80",
-          "donated": "3,675"
+          "plastics": "30.6",
+          "donated": "3,750"
         }
       },
       "product-combo": {
