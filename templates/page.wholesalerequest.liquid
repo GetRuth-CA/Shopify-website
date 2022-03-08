@@ -1,82 +1,139 @@
 <div class="customer customer--medium-width">
-  <h1 class="customer__heading center">{{ page.title }}</h1>
+    <h1 class="customer__heading center">{{ page.title }}</h1>
 
-  {%- if page.content.size > 0 -%}
+    {%- if page.content.size > 0 -%}
     <div class="rte">
-      {{ page.content }}
+        {{ page.content }}
     </div>
-  {%- endif -%}
+    {%- endif -%} {%- assign formId = 'WholesaleForm' -%} {%- form 'contact',
+    id: formId, class: 'form', data-form: '' -%} {% render 'form-status', form:
+    form, form_id: formId %}
 
-  {%- assign formId = 'WholesaleForm' -%}
-  {%- form 'contact', id: formId, class: 'form', data-form: '' -%}
-    {% render 'form-status', form: form, form_id: formId %}
-  
-  <div class="form__input-wrapper" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-business">Name of Retailer <span aria-hidden="true">*</span></label>
-      <input type="text" id="{{ formId }}-business" class="form__input" name="contact[business]" aria-required="true" required>
-    </div>
-
-    <div class="form__input-wrapper form__input-wrapper--half-width{% if form[name] or customer %} form__input-wrapper--floating-label{% endif %}" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-name">{{ 'contact.form.name' | t }} <span aria-hidden="true">*</span></label>
-      <input type="text" id="{{ formId }}-name" class="form__input" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}" required>
-    </div>
-
-    <div class="form__input-wrapper form__input-wrapper--half-width{% if form[email] or customer %} form__input-wrapper--floating-label{% endif %}{% if form.errors contains 'email' %}  form__input-wrapper--error{% endif %}" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
-      <input
-        type="email"
-        id="{{ formId }}-email"
-        class="form__input"
-        name="contact[email]"
-        autocorrect="off"
-        autocapitalize="off"
-        value="{% if form[email] %}{{ form[email] }}{% elsif customer %}{{ customer.email }}{% endif %}"
-        aria-required="true"
-        {% if form.errors contains 'email' %}
-          aria-invalid="true"
-          aria-describedby="{{ formId }}-email-error"
-        {% endif %}
+    <div class="form__input-wrapper" data-form-input-wrapper>
+        <label class="form__input-label" for="{{ formId }}-business"
+            >Name of Retailer <span aria-hidden="true">*</span></label
         >
-      {%- if form.errors contains 'email' -%}
-        <span id="{{ formId }}-email-error" class="form__error-message-wrapper form__error-message-wrapper--input">
-          <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-          {% render 'icon-error' %}
-          <span class="form__error-message">{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+        <input
+            type="text"
+            id="{{ formId }}-business"
+            class="form__input"
+            name="contact[business]"
+            aria-required="true"
+            required
+        />
+    </div>
+
+    <div
+        class="form__input-wrapper form__input-wrapper--half-width{% if form[name] or customer %} form__input-wrapper--floating-label{% endif %}"
+        data-form-input-wrapper
+    >
+        <label class="form__input-label" for="{{ formId }}-name"
+            >{{ "contact.form.name" | t }}
+            <span aria-hidden="true">*</span></label
+        >
+        <input
+            type="text"
+            id="{{ formId }}-name"
+            class="form__input"
+            name="contact[{{ 'contact.form.name' | t }}]"
+            value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{
+                customer.name
+            }}{% endif %}"
+            required
+        />
+    </div>
+
+    <div
+        class="form__input-wrapper form__input-wrapper--half-width{% if form[email] or customer %} form__input-wrapper--floating-label{% endif %}{% if form.errors contains 'email' %} form__input-wrapper--error{% endif %}"
+        data-form-input-wrapper
+    >
+        <label class="form__input-label" for="{{ formId }}-email"
+            >{{ "contact.form.email" | t }}
+            <span aria-hidden="true">*</span></label
+        >
+        <input type="email" id="{{ formId }}-email" class="form__input"
+        name="contact[email]" autocorrect="off" autocapitalize="off" value="{%
+        if form[email] %}{{ form[email] }}{% elsif customer %}{{
+            customer.email
+        }}{% endif %}" aria-required="true" {% if form.errors contains 'email'
+        %} aria-invalid="true" aria-describedby="{{ formId }}-email-error" {%
+        endif %} > {%- if form.errors contains 'email' -%}
+        <span
+            id="{{ formId }}-email-error"
+            class="form__error-message-wrapper form__error-message-wrapper--input"
+        >
+            <span class="visually-hidden"
+                >{{ "general.accessibility.error" | t }}
+            </span>
+            {% render 'icon-error' %}
+            <span class="form__error-message"
+                >{{ form.errors.translated_fields["email"] | capitalize }}
+                {{ form.errors.messages["email"] }}.</span
+            >
         </span>
-      {%- endif -%}
+        {%- endif -%}
     </div>
 
     <div class="form__input-wrapper" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
-      <input type="tel" id="{{ formId }}-phone" class="form__input" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+        <label class="form__input-label" for="{{ formId }}-phone">{{
+            "contact.form.phone" | t
+        }}</label>
+        <input
+            type="tel"
+            id="{{ formId }}-phone"
+            class="form__input"
+            name="contact[{{ 'contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{
+                customer.phone
+            }}{% endif %}"
+        />
     </div>
-  
-  <div class="form__input-wrapper" data-form-input-wrapper>
-      <label class="form__input-label" for="{{ formId }}-website">Website</label>
-      <input type="text" id="{{ formId }}-website" class="form__input" name="contact[website]" aria-required="true">
+
+    <div class="form__input-wrapper" data-form-input-wrapper>
+        <label class="form__input-label" for="{{ formId }}-website"
+            >Website</label
+        >
+        <input
+            type="text"
+            id="{{ formId }}-website"
+            class="form__input"
+            name="contact[website]"
+            aria-required="true"
+        />
     </div>
 
     <div class="form__input-wrapper">
-      <label class="form__textarea-label" for="{{ formId }}-message">Tell us a little bit about your store</label>
-      <textarea
-        rows="10"
-        id="{{ formId }}-message"
-        class="form__textarea"
-        name="contact[{{ 'contact.form.message' | t }}]"
-      >
+        <label class="form__textarea-label" for="{{ formId }}-message"
+            >Tell us a little bit about your store</label
+        >
+        <textarea
+            rows="10"
+            id="{{ formId }}-message"
+            class="form__textarea"
+            name="contact[{{ 'contact.form.message' | t }}]"
+        >
         {%- if form.body -%}
           {{ form.body }}
         {%- endif -%}
-      </textarea>
+      </textarea
+        >
     </div>
 
-    <button type="submit" class="button" style="
-width: 100%;">
-      {{ 'contact.form.send' | t }}
+    <button type="submit" class="button" style="width: 100%">
+        {{ "contact.form.send" | t }}
     </button>
-  {%- endform -%}
-  
-  <h5 class="specialH5" style="margin-top:50px;">Looking to stock Ruth pads in bulk?</h5>
-<a href="https://forms.gle/35tcPWr2g7CbppScA" target="_blank" style="text-decoration:inherit;"><button class="buttonMore" style="padding: 18px 45px;">Request a Quote</button></a>
- 
+    {%- endform -%}
+
+    <h5 class="specialH5" style="margin-top: 50px">
+        Looking to stock Ruth pads in bulk?
+    </h5>
+    <a
+        href="https://forms.gle/35tcPWr2g7CbppScA"
+        target="_blank"
+        style="text-decoration: inherit"
+        ><button class="buttonMore" style="padding: 18px 45px">
+            Request a Quote
+        </button></a
+    >
 </div>
