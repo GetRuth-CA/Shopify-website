@@ -30,7 +30,7 @@
         
         {%- if article.image -%}
         
-        <div class="blogimagewrapper" style="overflow:hidden;max-height:350px; max-width:400px; margin: 0 auto; border-radius:6px;">
+        <div class="blogimagewrapper" style="overflow:hidden;max-height:350px; max-width:400px; margin: 0 auto;">
 
             <img srcset="{% if article.image.width >= 311 %}{{ article.image | img_url: '311x' }} 311w,{% endif %}
                 {% if article.image.width >= 622 %}{{ article.image | img_url: '622x' }} 622w,{% endif %}
@@ -40,7 +40,7 @@
                 {% if article.image.width >= 1370 %}{{ article.image | img_url: '1370x' }} 1370w{% endif %}"
               sizes="(min-width: 1200px) 1080px, (min-width: 750px) calc(100vw - 12rem), calc(100vw - 6.4rem)"
               src="{{ article.image | img_url: '600x' }}"
-				style="overflow:hidden; width: 200rem;height: auto !important;"	
+				style="overflow:hidden; width: 200rem;height: auto !important;border-radius:6px;"	
               loading="lazy"
               class="blog-item__image"
               alt="{{ article.image.alt | escape }}"
