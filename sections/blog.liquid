@@ -30,7 +30,7 @@
         
         {%- if article.image -%}
         
-        <div class="blogimagewrapper" style="overflow:hidden;max-height:350px; max-width:400px; margin: 0 auto;">
+        <div class="blogimagewrapper" style="overflow:hidden;max-height:350px; max-width:400px; margin: 0 auto;border-radius:6px;">
 
             <img srcset="{% if article.image.width >= 311 %}{{ article.image | img_url: '311x' }} 311w,{% endif %}
                 {% if article.image.width >= 622 %}{{ article.image | img_url: '622x' }} 622w,{% endif %}
