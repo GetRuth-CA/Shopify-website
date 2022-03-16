@@ -13,7 +13,9 @@
     "16474573643c553b39": {
       "type": "3-Column",
       "settings": {
-        "image1": "shopify:\/\/shop_images\/1in3_menstruators_icon_4x_36be8965-8921-46a4-b752-c17c5c38af03.png"
+        "image1": "shopify:\/\/shop_images\/1in3_menstruators_icon_4x_36be8965-8921-46a4-b752-c17c5c38af03.png",
+        "image2": "shopify:\/\/shop_images\/started_your_period_early_icon_4x_7ee6457a-c143-4281-9df2-999eee1fca32.png",
+        "image3": "shopify:\/\/shop_images\/90__plastic_icon_4x_942bbfa2-6a8d-4bbc-8917-f7c534ecb9e4.png"
       }
     }
   },
