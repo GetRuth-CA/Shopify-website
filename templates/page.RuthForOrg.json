@@ -3,7 +3,11 @@
     "main": {
       "type": "Text-Section",
       "settings": {
-        "Headline": "Ruth Pads for Organizations"
+        "Headline": "Ruth Pads for Organizations",
+        "Headline2": "Did you know?",
+        "show_headline2": true,
+        "paragraph": "",
+        "show_paragraph": false
       }
     }
   },
