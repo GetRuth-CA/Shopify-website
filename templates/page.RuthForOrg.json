@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "Text-Section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
