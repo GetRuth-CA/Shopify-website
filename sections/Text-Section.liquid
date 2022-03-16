@@ -1,11 +1,20 @@
 <h1 class="specialH1">{{ section.settings.Headline }}</h1>
+{% if section.settings.show_headline2 %}
+<h5 class="specialH5">{{ section.settings.Headline2 }}</h5>
+{%endif%}
 
 {% schema %}
   {
     "name": "Text Section",
     "settings": [
 					{ "type": "text", "id":
-"Headline", "label": "Headline" }
+"Headline", "label": "Headline" },
+
+					{ "type": "text", "id":
+"Headline2", "label": "Headline2" },
+
+					{ "type": "checkbox", "id":
+"show_headline2", "label": "Show Headline 2?" }
 				
 				]
   }
