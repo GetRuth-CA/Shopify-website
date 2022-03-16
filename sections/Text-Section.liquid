@@ -2,6 +2,11 @@
 {% if section.settings.show_headline2 %}
 <h5 class="specialH5">{{ section.settings.Headline2 }}</h5>
 {%endif%}
+{% if section.settings.show_paragraph %}
+<div style="font-size: 18px; text-align: center; padding-left: 20px; padding-right: 20px; line-height: 35px;">
+	{{ section.settings.paragraph }}
+</div>
+{%endif%}
 
 {% schema %}
   {
@@ -14,7 +19,11 @@
 "Headline2", "label": "Headline2" },
 
 					{ "type": "checkbox", "id":
-"show_headline2", "label": "Show Headline 2?" }
+"show_headline2", "label": "Show Headline 2?" },
+{ "type": "text", "id":
+"paragraph", "label": "Paragraph" },
+{ "type": "checkbox", "id":
+"show_paragraph", "label": "Show Paragraph?" }
 				
 				]
   }
