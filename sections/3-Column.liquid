@@ -1,7 +1,41 @@
+  <div class="page">
+  
+  <div class="rte">
+<div class="section group">
+	<div class="col span_1_of_4">
+    <img src="{{section.settings.image1 | image_url: '130x'}}" width="130px" height="130px"/>
+      <p class="columnHead">Be informed</p>
+      <p class="columnText">Gain insight on topics such as using your voice in different environments, success strategies from local entrepreneurs, and overcoming obstacles as a menstruator in the workplace.</p>
+	</div>
+	<div class="col span_1_of_4">
+	<img src="https://cdn.shopify.com/s/files/1/0587/8674/2454/files/Fist_icon_e86cfe6a-d7c3-47de-bbd1-79f515d9abc3.png?v=1644517138" width="130px" height="130px"/>
+      <p class="columnHead">Be Empowered & Inspired</p>
+      <p class="columnText">You will be left feeling empowered and inspired by our speakers! Our panelists come from a variety of different industries, soon to be announced.</p>
+	</div>
+	<div class="col span_1_of_4">
+	<img src="https://cdn.shopify.com/s/files/1/0587/8674/2454/files/Speech_bubble_icon_a218d7d8-2086-47b7-a4b1-12265f51b081.png?v=1644517138" width="130px" height="130px"/>
+      <p class="columnHead">By attending</p>
+      <p class="columnText">You will hear stories and receive knowledge from inspiring local leaders, have a chance to network and be able to win some fun and exciting prizes!</p>
+	</div>
+	
+</div>
+</div>
+    
+    <a class="image-with-text__button button" href="https://www.eventbrite.com/e/ruthlessly-resilient-the-power-of-using-your-voice-tickets-263755037417" target="_blank" style="margin:0 auto;display:block;width:250px;color:#fff;" >
+          Register for free
+        </a>
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "3 Column Section",
-    "settings": []
+    "settings": [
+{"type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"}
+
+]
   }
 {% endschema %}
 
