@@ -9,9 +9,16 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "16474573643c553b39": {
+      "type": "3-Column",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/1in3_menstruators_icon_4x_36be8965-8921-46a4-b752-c17c5c38af03.png"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16474573643c553b39"
   ]
 }
