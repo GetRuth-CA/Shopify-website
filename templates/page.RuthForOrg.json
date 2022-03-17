@@ -43,11 +43,27 @@
         "redirect_link": "",
         "show_button": true
       }
+    },
+    "1647545560c5251cca": {
+      "type": "Text-Section",
+      "settings": {
+        "show_headline": false,
+        "Headline": "",
+        "Headline2": "Our materials",
+        "show_headline2": true,
+        "paragraph": "",
+        "show_paragraph": false,
+        "max_width": 1120,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
     }
   },
   "order": [
     "main",
     "16474573643c553b39",
-    "16475442081fd05fcd"
+    "16475442081fd05fcd",
+    "1647545560c5251cca"
   ]
 }
