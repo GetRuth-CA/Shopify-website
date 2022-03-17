@@ -62,6 +62,7 @@
     "1647547345afefd8f1": {
       "type": "Right-Align-Image-Text",
       "settings": {
+        "section_width": 920,
         "image1": "shopify:\/\/shop_images\/Copy_of_kenaf_fibre_large_98406363-23e0-486f-8895-4cc6d55bb7cb.png",
         "image_width": 450,
         "Headline2": "Kenaf Fibre",
