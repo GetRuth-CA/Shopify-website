@@ -3,8 +3,8 @@
     "main": {
       "type": "Text-Section",
       "settings": {
-        "show_headline": true,
         "Headline": "Ruth Pads for Organizations",
+        "show_headline": true,
         "Headline2": "Did you know?",
         "show_headline2": true,
         "paragraph": "",
@@ -32,8 +32,8 @@
     "16475442081fd05fcd": {
       "type": "Text-Section",
       "settings": {
-        "show_headline": false,
         "Headline": "",
+        "show_headline": false,
         "Headline2": "Ruth makes period accessibility eco-friendly",
         "show_headline2": true,
         "paragraph": "By offering pads that are biodegradable and sustainable, you can develop an eco-friendly and inclusive work environment for your employees",
@@ -47,8 +47,8 @@
     "1647545560c5251cca": {
       "type": "Text-Section",
       "settings": {
-        "show_headline": false,
         "Headline": "",
+        "show_headline": false,
         "Headline2": "Our materials",
         "show_headline2": true,
         "paragraph": "Ruth pads are made from 93% renewable, bio-based materials, including kenaf, bamboo, and starch based bioplastic.",
@@ -58,12 +58,24 @@
         "redirect_link": "",
         "show_button": false
       }
+    },
+    "164754590049fe3c93": {
+      "type": "3-Column",
+      "settings": {
+        "subHeadline1": "Stuff",
+        "subHeadline2": "More stuff",
+        "subHeadline3": "Some more stuff",
+        "descr1": "hi",
+        "descr2": "hi",
+        "descr3": "hi"
+      }
     }
   },
   "order": [
     "main",
     "16474573643c553b39",
     "16475442081fd05fcd",
-    "1647545560c5251cca"
+    "1647545560c5251cca",
+    "164754590049fe3c93"
   ]
 }
