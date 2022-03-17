@@ -69,6 +69,16 @@
         "descr2": "hi",
         "descr3": "hi"
       }
+    },
+    "1647547345afefd8f1": {
+      "type": "Right-Align-Image-Text",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/AmpersandGrey-02-2022_Ruth-024.jpg",
+        "Headline2": "Kenaf Fibre",
+        "show_headline2": true,
+        "paragraph": "Kenaf fibre production has a carbon footprint 5.3x less than cotton and a water footprint nearly 3x smaller than cotton.",
+        "show_paragraph": true
+      }
     }
   },
   "order": [
@@ -76,6 +86,7 @@
     "16474573643c553b39",
     "16475442081fd05fcd",
     "1647545560c5251cca",
-    "164754590049fe3c93"
+    "164754590049fe3c93",
+    "1647547345afefd8f1"
   ]
 }
