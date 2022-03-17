@@ -85,7 +85,7 @@
   
   .founderstoryImg2 {
         display: block;
-        max-width: 500px;
+    max-width: {{section.settings.image_width}}px;
   }
   
   
@@ -152,6 +152,13 @@
 {"type": "image_picker",
       "id": "image1",
       "label": "Image 1"},
+{
+  "type": "number",
+  "id": "image_width",
+  "label": "Max Image Width",
+  "default": 1120,
+"info": "Change how wide the Image is for non-mobile views."
+},
 { "type": "text", "id":
 "Headline2", "label": "Headline2" },
 
