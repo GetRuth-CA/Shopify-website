@@ -10,7 +10,7 @@
 {%endif%}
 {% if section.settings.show_paragraph %}
     <div>
-<div style="font-size: 18px; text-align: center; padding-left: 20px; padding-right: 20px; line-height: 35px;max-width:{{section.settings.max_width}}px;margin:0 auto;">
+<div style="font-size: 18px; {% if section.settings.center_align %}text-align: center;{%endif%} padding-left: 20px; padding-right: 20px; line-height: 35px;max-width:{{section.settings.max_width}}px;margin:0 auto;">
 	{{ section.settings.paragraph }}
 </div>
     </div>
@@ -40,6 +40,8 @@
 "paragraph", "label": "Paragraph" },
 { "type": "checkbox", "id":
 "show_paragraph", "label": "Show Paragraph?" },
+{ "type": "checkbox", "id":
+"center_align", "label": "Center Alignment", "default":true },
 {
   "type": "number",
   "id": "max_width",
