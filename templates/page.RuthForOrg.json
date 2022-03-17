@@ -82,6 +82,21 @@
         "paragraph": "Renewable materials that require less greenhouse gas emissions to produce than regular plastic (polyethylene and polypropylene).",
         "show_paragraph": true
       }
+    },
+    "16475503203c6bdcff": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "",
+        "show_headline": false,
+        "Headline2": "How to Order",
+        "show_headline2": true,
+        "paragraph": "1. Fill out a menstrual product quote request form. Feel free to reach out if you have any questions: hello@getruth.ca <br>2. Once we receive your form, we will be in touch via email to arrange a quick call to understand your needs. <br>3. We chat, we discuss your period product needs, we get excited! We’ll then curate a custom quote and package to suit your organization’s needs.",
+        "show_paragraph": true,
+        "max_width": 800,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
     }
   },
   "order": [
@@ -90,6 +105,7 @@
     "16475442081fd05fcd",
     "1647545560c5251cca",
     "1647547345afefd8f1",
-    "16475484135a70654a"
+    "16475484135a70654a",
+    "16475503203c6bdcff"
   ]
 }
