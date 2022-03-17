@@ -9,10 +9,12 @@
 <h5 class="specialH5">{{ section.settings.Headline2 }}</h5>
 {%endif%}
 {% if section.settings.show_paragraph %}
+    <div>
 <div style="font-size: 18px; text-align: center; padding-left: 20px; padding-right: 20px; line-height: 35px;max-width:600px;display:flex;
     justify-content: center;">
 	{{ section.settings.paragraph }}
 </div>
+    </div>
 {%endif%}
     {% if section.settings.show_button %}
     <br/>
