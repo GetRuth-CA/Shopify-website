@@ -26,57 +26,15 @@
     height:80px;
   
   }
-  
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 50px;
-        grid-row-gap: 50px;
-        text-align: center;
-    }
-
-    .div1 {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .div2 {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .div3 {
-        grid-area: 1 / 3 / 2 / 4;
-    }
-
-    .div4 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-
-    .div5 {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    .div6 {
-        grid-area: 2 / 3 / 3 / 4;
-    }
-
-    .div7 {
-        grid-area: 3 / 1 / 4 / 2;
-    }
-
-    .div8 {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-
-    .div9 {
-        grid-area: 3 / 3 / 4 / 4;
-    }
 
     .founderstory {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 150px;
+      max-width: {{section.settings.section_width}};
+margin-left:auto;
+      margin-right:auto;
     }
 
   .founderstoryImgMobile {
@@ -149,6 +107,13 @@
   {
     "name": "Right Aligned Image Text",
     "settings": [
+{
+  "type": "number",
+  "id": "section_width",
+  "label": "Max Section Width",
+  "default": 1120,
+"info": "Change how wide the Section is for non-mobile views."
+},
 {"type": "image_picker",
       "id": "image1",
       "label": "Image 1"},
