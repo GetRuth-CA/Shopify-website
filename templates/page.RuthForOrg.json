@@ -9,6 +9,7 @@
         "show_headline2": true,
         "paragraph": "",
         "show_paragraph": false,
+        "center_align": true,
         "max_width": 20,
         "button_text": "",
         "redirect_link": "",
@@ -38,9 +39,10 @@
         "show_headline2": true,
         "paragraph": "By offering pads that are biodegradable and sustainable, you can develop an eco-friendly and inclusive work environment for your employees",
         "show_paragraph": true,
+        "center_align": true,
         "max_width": 600,
         "button_text": "Request a Quote!",
-        "redirect_link": "",
+        "redirect_link": "https:\/\/forms.gle\/35tcPWr2g7CbppScA",
         "show_button": true
       }
     },
@@ -53,6 +55,7 @@
         "show_headline2": true,
         "paragraph": "Ruth pads are made from 93% renewable, bio-based materials, including kenaf, bamboo, and starch based bioplastic.",
         "show_paragraph": true,
+        "center_align": true,
         "max_width": 700,
         "button_text": "",
         "redirect_link": "",
@@ -90,12 +93,13 @@
         "show_headline": false,
         "Headline2": "How to Order",
         "show_headline2": true,
-        "paragraph": "1. Fill out a menstrual product quote request form. Feel free to reach out if you have any questions: hello@getruth.ca <br>2. Once we receive your form, we will be in touch via email to arrange a quick call to understand your needs. <br>3. We chat, we discuss your period product needs, we get excited! We’ll then curate a custom quote and package to suit your organization’s needs.",
+        "paragraph": "1. Fill out a menstrual product quote request form. Feel free to reach out if you have any questions: hello@getruth.ca <br><br>2. Once we receive your form, we will be in touch via email to arrange a quick call to understand your needs. <br><br>3. We chat, we discuss your period product needs, we get excited! We’ll then curate a custom quote and package to suit your organization’s needs.",
         "show_paragraph": true,
-        "max_width": 800,
-        "button_text": "",
-        "redirect_link": "",
-        "show_button": false
+        "center_align": false,
+        "max_width": 600,
+        "button_text": "Request a Quote!",
+        "redirect_link": "https:\/\/forms.gle\/35tcPWr2g7CbppScA",
+        "show_button": true
       }
     }
   },
