@@ -27,10 +27,25 @@
         "descr2": "86% of menstruators started their period unexpectedly in public without having the supplies they need.",
         "descr3": "Traditional period products are made with up to 90% plastic."
       }
+    },
+    "16475442081fd05fcd": {
+      "type": "Text-Section",
+      "settings": {
+        "show_headline": false,
+        "Headline": "",
+        "Headline2": "Ruth makes period accessibility eco-friendly",
+        "show_headline2": true,
+        "paragraph": "By offering pads that are biodegradable and sustainable, you can develop an eco-friendly and inclusive work environment for your employees",
+        "show_paragraph": true,
+        "button_text": "Request a Quote!",
+        "redirect_link": "",
+        "show_button": true
+      }
     }
   },
   "order": [
     "main",
-    "16474573643c553b39"
+    "16474573643c553b39",
+    "16475442081fd05fcd"
   ]
 }
