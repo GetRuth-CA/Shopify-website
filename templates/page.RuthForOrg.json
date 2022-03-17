@@ -9,6 +9,7 @@
         "show_headline2": true,
         "paragraph": "",
         "show_paragraph": false,
+        "max_width": 20,
         "button_text": "",
         "redirect_link": "",
         "show_button": false
@@ -37,6 +38,7 @@
         "show_headline2": true,
         "paragraph": "By offering pads that are biodegradable and sustainable, you can develop an eco-friendly and inclusive work environment for your employees",
         "show_paragraph": true,
+        "max_width": 600,
         "button_text": "Request a Quote!",
         "redirect_link": "",
         "show_button": true
