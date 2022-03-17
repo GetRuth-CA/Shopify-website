@@ -4,17 +4,23 @@
   <div class="rte">
 <div class="section group">
 	<div class="col span_1_of_4">
+    {% if section.settings.image1 %}
     <img src="{{section.settings.image1 | image_url: height: 130}}"/>
+      {%endif%}
       <p class="columnHead">{{section.settings.subHeadline1}}</p>
       <p class="columnText">{{section.settings.descr1}}</p>
 	</div>
 	<div class="col span_1_of_4">
+      {% if section.settings.image1 %}
 	<img src="{{section.settings.image2 | image_url: height: 130}}"/>
+      {%endif%}
       <p class="columnHead">{{section.settings.subHeadline2}}</p>
       <p class="columnText">{{section.settings.descr2}}</p>
 	</div>
 	<div class="col span_1_of_4">
+      {% if section.settings.image1 %}
 	<img src="{{section.settings.image3 | image_url: height: 130}}"/>
+      {%endif%}
       <p class="columnHead">{{section.settings.subHeadline3}}</p>
       <p class="columnText">{{section.settings.descr3}}</p>
 	</div>
