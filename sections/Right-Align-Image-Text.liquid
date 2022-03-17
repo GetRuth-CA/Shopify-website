@@ -1,12 +1,36 @@
+<div class="founderstory">
+  <img class="founderstoryImgMobile"
+        src="{{section.settings.image1 | image_url: master}}"  />
+    <div style="display:block;font-size: 18px; padding-left: 30px; padding-right: 30px; line-height: 35px;">
+      {% if section.settings.show_headline2 %}
+        <h5 class="specialH5" style="text-align:left; margin:10px 0 10px 0;">{{section.settings.Headline2}}</h5>{%endif%}
+		{% if section.settings.show_paragraph %}
+        {{section.settings.paragraph}}
+      {%endif%}
+    </div>
+
+    <img class="founderstoryImg2"
+        src="{{section.settings.image1 | image_url: master}}" style = "box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 6px;" />
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Right Aligned Image Text",
+    "settings": [
+{"type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"},
+{ "type": "text", "id":
+"Headline2", "label": "Headline2" },
+
+					{ "type": "checkbox", "id":
+"show_headline2", "label": "Show Headline 2?" },
+{ "type": "text", "id":
+"paragraph", "label": "Paragraph" },
+{ "type": "checkbox", "id":
+"show_paragraph", "label": "Show Paragraph?" }
+]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
