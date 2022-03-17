@@ -51,9 +51,9 @@
         "Headline": "",
         "Headline2": "Our materials",
         "show_headline2": true,
-        "paragraph": "",
-        "show_paragraph": false,
-        "max_width": 1120,
+        "paragraph": "Ruth pads are made from 93% renewable, bio-based materials, including kenaf, bamboo, and starch based bioplastic.",
+        "show_paragraph": true,
+        "max_width": 700,
         "button_text": "",
         "redirect_link": "",
         "show_button": false
