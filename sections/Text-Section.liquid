@@ -13,9 +13,9 @@
 	{{ section.settings.paragraph }}
 </div>
 {%endif%}
-    
+    {% if section.settings.show_button %}
     <a href="{{ section.settings.redirect_link.url }}" style="text-decoration:inherit;"><button class="buttonMore" style="padding: 18px 45px;">{{section.settings.button_text}}</button></a>
-    
+    {%endif%}
   </div>
 </div>
 
@@ -36,7 +36,21 @@
 { "type": "text", "id":
 "paragraph", "label": "Paragraph" },
 { "type": "checkbox", "id":
-"show_paragraph", "label": "Show Paragraph?" }
+"show_paragraph", "label": "Show Paragraph?" },
+
+{
+"type":"text",
+"label":"Button Text",
+"id":"button_text"
+},
+{
+"type":"collection",
+"label":"Redirect Link",
+"id":"redirect_link"
+},
+
+{ "type": "checkbox", "id":
+"show_button", "label": "Show Button?" }
 				
 				]
   }
