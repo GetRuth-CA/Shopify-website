@@ -70,6 +70,18 @@
         "paragraph": "Kenaf fibre production has a carbon footprint 5.3x less than cotton and a water footprint nearly 3x smaller than cotton.",
         "show_paragraph": true
       }
+    },
+    "16475484135a70654a": {
+      "type": "Left-aligned-image-text",
+      "settings": {
+        "section_width": 800,
+        "image1": "shopify:\/\/shop_images\/Copy_of_starch_based_bioplastic_large_18e3b101-be4d-4a6b-abe0-6706dd6bf9c0.png",
+        "image_width": 400,
+        "Headline2": "Starch-based Bioplastic",
+        "show_headline2": true,
+        "paragraph": "Renewable materials that require less greenhouse gas emissions to produce than regular plastic (polyethylene and polypropylene).",
+        "show_paragraph": true
+      }
     }
   },
   "order": [
@@ -77,6 +89,7 @@
     "16474573643c553b39",
     "16475442081fd05fcd",
     "1647545560c5251cca",
-    "1647547345afefd8f1"
+    "1647547345afefd8f1",
+    "16475484135a70654a"
   ]
 }
