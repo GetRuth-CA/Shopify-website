@@ -1,12 +1,105 @@
+<div class="page">
+    <div class="rte">
+{% for block in section.blocks %}
+        <button class="accordion">{{block.settings.question}}</button>
+        <div class="panel">
+            <p style="padding-top: 20px; padding-bottom: 20px">
+                {{block.settings.answer}}
+            </p>
+      </div>
+{%endfor%}
+</div>
+</div>
+
+
+<style>
+    .accordion {
+        background-color: rgba(246, 246, 246, 0.723);
+        cursor: pointer;
+        padding: 28px;
+        width: 80%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin: 0px auto;
+        display: block;
+        font-family: "montserrat-v18-latin-600" !important;
+        color: #5d633b;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .accordion:hover {
+        background-color: rgba(118, 128, 82, 0.2);
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        padding: 0px 28px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        margin: 0px auto;
+        display: block;
+        width: 80%;
+    }
+
+    .accordion:after {
+        content: "+";
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "-";
+        /* Unicode character for "minus" sign (-) */
+    }
+</style>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "FAQ Block",
+    "settings": [
+],
+"blocks" : [
+{
+"type":"text",
+"name":"qa block",
+"settings":[
+{ "type": "text", "id":
+"question", "label": "Question" },
+{ "type": "text", "id":
+"answer", "label": "Answer" }
+]
+}
+],
+"presets":[
+	{
+		"category":"Text",
+		"name":"FAQ Block"
+}
+]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
