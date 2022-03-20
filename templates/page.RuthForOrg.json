@@ -118,11 +118,19 @@
             "question": "Where are your pads made?",
             "answer": "We currently have our pads manufactured in India because the natural fibres used in our products are sourced there locally."
           }
+        },
+        "e7aca685-3e6b-4a07-9d9e-24d4d9d520b5": {
+          "type": "text",
+          "settings": {
+            "question": "We currently have menstrual product dispensers at our organization. Will Ruth pads fit in our dispensers?",
+            "answer": "Not at the moment, but if you would like dispenser-compatible packaging, we’re open to a conversation!"
+          }
         }
       },
       "block_order": [
         "feb27c7e-3644-402d-8d9d-6dfeae7dd60b",
-        "fabea693-e578-438c-9d06-b53b8d504348"
+        "fabea693-e578-438c-9d06-b53b8d504348",
+        "e7aca685-3e6b-4a07-9d9e-24d4d9d520b5"
       ],
       "settings": {
       }
