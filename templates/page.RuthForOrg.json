@@ -125,12 +125,44 @@
             "question": "We currently have menstrual product dispensers at our organization. Will Ruth pads fit in our dispensers?",
             "answer": "Not at the moment, but if you would like dispenser-compatible packaging, we’re open to a conversation!"
           }
+        },
+        "c4fbbbb1-5ae7-46e7-a551-2df5d83b4801": {
+          "type": "text",
+          "settings": {
+            "question": "What is Ruth’s MOQ? What is the minimum contract length?",
+            "answer": ""
+          }
+        },
+        "cc9b3bcf-c9b3-4053-ad50-587a0fc2b9da": {
+          "type": "text",
+          "settings": {
+            "question": "How would Ruth help my organization?",
+            "answer": ""
+          }
+        },
+        "f0a4feb5-48de-4fe2-9f11-5c410ceced39": {
+          "type": "text",
+          "settings": {
+            "question": "What is Ruth’s PR Press KIt?",
+            "answer": ""
+          }
+        },
+        "1d87ecd1-493d-463e-a3e1-a7dfb9bb97ac": {
+          "type": "text",
+          "settings": {
+            "question": "I am an organization in the United States, can we order pads from Ruth as well?",
+            "answer": ""
+          }
         }
       },
       "block_order": [
         "feb27c7e-3644-402d-8d9d-6dfeae7dd60b",
         "fabea693-e578-438c-9d06-b53b8d504348",
-        "e7aca685-3e6b-4a07-9d9e-24d4d9d520b5"
+        "e7aca685-3e6b-4a07-9d9e-24d4d9d520b5",
+        "c4fbbbb1-5ae7-46e7-a551-2df5d83b4801",
+        "cc9b3bcf-c9b3-4053-ad50-587a0fc2b9da",
+        "f0a4feb5-48de-4fe2-9f11-5c410ceced39",
+        "1d87ecd1-493d-463e-a3e1-a7dfb9bb97ac"
       ],
       "settings": {
       }
