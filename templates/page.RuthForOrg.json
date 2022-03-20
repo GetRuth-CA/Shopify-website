@@ -101,6 +101,23 @@
         "redirect_link": "https:\/\/forms.gle\/35tcPWr2g7CbppScA",
         "show_button": true
       }
+    },
+    "164782030281b6faa9": {
+      "type": "FAQ-Block",
+      "blocks": {
+        "feb27c7e-3644-402d-8d9d-6dfeae7dd60b": {
+          "type": "text",
+          "settings": {
+            "question": "What makes your pads different from other menstrual products?",
+            "answer": "Traditional pads are 90% plastic and 10% cotton, containing the same amount of plastic as 4 plastic bags in a single menstrual pad. Ruth pads are made from 93% renewable, bio-based materials, including kenaf fibre, bamboo fibre, cellulose, and starch based bioplastic. Kenaf is renewable, eco-friendly, energy and resource efficient, high quality fibre. Kenaf fibre production has a carbon footprint 5.3x less than cotton and a water footprint nearly 3x smaller than cotton."
+          }
+        }
+      },
+      "block_order": [
+        "feb27c7e-3644-402d-8d9d-6dfeae7dd60b"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -110,6 +127,7 @@
     "1647545560c5251cca",
     "1647547345afefd8f1",
     "16475484135a70654a",
-    "16475503203c6bdcff"
+    "16475503203c6bdcff",
+    "164782030281b6faa9"
   ]
 }
