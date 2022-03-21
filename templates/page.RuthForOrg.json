@@ -206,6 +206,7 @@
         },
         "c4fbbbb1-5ae7-46e7-a551-2df5d83b4801": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "question": "What is Ruth’s MOQ? What is the minimum contract length?",
             "answer": ""
@@ -213,6 +214,7 @@
         },
         "cc9b3bcf-c9b3-4053-ad50-587a0fc2b9da": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "question": "How would Ruth help my organization?",
             "answer": ""
@@ -220,6 +222,7 @@
         },
         "f0a4feb5-48de-4fe2-9f11-5c410ceced39": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "question": "What is Ruth’s PR Press KIt?",
             "answer": ""
@@ -227,6 +230,7 @@
         },
         "1d87ecd1-493d-463e-a3e1-a7dfb9bb97ac": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "question": "I am an organization in the United States, can we order pads from Ruth as well?",
             "answer": ""
