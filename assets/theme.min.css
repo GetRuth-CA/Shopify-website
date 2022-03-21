@@ -482,7 +482,7 @@
      font-size:1.5rem;
      letter-spacing:.05em;
      transition:box-shadow .2s ease-in-out;
-     box-shadow: 8px 8px #C1CC7A;
+     box-shadow: 8px 8px rgba(193, 204, 122, 0.5);
 }
  .button[aria-disabled=true],.button[disabled],.shopify-challenge__button[aria-disabled=true],.shopify-challenge__button[disabled],.shopify-payment-button .shopify-payment-button__button--unbranded[aria-disabled=true],.shopify-payment-button .shopify-payment-button__button--unbranded[disabled]{
      opacity:.5 
