@@ -1,12 +1,40 @@
+<table style="max-width: 400px;border-spacing: 10px;"  cellpadding="35">
+<tbody>
+ {% for block in section.blocks %} 
+  
+<tr>
+<td>{{block.settings.item1}}</td>
+<td>{{block.settings.item1}}</td>
+<td>{{block.settings.item1}}</td>
+</tr>
+{%endfor%}
+</tbody>
+</table>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Table Blocks",
+    "settings": [],
+"blocks":[
+{
+"type":"text",
+"name":"row block",
+"settings":[
+{ "type": "text", "id":
+"item1", "label": "Item 1" },
+{ "type": "text", "id":
+"item2", "label": "Item 2" },
+{ "type": "text", "id":
+"item3", "label": "Item 3" }
+]
+}
+],
+"presets":[
+	{
+		"category":"Text",
+		"name":"Table Block"
+}
+]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
