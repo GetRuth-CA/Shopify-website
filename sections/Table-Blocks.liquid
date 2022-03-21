@@ -1,18 +1,14 @@
 <div class="page" style="padding-top:0px; padding-bottom:0px">
     <div class="rte">
-
-<table style="max-width: 400px;border-spacing: 10px;"  cellpadding="35">
-<tbody>
- {% for block in section.blocks %} 
-  
-<tr>
-<td>{{block.settings.item1}}</td>
-<td>{{block.settings.item2}}</td>
-<td>{{block.settings.item3}}</td>
-</tr>
-{%endfor%}
-</tbody>
-</table>
+{%for block in section.blocks%}
+<div class="table">
+<div class="table-row">
+<div class="table_cell">{{block.settings.item1}}</div>
+  <div class="table_cell">{{block.settings.item2}}</div>
+    <div class="table_cell">{{block.settings.item3}}</div>
+</div>
+   {%endfor%}
+</div>
   </div>
 </div>
 {% schema %}
