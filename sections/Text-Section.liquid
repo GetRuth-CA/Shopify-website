@@ -1,4 +1,4 @@
-<div class="page" style="padding-top:10px; padding-bottom:10px">
+<div class="page" {%if section.settings.top_padding%}style="padding-top:{{section.settings.top_padding}}px; padding-bottom:{{section.settings.top_padding}}px"{%endif%}>
 
 
   <div class="rte">
@@ -26,6 +26,12 @@
   {
     "name": "Text Section",
     "settings": [
+{
+  "type": "number",
+  "id": "top_padding",
+  "label": "Top section padding",
+"info": "Change section's top padding"
+},
 					{ "type": "text", "id":
 "Headline", "label": "Headline" },
 { "type": "checkbox", "id":
