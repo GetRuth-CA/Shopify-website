@@ -193,10 +193,19 @@
             "item2": "Coworking spaces",
             "item3": "Malls"
           }
+        },
+        "68167d2d-27fa-4f7f-b447-390b159c51e9": {
+          "type": "text",
+          "settings": {
+            "item1": "Municipalities",
+            "item2": "Schools",
+            "item3": "Hotels"
+          }
         }
       },
       "block_order": [
-        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc"
+        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc",
+        "68167d2d-27fa-4f7f-b447-390b159c51e9"
       ],
       "settings": {
       }
