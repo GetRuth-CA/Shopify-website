@@ -86,6 +86,65 @@
         "show_paragraph": true
       }
     },
+    "16478247325a3278dc": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "",
+        "show_headline": false,
+        "Headline2": "Ruth pads are perfect for",
+        "show_headline2": true,
+        "paragraph": "",
+        "show_paragraph": false,
+        "center_align": true,
+        "max_width": 1120,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
+    },
+    "1647822318c55642e7": {
+      "type": "Table-Blocks",
+      "blocks": {
+        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc": {
+          "type": "text",
+          "settings": {
+            "item1": "Workplace offices",
+            "item2": "Coworking spaces",
+            "item3": "Malls"
+          }
+        },
+        "68167d2d-27fa-4f7f-b447-390b159c51e9": {
+          "type": "text",
+          "settings": {
+            "item1": "Municipalities",
+            "item2": "Schools",
+            "item3": "Hotels"
+          }
+        }
+      },
+      "block_order": [
+        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc",
+        "68167d2d-27fa-4f7f-b447-390b159c51e9"
+      ],
+      "settings": {
+      }
+    },
+    "1647824771ef6120c9": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "",
+        "show_headline": false,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "Don’t see your organization type here? Reach out and we’d love to see whether we could work together.",
+        "show_paragraph": true,
+        "center_align": true,
+        "max_width": 820,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
+    },
     "16475503203c6bdcff": {
       "type": "Text-Section",
       "settings": {
@@ -182,33 +241,6 @@
       ],
       "settings": {
       }
-    },
-    "1647822318c55642e7": {
-      "type": "Table-Blocks",
-      "blocks": {
-        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc": {
-          "type": "text",
-          "settings": {
-            "item1": "Workplace offices",
-            "item2": "Coworking spaces",
-            "item3": "Malls"
-          }
-        },
-        "68167d2d-27fa-4f7f-b447-390b159c51e9": {
-          "type": "text",
-          "settings": {
-            "item1": "Municipalities",
-            "item2": "Schools",
-            "item3": "Hotels"
-          }
-        }
-      },
-      "block_order": [
-        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc",
-        "68167d2d-27fa-4f7f-b447-390b159c51e9"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -218,9 +250,11 @@
     "1647545560c5251cca",
     "1647547345afefd8f1",
     "16475484135a70654a",
+    "16478247325a3278dc",
+    "1647822318c55642e7",
+    "1647824771ef6120c9",
     "16475503203c6bdcff",
     "1647820501bf7dee52",
-    "164782030281b6faa9",
-    "1647822318c55642e7"
+    "164782030281b6faa9"
   ]
 }
