@@ -182,6 +182,24 @@
       ],
       "settings": {
       }
+    },
+    "1647822318c55642e7": {
+      "type": "Table-Blocks",
+      "blocks": {
+        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc": {
+          "type": "text",
+          "settings": {
+            "item1": "Workplace offices",
+            "item2": "Coworking spaces",
+            "item3": "Malls"
+          }
+        }
+      },
+      "block_order": [
+        "bd1cc290-e2c1-450d-9141-0bb135a3f8fc"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -193,6 +211,7 @@
     "16475484135a70654a",
     "16475503203c6bdcff",
     "1647820501bf7dee52",
-    "164782030281b6faa9"
+    "164782030281b6faa9",
+    "1647822318c55642e7"
   ]
 }
