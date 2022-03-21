@@ -166,6 +166,7 @@
     "1647820501bf7dee52": {
       "type": "Text-Section",
       "settings": {
+        "top_padding": 10,
         "Headline": "",
         "show_headline": false,
         "Headline2": "FAQ",
