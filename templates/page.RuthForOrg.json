@@ -89,6 +89,7 @@
     "16478247325a3278dc": {
       "type": "Text-Section",
       "settings": {
+        "top_padding": 5,
         "Headline": "",
         "show_headline": false,
         "Headline2": "Ruth pads are perfect for",
@@ -132,6 +133,7 @@
     "1647824771ef6120c9": {
       "type": "Text-Section",
       "settings": {
+        "top_padding": 5,
         "Headline": "",
         "show_headline": false,
         "Headline2": "",
@@ -139,7 +141,7 @@
         "paragraph": "Don’t see your organization type here? Reach out and we’d love to see whether we could work together.",
         "show_paragraph": true,
         "center_align": true,
-        "max_width": 820,
+        "max_width": 620,
         "button_text": "",
         "redirect_link": "",
         "show_button": false
