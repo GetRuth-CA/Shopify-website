@@ -314,7 +314,15 @@
       "1630648240b540e431",
       "16306527338b1b8ee8",
       "16306545650463d8d7"
-    ]
+    ],
+    "blocks": {
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-rewards-loyalty\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Bistro": {
