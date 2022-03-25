@@ -50,7 +50,8 @@
           "announcement_bar_text": "Ever thought of period products in your workplace? Share your thoughts now.",
           "announcement_bar_url": "https:\/\/forms.gle\/PaSv5o21uQ2GdR2Q6",
           "announcement_bar_color_background": "#768052",
-          "announcement_bar_color_text": "#ffffff"
+          "announcement_bar_color_text": "#ffffff",
+          "announcement_bar_new_tab": false
         }
       },
       "image-with-text-0": {
