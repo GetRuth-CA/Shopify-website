@@ -47,8 +47,8 @@
           "enable_secondary_background": true,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "You asked, we delivered. Customize your own Combo Pack with the right number of day and night pads that you need during your period. Customize yours now.",
-          "announcement_bar_url": "shopify:\/\/pages\/ruthlessly-resilient-event",
+          "announcement_bar_text": "Ever thought of period products in your workplace? Share your thoughts now.",
+          "announcement_bar_url": "",
           "announcement_bar_color_background": "#768052",
           "announcement_bar_color_text": "#ffffff"
         }
