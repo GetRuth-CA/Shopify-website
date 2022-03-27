@@ -32,11 +32,19 @@
             "question": "Where are your pads manufactured?",
             "answer": "Our pads are manufactured in India in accordance with fair manufacturing practices - which includes fair wages and safe working conditions for employees. We use carbon-neutral shipping to transport our products to Canada."
           }
+        },
+        "98048c19-8b7b-419d-bf0d-ae6688fa4c64": {
+          "type": "text",
+          "settings": {
+            "question": "Are these pad products home compostable or industrially compostable?",
+            "answer": "The products are not certified compostable yet and though the pads are 93% bio-based, the pad wrapper is still made from plastic. From reaching out to industrial compost facilities across Canada, we found out that they are reluctant to receive sanitary pads, given that they mainly accept food and yard waste. We are constantly working on developing our pads and are aiming for 100% home compostable pad and packaging though!"
+          }
         }
       },
       "block_order": [
         "d4f73b0c-ef23-45a7-a507-0b99c5427062",
-        "2d660688-84b4-47f0-8560-ae3680e45b39"
+        "2d660688-84b4-47f0-8560-ae3680e45b39",
+        "98048c19-8b7b-419d-bf0d-ae6688fa4c64"
       ],
       "settings": {
       }
