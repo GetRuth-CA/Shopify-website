@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "Ruth Pads for Organizations",
+        "show_headline": true,
+        "Headline2": "Did you know?",
+        "show_headline2": true,
+        "paragraph": "",
+        "show_paragraph": false,
+        "center_align": true,
+        "max_width": 20,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
