@@ -46,13 +46,21 @@
             "question": "Why is the pads wrapper still made of plastic?",
             "answer": "During our beta-testing phase, we had some beta-testers try out pads with a compostable wrapper, but they experienced trouble opening the pad and it was ripping open strangely, even breaking apart when it was in people's bags. We decided to prioritize the functionality of the pad wrappers over their compostability, but we are working towards a 100% biodegradable pad & packaging."
           }
+        },
+        "f5b309be-28ea-4dc4-8a3c-327a0efc3bbc": {
+          "type": "text",
+          "settings": {
+            "question": "Landfills are not meant to break down materials, so how are Ruth Pads more sustainable than other pads?",
+            "answer": "Very true! But plastic in traditional menstrual pads has a production process that can still be harmful to the environment based on the petrochemicals used. Ruth pads are made from 93% renewable materials, which are actually beneficial to the environment to produce. Kenaf fibre is good for soil health and used by farmers as a rotational crop."
+          }
         }
       },
       "block_order": [
         "d4f73b0c-ef23-45a7-a507-0b99c5427062",
         "2d660688-84b4-47f0-8560-ae3680e45b39",
         "98048c19-8b7b-419d-bf0d-ae6688fa4c64",
-        "a26cd133-0c62-49c1-9c56-f9e2363139b3"
+        "a26cd133-0c62-49c1-9c56-f9e2363139b3",
+        "f5b309be-28ea-4dc4-8a3c-327a0efc3bbc"
       ],
       "settings": {
       }
