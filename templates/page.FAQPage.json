@@ -25,10 +25,18 @@
             "question": "Why the name 'Ruth'?",
             "answer": "The name Ruth is special to us because we wanted to pay tribute to Ruth Bader Ginsburg, a powerful role model who fought for social justice, equality, and female empowerment. We, at Ruth, are ruthlessly fighting with you to save the Earth one sustainable product at a time."
           }
+        },
+        "2d660688-84b4-47f0-8560-ae3680e45b39": {
+          "type": "text",
+          "settings": {
+            "question": "Where are your pads manufactured?",
+            "answer": "Our pads are manufactured in India in accordance with fair manufacturing practices - which includes fair wages and safe working conditions for employees. We use carbon-neutral shipping to transport our products to Canada."
+          }
         }
       },
       "block_order": [
-        "d4f73b0c-ef23-45a7-a507-0b99c5427062"
+        "d4f73b0c-ef23-45a7-a507-0b99c5427062",
+        "2d660688-84b4-47f0-8560-ae3680e45b39"
       ],
       "settings": {
       }
