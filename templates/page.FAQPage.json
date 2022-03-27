@@ -3,10 +3,10 @@
     "main": {
       "type": "Text-Section",
       "settings": {
-        "Headline": "Ruth Pads for Organizations",
+        "Headline": "Frequently Asked Questions",
         "show_headline": true,
         "Headline2": "Did you know?",
-        "show_headline2": true,
+        "show_headline2": false,
         "paragraph": "",
         "show_paragraph": false,
         "center_align": true,
@@ -15,9 +15,27 @@
         "redirect_link": "",
         "show_button": false
       }
+    },
+    "16484027804f441942": {
+      "type": "FAQ-Block",
+      "blocks": {
+        "d4f73b0c-ef23-45a7-a507-0b99c5427062": {
+          "type": "text",
+          "settings": {
+            "question": "Why the name 'Ruth'?",
+            "answer": "The name Ruth is special to us because we wanted to pay tribute to Ruth Bader Ginsburg, a powerful role model who fought for social justice, equality, and female empowerment. We, at Ruth, are ruthlessly fighting with you to save the Earth one sustainable product at a time."
+          }
+        }
+      },
+      "block_order": [
+        "d4f73b0c-ef23-45a7-a507-0b99c5427062"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16484027804f441942"
   ]
 }
