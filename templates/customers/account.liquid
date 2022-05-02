@@ -6,6 +6,26 @@
     </a>
     {% render 'paywhirl-customer-portal-link' %}
   </div>
+  
+  {% form 'create_customer' %}
+  {{ form.errors | default_errors }}
+
+
+  <div class="birthday">
+    <label for="birthday">Birthday</label>
+    <input id="birthday" type="date" name="customer[note][Birthday]" />
+  </div>
+
+  <div class="allergies">
+    <label for="allergies">Allergies</label>
+    <input id="allergies" type="text" name="customer[note][Allergies]" />
+  </div>
+
+  <div class="submit">
+    <input type="submit" value="Create" />
+  </div>
+{% endform %}
+
 
   <div class="customer__columns grid grid--3-col-desktop">
     <div class="customer__orders grid__item">
