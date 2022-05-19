@@ -16,6 +16,40 @@
         "enable_secondary_text_color": false
       }
     },
+    "1652996277ad743214": {
+      "type": "multi-column",
+      "blocks": {
+        "165299627798a9aeff-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/output-onlinepngtools_3e189725-e6b3-4d14-9639-6ad2ea2db0ae.png",
+            "title": "Column",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "165299627798a9aeff-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165299627798a9aeff-0",
+        "165299627798a9aeff-1"
+      ],
+      "settings": {
+        "title": "",
+        "button_label": "Enter to Win Ruth IRL prizes",
+        "button_url": "shopify:\/\/pages\/ruth-irl",
+        "alignment": "center",
+        "mobile_layout": "stack",
+        "image_size": "small",
+        "keep_image_ratio": false,
+        "enable_secondary_background": false
+      }
+    },
     "16529928620c2bb239": {
       "type": "featured-product",
       "settings": {
@@ -38,6 +72,7 @@
   },
   "order": [
     "16529914495a8e27a4",
+    "1652996277ad743214",
     "16529928620c2bb239",
     "1652996213970f041b"
   ]
