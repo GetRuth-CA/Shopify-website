@@ -1,19 +1,16 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "16529914495a8e27a4": {
-      "type": "image-with-text",
+    "1652996600f6243ee6": {
+      "type": "Left-aligned-image-text",
       "settings": {
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_label": "",
-        "button_url": "",
-        "desktop_layout": "right",
-        "mobile_layout": "bottom",
-        "secondary_background": "partial_background",
-        "text_size": "medium",
-        "keep_image_ratio": false,
-        "enable_secondary_text_color": false
+        "section_width": 1120,
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
+        "image_width": 1120,
+        "Headline2": "Welcome to Ruth IRL in Partnership with Scotiabank",
+        "show_headline2": false,
+        "paragraph": "Welcome to Ruth IRL in Partnership with Scotiabank",
+        "show_paragraph": false
       }
     },
     "1652996277ad743214": {
@@ -71,7 +68,7 @@
     }
   },
   "order": [
-    "16529914495a8e27a4",
+    "1652996600f6243ee6",
     "1652996277ad743214",
     "16529928620c2bb239",
     "1652996213970f041b"

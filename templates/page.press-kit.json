@@ -1,17 +1,20 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "1652996102e69dfc4b": {
-      "type": "periodpoverty",
+    "1652996541666e24ad": {
+      "type": "Left-aligned-image-text",
       "settings": {
-        "Headline": "",
-        "Para": "",
-        "plastics": "",
-        "donated": ""
+        "section_width": 1120,
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
+        "image_width": 1120,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false
       }
     }
   },
   "order": [
-    "1652996102e69dfc4b"
+    "1652996541666e24ad"
   ]
 }
