@@ -61,11 +61,24 @@
         "title": "",
         "mobile_layout": "grid"
       }
+    },
+    "16530022466c30ed28": {
+      "type": "Left-aligned-image-text",
+      "settings": {
+        "section_width": 1120,
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_5.png",
+        "image_width": 1120,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false
+      }
     }
   },
   "order": [
     "16529990888c0f79b6",
     "1653001399cae35bcb",
-    "1653001420e7ed9001"
+    "1653001420e7ed9001",
+    "16530022466c30ed28"
   ]
 }
