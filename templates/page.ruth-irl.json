@@ -36,10 +36,36 @@
         "title": "",
         "mobile_layout": "grid"
       }
+    },
+    "1653001420e7ed9001": {
+      "type": "custom-content",
+      "blocks": {
+        "9acad1cd-6810-4f64-8bf9-1b4fe61555ca": {
+          "type": "text",
+          "settings": {
+            "title": "Why is Ruth celebrating MH Day?",
+            "text": "<p>In honour of Menstrual Hygiene Day on Sat. May 28th, we are launching a campaign that destigmatizes the conversation of menstruation & educates people about the importance of sustainable period care.<\/p>",
+            "button_label": "",
+            "button_url": "",
+            "text_size": "medium",
+            "width": "one_whole",
+            "alignment": "middle",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "9acad1cd-6810-4f64-8bf9-1b4fe61555ca"
+      ],
+      "settings": {
+        "title": "",
+        "mobile_layout": "grid"
+      }
     }
   },
   "order": [
     "16529990888c0f79b6",
-    "1653001399cae35bcb"
+    "1653001399cae35bcb",
+    "1653001420e7ed9001"
   ]
 }
