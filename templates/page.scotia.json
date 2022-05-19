@@ -1,13 +1,34 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "main": {
-      "type": "product",
+    "16529914495a8e27a4": {
+      "type": "image-with-text",
       "settings": {
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_url": "",
+        "desktop_layout": "right",
+        "mobile_layout": "bottom",
+        "secondary_background": "partial_background",
+        "text_size": "medium",
+        "keep_image_ratio": false,
+        "enable_secondary_text_color": false
+      }
+    },
+    "16529928620c2bb239": {
+      "type": "featured-product",
+      "settings": {
+        "product": "giveback-pack",
+        "show_quantity_selector": true,
+        "show_vendor": false,
+        "enable_dynamic_checkout": true,
+        "show_social_buttons": true
       }
     }
   },
   "order": [
-    "main"
+    "16529914495a8e27a4",
+    "16529928620c2bb239"
   ]
 }
