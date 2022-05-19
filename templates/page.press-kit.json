@@ -1,13 +1,17 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "main": {
-      "type": "product",
+    "1652996102e69dfc4b": {
+      "type": "periodpoverty",
       "settings": {
+        "Headline": "",
+        "Para": "",
+        "plastics": "",
+        "donated": ""
       }
     }
   },
   "order": [
-    "main"
+    "1652996102e69dfc4b"
   ]
 }

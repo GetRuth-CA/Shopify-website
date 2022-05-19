@@ -25,10 +25,20 @@
         "enable_dynamic_checkout": true,
         "show_social_buttons": true
       }
+    },
+    "1652996213970f041b": {
+      "type": "periodpoverty",
+      "settings": {
+        "Headline": "",
+        "Para": "",
+        "plastics": "",
+        "donated": ""
+      }
     }
   },
   "order": [
     "16529914495a8e27a4",
-    "16529928620c2bb239"
+    "16529928620c2bb239",
+    "1652996213970f041b"
   ]
 }
