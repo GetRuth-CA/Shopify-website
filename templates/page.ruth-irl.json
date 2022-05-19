@@ -27,10 +27,26 @@
         "redirect_link": "",
         "show_button": false
       }
+    },
+    "16530008469607f6b4": {
+      "type": "WhyRuth",
+      "settings": {
+        "heading": "",
+        "aboutpara": "",
+        "para1head": "",
+        "para1text": "",
+        "para2head": "",
+        "para2text": "",
+        "para3head": "",
+        "para3text": "",
+        "para4head": "",
+        "para4text": ""
+      }
     }
   },
   "order": [
     "16529990888c0f79b6",
-    "165300046519cba554"
+    "165300046519cba554",
+    "16530008469607f6b4"
   ]
 }
