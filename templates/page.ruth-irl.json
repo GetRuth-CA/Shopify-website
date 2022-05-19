@@ -42,11 +42,37 @@
         "para4head": "",
         "para4text": ""
       }
+    },
+    "16530011962c216a8c": {
+      "type": "custom-content",
+      "blocks": {
+        "504b693a-081b-4577-83ab-06f97bcb7191": {
+          "type": "text",
+          "settings": {
+            "title": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_label": "",
+            "button_url": "",
+            "text_size": "medium",
+            "width": "one_half",
+            "alignment": "middle",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "504b693a-081b-4577-83ab-06f97bcb7191"
+      ],
+      "settings": {
+        "title": "Custom content",
+        "mobile_layout": "grid"
+      }
     }
   },
   "order": [
     "16529990888c0f79b6",
     "165300046519cba554",
-    "16530008469607f6b4"
+    "16530008469607f6b4",
+    "16530011962c216a8c"
   ]
 }
