@@ -12,42 +12,25 @@
         "show_paragraph": false
       }
     },
-    "1652999102a2eea64f": {
-      "type": "custom-content",
-      "blocks": {
-        "16529991024c547189-0": {
-          "type": "text",
-          "settings": {
-            "title": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_label": "",
-            "button_url": "",
-            "text_size": "medium",
-            "width": "one_half",
-            "alignment": "middle",
-            "align_text": "left"
-          }
-        },
-        "16529991024c547189-1": {
-          "type": "image",
-          "settings": {
-            "width": "one_half",
-            "alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "16529991024c547189-0",
-        "16529991024c547189-1"
-      ],
+    "165300046519cba554": {
+      "type": "Text-Section",
       "settings": {
-        "title": "Custom content",
-        "mobile_layout": "grid"
+        "Headline": "Thank you for joining us!",
+        "show_headline": true,
+        "Headline2": "What is MH Day?",
+        "show_headline2": true,
+        "paragraph": "Today, millions of women and girls* around the world arestigmatized, excluded and discriminated against simply because they menstruate. It’s not acceptable that because of a natural bodily function women and girls continue to be prevented from getting an education, earning an income and fully and equally participating in everyday life.",
+        "show_paragraph": true,
+        "center_align": true,
+        "max_width": 1120,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     }
   },
   "order": [
     "16529990888c0f79b6",
-    "1652999102a2eea64f"
+    "165300046519cba554"
   ]
 }
