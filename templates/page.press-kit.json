@@ -38,31 +38,6 @@
         "mobile_layout": "grid"
       }
     },
-    "1653057977279a3f29": {
-      "type": "custom-content",
-      "blocks": {
-        "1653057977700b79f1-0": {
-          "type": "text",
-          "settings": {
-            "title": "Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day",
-            "text": "<p><em>Founded by two young women entrepreneurs — Ruth collaborates with various businesses across Canada to educate about Menstrual Hygiene Day.<\/em><\/p>",
-            "button_label": "Access Press Release",
-            "button_url": "https:\/\/drive.google.com\/file\/d\/1G79EJrZPgw044zJ_h9RBYt38AZwrnOV2\/view?usp=sharing",
-            "text_size": "medium",
-            "width": "one_whole",
-            "alignment": "middle",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1653057977700b79f1-0"
-      ],
-      "settings": {
-        "title": "Recent press release",
-        "mobile_layout": "grid"
-      }
-    },
     "165305700220ec1d98": {
       "type": "multi-column",
       "blocks": {
@@ -70,8 +45,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/started_your_period_early_icon_4x_7ee6457a-c143-4281-9df2-999eee1fca32.png",
-            "title": "Recent Press Release",
-            "text": "<p>Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day<\/p><p><\/p><p> <em>Founded by two young women entrepreneurs — Ruth collaborates with various businesses across Canada to educate about Menstrual Hygiene Day.<\/em><\/p>"
+            "title": "Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day",
+            "text": "<p><em>Founded by two young women entrepreneurs — Ruth collaborates with various businesses across Canada to educate about Menstrual Hygiene Day.<\/em><\/p>"
           }
         }
       },
@@ -105,7 +80,6 @@
   "order": [
     "1652996541666e24ad",
     "1653057847bdc2eb95",
-    "1653057977279a3f29",
     "165305700220ec1d98",
     "1653057541cff7cd9c"
   ]
