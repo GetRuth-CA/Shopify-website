@@ -13,6 +13,31 @@
         "show_paragraph": false
       }
     },
+    "1653057847bdc2eb95": {
+      "type": "custom-content",
+      "blocks": {
+        "16530578474c5aa550-0": {
+          "type": "text",
+          "settings": {
+            "title": "Press and Brand Assets",
+            "text": "<p>Thank you for your interest in Ruth! We have put together a press kit for a much easier access to our brand assets. If you have any questions or would like to speak to one of our founders, please do no hesitate to reach out to us<\/p>",
+            "button_label": "Reach out to us",
+            "button_url": "shopify:\/\/pages\/contact-us",
+            "text_size": "medium",
+            "width": "one_half",
+            "alignment": "middle",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16530578474c5aa550-0"
+      ],
+      "settings": {
+        "title": "",
+        "mobile_layout": "grid"
+      }
+    },
     "165305700220ec1d98": {
       "type": "multi-column",
       "blocks": {
@@ -48,7 +73,7 @@
       ],
       "settings": {
         "title": "",
-        "button_label": "bjh",
+        "button_label": "Access Media Kit",
         "button_url": "shopify:\/\/policies\/shipping-policy",
         "alignment": "left",
         "mobile_layout": "stack",
@@ -72,6 +97,7 @@
   },
   "order": [
     "1652996541666e24ad",
+    "1653057847bdc2eb95",
     "165305700220ec1d98",
     "1653057541cff7cd9c"
   ]
