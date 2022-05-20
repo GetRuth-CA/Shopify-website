@@ -79,8 +79,8 @@
     "16530591971c27abc8": {
       "type": "Text-Section",
       "settings": {
-        "top_padding": -100,
-        "Headline": "",
+        "top_padding": -1000,
+        "Headline": "View",
         "show_headline": false,
         "Headline2": "",
         "show_headline2": false,
