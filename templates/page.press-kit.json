@@ -79,7 +79,7 @@
     "16530591971c27abc8": {
       "type": "Text-Section",
       "settings": {
-        "top_padding": -10,
+        "top_padding": -100,
         "Headline": "",
         "show_headline": false,
         "Headline2": "",
