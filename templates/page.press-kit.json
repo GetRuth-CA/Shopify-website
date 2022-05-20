@@ -39,8 +39,8 @@
       ],
       "settings": {
         "title": "",
-        "button_label": "",
-        "button_url": "",
+        "button_label": "bjh",
+        "button_url": "shopify:\/\/policies\/shipping-policy",
         "alignment": "left",
         "mobile_layout": "stack",
         "image_size": "small",
