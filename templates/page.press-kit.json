@@ -4,38 +4,17 @@
     "1652996541666e24ad": {
       "type": "Left-aligned-image-text",
       "settings": {
-        "section_width": 1120,
+        "section_width": 1300,
         "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_6.png",
-        "image_width": 1120,
+        "image_width": 1300,
         "Headline2": "",
         "show_headline2": false,
         "paragraph": "",
         "show_paragraph": false
       }
-    },
-    "16530564234b6393aa": {
-      "type": "custom-content",
-      "blocks": {
-        "16530564224fc3899b-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B2B_photo_craw_2.jpg",
-            "width": "one_whole",
-            "alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "16530564224fc3899b-1"
-      ],
-      "settings": {
-        "title": "Custom content",
-        "mobile_layout": "grid"
-      }
     }
   },
   "order": [
-    "1652996541666e24ad",
-    "16530564234b6393aa"
+    "1652996541666e24ad"
   ]
 }
