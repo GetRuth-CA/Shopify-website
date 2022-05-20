@@ -12,9 +12,22 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "1653056898cdb6ebf2": {
+      "type": "3-Column",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/Untitled_design_20.png",
+        "subHeadline1": "Press Release",
+        "subHeadline2": "",
+        "subHeadline3": "",
+        "descr1": "Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day",
+        "descr2": "",
+        "descr3": ""
+      }
     }
   },
   "order": [
-    "1652996541666e24ad"
+    "1652996541666e24ad",
+    "1653056898cdb6ebf2"
   ]
 }
