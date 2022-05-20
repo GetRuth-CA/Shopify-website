@@ -75,12 +75,38 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "1653057977279a3f29": {
+      "type": "custom-content",
+      "blocks": {
+        "1653057977700b79f1-0": {
+          "type": "text",
+          "settings": {
+            "title": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_label": "",
+            "button_url": "",
+            "text_size": "medium",
+            "width": "one_half",
+            "alignment": "middle",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1653057977700b79f1-0"
+      ],
+      "settings": {
+        "title": "Recent press release",
+        "mobile_layout": "grid"
+      }
     }
   },
   "order": [
     "1652996541666e24ad",
     "1653057847bdc2eb95",
     "165305700220ec1d98",
-    "1653057541cff7cd9c"
+    "1653057541cff7cd9c",
+    "1653057977279a3f29"
   ]
 }
