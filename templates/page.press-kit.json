@@ -24,9 +24,9 @@
             "button_label": "Reach out to us",
             "button_url": "shopify:\/\/pages\/contact-us",
             "text_size": "medium",
-            "width": "one_half",
+            "width": "one_whole",
             "alignment": "middle",
-            "align_text": "left"
+            "align_text": "center"
           }
         }
       },
