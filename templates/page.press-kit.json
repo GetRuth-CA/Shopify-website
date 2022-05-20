@@ -79,10 +79,10 @@
         "title": "Multi-column",
         "button_label": "",
         "button_url": "",
-        "alignment": "left",
+        "alignment": "center",
         "mobile_layout": "stack",
-        "image_size": "small",
-        "keep_image_ratio": false,
+        "image_size": "large",
+        "keep_image_ratio": true,
         "enable_secondary_background": false
       }
     }
