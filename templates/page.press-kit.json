@@ -75,12 +75,30 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "16530591971c27abc8": {
+      "type": "Text-Section",
+      "settings": {
+        "top_padding": -10,
+        "Headline": "",
+        "show_headline": false,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false,
+        "center_align": true,
+        "max_width": 1120,
+        "button_text": "View Previous Press Features",
+        "redirect_link": "shopify:\/\/pages\/press-features",
+        "show_button": true
+      }
     }
   },
   "order": [
     "1652996541666e24ad",
     "1653057847bdc2eb95",
     "165305700220ec1d98",
-    "1653057541cff7cd9c"
+    "1653057541cff7cd9c",
+    "16530591971c27abc8"
   ]
 }
