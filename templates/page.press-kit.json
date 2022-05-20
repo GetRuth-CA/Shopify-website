@@ -45,37 +45,19 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/started_your_period_early_icon_4x_7ee6457a-c143-4281-9df2-999eee1fca32.png",
-            "title": "Press Release",
-            "text": "<p>Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day<\/p><p><\/p><p>Access press release<\/p>"
-          }
-        },
-        "16530570024d66269c-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Notebook_icon_12c51ed7-b752-4b36-90e6-f4f54849782f.png",
-            "title": "Media",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "7e86fdbd-4b3a-41a0-ae5e-da745d46ff21": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Speech_bubble_icon_a218d7d8-2086-47b7-a4b1-12265f51b081.png",
-            "title": "About Us",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "title": "Recent Press Release",
+            "text": "<p>Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day<\/p>"
           }
         }
       },
       "block_order": [
-        "16530570024d66269c-0",
-        "16530570024d66269c-1",
-        "7e86fdbd-4b3a-41a0-ae5e-da745d46ff21"
+        "16530570024d66269c-0"
       ],
       "settings": {
         "title": "",
         "button_label": "Access Media Kit",
         "button_url": "shopify:\/\/policies\/shipping-policy",
-        "alignment": "left",
+        "alignment": "center",
         "mobile_layout": "stack",
         "image_size": "small",
         "keep_image_ratio": false,
