@@ -1,12 +1,12 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "1652996541666e24ad": {
+    "16530594898cd43df2": {
       "type": "Left-aligned-image-text",
       "settings": {
-        "section_width": 2000,
+        "section_width": 1500,
         "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_6.png",
-        "image_width": 2000,
+        "image_width": 1500,
         "Headline2": "",
         "show_headline2": false,
         "paragraph": "",
@@ -92,26 +92,13 @@
         "redirect_link": "shopify:\/\/pages\/press-features",
         "show_button": true
       }
-    },
-    "1653059472e2aa2aa8": {
-      "type": "Right-Align-Image-Text",
-      "settings": {
-        "section_width": 1500,
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_6.png",
-        "image_width": 1500,
-        "Headline2": "",
-        "show_headline2": false,
-        "paragraph": "",
-        "show_paragraph": false
-      }
     }
   },
   "order": [
-    "1652996541666e24ad",
+    "16530594898cd43df2",
     "1653057847bdc2eb95",
     "165305700220ec1d98",
     "1653057541cff7cd9c",
-    "16530591971c27abc8",
-    "1653059472e2aa2aa8"
+    "16530591971c27abc8"
   ]
 }
