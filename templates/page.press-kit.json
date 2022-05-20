@@ -59,11 +59,45 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "1653057624c47a20cc": {
+      "type": "multi-column",
+      "blocks": {
+        "1653057624af5c27ad-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1653057624af5c27ad-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653057624af5c27ad-0",
+        "1653057624af5c27ad-1"
+      ],
+      "settings": {
+        "title": "Multi-column",
+        "button_label": "",
+        "button_url": "",
+        "alignment": "left",
+        "mobile_layout": "stack",
+        "image_size": "small",
+        "keep_image_ratio": false,
+        "enable_secondary_background": false
+      }
     }
   },
   "order": [
     "1652996541666e24ad",
     "165305700220ec1d98",
-    "1653057541cff7cd9c"
+    "1653057541cff7cd9c",
+    "1653057624c47a20cc"
   ]
 }
