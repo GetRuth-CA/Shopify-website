@@ -82,14 +82,14 @@
         "1653057977700b79f1-0": {
           "type": "text",
           "settings": {
-            "title": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_label": "",
-            "button_url": "",
+            "title": "Ruth — Asian-Canadian owned period care startup launches a campaign to celebrate and bring awareness to Menstrual Hygiene Day",
+            "text": "<p><em>Founded by two young women entrepreneurs — Ruth collaborates with various businesses across Canada to educate about Menstrual Hygiene Day.<\/em><\/p>",
+            "button_label": "Access Press Release",
+            "button_url": "https:\/\/drive.google.com\/file\/d\/1G79EJrZPgw044zJ_h9RBYt38AZwrnOV2\/view?usp=sharing",
             "text_size": "medium",
-            "width": "one_half",
+            "width": "one_whole",
             "alignment": "middle",
-            "align_text": "left"
+            "align_text": "center"
           }
         }
       },
