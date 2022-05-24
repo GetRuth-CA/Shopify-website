@@ -68,26 +68,10 @@
         "mobile_layout": "grid"
       }
     },
-    "1653002455625e82bc": {
-      "type": "Text-Section",
-      "settings": {
-        "Headline": "Thank you to our sponsors!",
-        "show_headline": true,
-        "Headline2": "",
-        "show_headline2": false,
-        "paragraph": "",
-        "show_paragraph": false,
-        "center_align": true,
-        "max_width": 1120,
-        "button_text": "",
-        "redirect_link": "",
-        "show_button": false
-      }
-    },
     "1653405890b29566cf": {
       "type": "banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_9.png",
+        "image": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_10.png",
         "heading": "Thanks to our sponsors!",
         "heading_size": "medium",
         "description": "",
@@ -106,7 +90,6 @@
     "165339302333ca4abd",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
-    "1653002455625e82bc",
     "1653405890b29566cf"
   ]
 }
