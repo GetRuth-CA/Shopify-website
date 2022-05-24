@@ -12,31 +12,6 @@
         "show_paragraph": false
       }
     },
-    "1653001399cae35bcb": {
-      "type": "custom-content",
-      "blocks": {
-        "7a0e27a5-c11b-4e8a-9215-dfceb590b5c1": {
-          "type": "text",
-          "settings": {
-            "title": "What is MH Day?",
-            "text": "<p>Today, millions of women and girls* around the world are stigmatized, excluded and discriminated against simply because they menstruate. It’s not acceptable that because of a natural bodily function women and girls continue to be prevented from getting an education, earning an income and fully and equally participating in everyday life.<\/p><p><\/p><p><\/p><p>While Menstrual Hygiene (MH) Day is on 28 May, the MH Day organization works all year-round to:<\/p><p>- Break the taboos and end the stigma surrounding menstruation<\/p><p>- Raise awareness about the challenges regarding access to menstrual products, education about menstruation and period-friendly sanitation facilities<\/p><p>- Mobilize the funding required for action at scale<\/p><p><\/p><p>All of this contributes to our overarching goal: to build a world where no one is held back because they menstruate by 2030.<\/p><p><\/p><p>*We recognize that not everyone who menstruates identifies as a woman and that not all women menstruate<\/p><p><\/p><p>Ruth is an official partner of the MH Day Organization<\/p>",
-            "button_label": "Learn More About MH Day",
-            "button_url": "https:\/\/menstrualhygieneday.org\/",
-            "text_size": "medium",
-            "width": "one_whole",
-            "alignment": "middle",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "7a0e27a5-c11b-4e8a-9215-dfceb590b5c1"
-      ],
-      "settings": {
-        "title": "",
-        "mobile_layout": "grid"
-      }
-    },
     "1653001420e7ed9001": {
       "type": "custom-content",
       "blocks": {
@@ -102,7 +77,7 @@
       "type": "bannersection",
       "settings": {
         "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_4.png",
-        "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_3.png",
+        "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
         "Headline1": "",
         "Headline2": "",
         "subHeadline": "",
@@ -111,14 +86,39 @@
         "redirect_link": "",
         "show_button": false
       }
+    },
+    "1653001399cae35bcb": {
+      "type": "custom-content",
+      "blocks": {
+        "7a0e27a5-c11b-4e8a-9215-dfceb590b5c1": {
+          "type": "text",
+          "settings": {
+            "title": "What is MH Day?",
+            "text": "<p>Today, millions of women and girls* around the world are stigmatized, excluded and discriminated against simply because they menstruate. It’s not acceptable that because of a natural bodily function women and girls continue to be prevented from getting an education, earning an income and fully and equally participating in everyday life.<\/p><p><\/p><p><\/p><p>While Menstrual Hygiene (MH) Day is on 28 May, the MH Day organization works all year-round to:<\/p><p>- Break the taboos and end the stigma surrounding menstruation<\/p><p>- Raise awareness about the challenges regarding access to menstrual products, education about menstruation and period-friendly sanitation facilities<\/p><p>- Mobilize the funding required for action at scale<\/p><p><\/p><p>All of this contributes to our overarching goal: to build a world where no one is held back because they menstruate by 2030.<\/p><p><\/p><p>*We recognize that not everyone who menstruates identifies as a woman and that not all women menstruate<\/p><p><\/p><p>Ruth is an official partner of the MH Day Organization<\/p>",
+            "button_label": "Learn More About MH Day",
+            "button_url": "https:\/\/menstrualhygieneday.org\/",
+            "text_size": "medium",
+            "width": "one_whole",
+            "alignment": "middle",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "7a0e27a5-c11b-4e8a-9215-dfceb590b5c1"
+      ],
+      "settings": {
+        "title": "",
+        "mobile_layout": "grid"
+      }
     }
   },
   "order": [
     "16529990888c0f79b6",
-    "1653001399cae35bcb",
     "1653001420e7ed9001",
     "1653002455625e82bc",
     "1653002346f1a85e7a",
-    "165339302333ca4abd"
+    "165339302333ca4abd",
+    "1653001399cae35bcb"
   ]
 }
