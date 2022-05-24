@@ -61,12 +61,29 @@
         "plastics": "40.9",
         "donated": "3,875"
       }
+    },
+    "1653407863c3411d58": {
+      "type": "apps",
+      "blocks": {
+        "271ba40e-7c4a-4a21-90f6-107f75e9fab0": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SSAQW2"
+          }
+        }
+      },
+      "block_order": [
+        "271ba40e-7c4a-4a21-90f6-107f75e9fab0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "16534032723df46ba1",
     "1653402795c7daaa0f",
     "16534036417df2ead5",
-    "1652996213970f041b"
+    "1652996213970f041b",
+    "1653407863c3411d58"
   ]
 }
