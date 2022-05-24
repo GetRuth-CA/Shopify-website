@@ -84,6 +84,8 @@
         "maxheight": "700",
         "font1": "playfair-display-v22-latin-700",
         "font2": "montserrat-v18-latin-600",
+        "fontsize1": 60,
+        "fontsize2": 30,
         "button_text": "",
         "redirect_link": "",
         "show_button": false
