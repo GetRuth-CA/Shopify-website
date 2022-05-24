@@ -72,6 +72,68 @@
   font-family:"montserrat-v18-latin-600"!important;
   font-size:17px;
   }
+  
+  .mobileimg{
+  display:none;
+     background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/MH_Day_Celebration_Banner_Webpage_Image.png?v=1652472316");
+ height:300px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  }
+  
+  .grid--2-col-tablet {
+  grid-template-columns: repeat(1,1fr);
+}
+  
+  
+  @media only screen and (max-width: 600px) {
+    
+    .mobileimg{
+      display:block;}
+    
+    .image-with-text--full_background{
+    background-image:none;
+    }
+    
+    .header2stuff{
+    font-size:30px;
+      color:#768052;
+    margin:0rem 3.2rem;
+      text-shadow:unset;
+    }
+    
+    .image-with-text__text{
+    	color:#768052;
+      font-size:15px;
+      margin:0rem 3.2rem;
+      text-shadow:unset;
+    }
+    
+    .lightbutton{
+  color:#fff;
+    background-color:#768052;
+    box-shadow:8px 8px #C1CC7A;
+    
+    
+margin:40px 3.2rem;
+  
+  }
+    
+    .image-with-text__inner{
+  padding:5rem 1rem;
+  
+  }
+    
+    .image-with-text--full_background{
+    height:unset;
+    
+    }
+    
+  }
 </style>
 
 {% schema %}
