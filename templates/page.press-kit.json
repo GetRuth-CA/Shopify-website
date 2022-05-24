@@ -1,16 +1,21 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "16530594898cd43df2": {
-      "type": "Left-aligned-image-text",
+    "1653410904b7f8038a": {
+      "type": "bannersection",
       "settings": {
-        "section_width": 1500,
         "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_6.png",
-        "image_width": 1500,
+        "Headline1": "",
         "Headline2": "",
-        "show_headline2": false,
-        "paragraph": "",
-        "show_paragraph": false
+        "subHeadline": "",
+        "maxheight": "600",
+        "font1": "",
+        "font2": "",
+        "fontsize1": 50,
+        "fontsize2": 20,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     },
     "1653057847bdc2eb95": {
@@ -95,7 +100,7 @@
     }
   },
   "order": [
-    "16530594898cd43df2",
+    "1653410904b7f8038a",
     "1653057847bdc2eb95",
     "165305700220ec1d98",
     "1653057541cff7cd9c",
