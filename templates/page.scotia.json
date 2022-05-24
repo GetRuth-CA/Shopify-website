@@ -18,6 +18,41 @@
         "show_button": false
       }
     },
+    "165341048261224937": {
+      "type": "custom-content",
+      "blocks": {
+        "16534104826c744e7f-0": {
+          "type": "text",
+          "settings": {
+            "title": "What's the MH Day Campaign?",
+            "text": "<p>To celebrate and bring awareness topics surrounding menstruation, the Ruth Team, in partnership with Scotiabank are collecting donations for our donation partners in an effort to help fight period poverty. You can donate by purchasing our Giveback Pack below. Donations will go to our partner organizations who need it the most. <\/p><p><\/p><p>Thank you for your donation and for celebrating with us! We have some surprises for you:<\/p>",
+            "button_label": "Enter to win prizes",
+            "button_url": "shopify:\/\/pages\/ruth-irl",
+            "text_size": "medium",
+            "width": "one_whole",
+            "alignment": "middle",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16534104826c744e7f-0"
+      ],
+      "settings": {
+        "title": "",
+        "mobile_layout": "grid"
+      }
+    },
+    "16534036417df2ead5": {
+      "type": "featured-product",
+      "settings": {
+        "product": "giveback-pack",
+        "show_quantity_selector": false,
+        "show_vendor": false,
+        "enable_dynamic_checkout": true,
+        "show_social_buttons": false
+      }
+    },
     "1653402795c7daaa0f": {
       "type": "custom-content",
       "blocks": {
@@ -25,7 +60,7 @@
           "type": "text",
           "settings": {
             "title": "What is MH Day?",
-            "text": "<p>Menstrual Hygiene (MH) Day works to:<\/p><p>- Break the taboos and end the stigma surrounding menstruation<\/p><p>- Raise awareness about the challenges regarding access to menstrual products, education about menstruation and period-friendly sanitation facilities<\/p><p>- Mobilize the funding required for action at scale<\/p><p><\/p><p>Thank you for celebrating with us! We have some surprises for you below:<\/p>",
+            "text": "<p>Menstrual Hygiene (MH) Day works to:<\/p><p>- Break the taboos and end the stigma surrounding menstruation<\/p><p>- Raise awareness about the challenges regarding access to menstrual products, education about menstruation and period-friendly sanitation facilities<\/p><p>- Mobilize the funding required for action at scale<\/p>",
             "button_label": "Enter to Win Ruth IRL prizes",
             "button_url": "shopify:\/\/pages\/ruth-irl",
             "text_size": "medium",
@@ -41,16 +76,6 @@
       "settings": {
         "title": "",
         "mobile_layout": "grid"
-      }
-    },
-    "16534036417df2ead5": {
-      "type": "featured-product",
-      "settings": {
-        "product": "giveback-pack",
-        "show_quantity_selector": false,
-        "show_vendor": false,
-        "enable_dynamic_checkout": true,
-        "show_social_buttons": false
       }
     },
     "1652996213970f041b": {
@@ -81,8 +106,9 @@
   },
   "order": [
     "16534032723df46ba1",
-    "1653402795c7daaa0f",
+    "165341048261224937",
     "16534036417df2ead5",
+    "1653402795c7daaa0f",
     "1652996213970f041b",
     "1653408075bf0b7a08"
   ]
