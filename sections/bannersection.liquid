@@ -26,10 +26,26 @@
   </div>
 </section>
 
+<style>
+
+.image-with-text--full_background{
+  background-image: url("{{section.settings.image1}}");
+  height:750px;
+    background-position: center right;
+    background-size: cover;
+    
+  }
+</style>
+
 {% schema %}
   {
     "name": "Banner Section",
-    "settings": [],
+    "settings": [
+{"type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"}
+
+],
 
 "presets":[
 	{
