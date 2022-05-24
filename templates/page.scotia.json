@@ -13,6 +13,31 @@
         "show_paragraph": false
       }
     },
+    "1653402795c7daaa0f": {
+      "type": "custom-content",
+      "blocks": {
+        "165340279501677c7f-0": {
+          "type": "text",
+          "settings": {
+            "title": "What is MH Day?",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_label": "",
+            "button_url": "",
+            "text_size": "medium",
+            "width": "one_whole",
+            "alignment": "middle",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165340279501677c7f-0"
+      ],
+      "settings": {
+        "title": "",
+        "mobile_layout": "grid"
+      }
+    },
     "1652996277ad743214": {
       "type": "multi-column",
       "blocks": {
@@ -69,6 +94,7 @@
   },
   "order": [
     "1652996600f6243ee6",
+    "1653402795c7daaa0f",
     "1652996277ad743214",
     "16529928620c2bb239",
     "1652996213970f041b"
