@@ -99,7 +99,6 @@
     },
     "1653002346f1a85e7a": {
       "type": "custom-content",
-      "disabled": true,
       "blocks": {
         "1653002346068a8833-1": {
           "type": "image",
@@ -117,24 +116,6 @@
         "title": "",
         "mobile_layout": "grid"
       }
-    },
-    "16533961999c8d1e87": {
-      "type": "bannersection",
-      "settings": {
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_5_b2b0841f-36c0-4fe4-b661-0eafe0a254c8.png",
-        "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_5_b2b0841f-36c0-4fe4-b661-0eafe0a254c8.png",
-        "Headline1": "",
-        "Headline2": "",
-        "subHeadline": "",
-        "maxheight": "unset",
-        "font1": "",
-        "font2": "",
-        "fontsize1": 50,
-        "fontsize2": 20,
-        "button_text": "",
-        "redirect_link": "",
-        "show_button": false
-      }
     }
   },
   "order": [
@@ -143,7 +124,6 @@
     "1653001399cae35bcb",
     "1653001420e7ed9001",
     "1653002455625e82bc",
-    "1653002346f1a85e7a",
-    "16533961999c8d1e87"
+    "1653002346f1a85e7a"
   ]
 }
