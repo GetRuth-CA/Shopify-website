@@ -43,11 +43,11 @@
         "mobile_layout": "grid"
       }
     },
-    "16529928620c2bb239": {
+    "16534036417df2ead5": {
       "type": "featured-product",
       "settings": {
         "product": "giveback-pack",
-        "show_quantity_selector": true,
+        "show_quantity_selector": false,
         "show_vendor": false,
         "enable_dynamic_checkout": true,
         "show_social_buttons": true
@@ -66,7 +66,7 @@
   "order": [
     "16534032723df46ba1",
     "1653402795c7daaa0f",
-    "16529928620c2bb239",
+    "16534036417df2ead5",
     "1652996213970f041b"
   ]
 }
