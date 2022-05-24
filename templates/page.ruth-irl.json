@@ -18,6 +18,12 @@
         "show_button": false
       }
     },
+    "1653407533d7b537f4": {
+      "type": "embedcode",
+      "settings": {
+        "code": "(<div class=\"klaviyo-form-SSAQW2\"><\/div>)"
+      }
+    },
     "1653001399cae35bcb": {
       "type": "custom-content",
       "blocks": {
@@ -88,6 +94,7 @@
   },
   "order": [
     "165339302333ca4abd",
+    "1653407533d7b537f4",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
     "1653405890b29566cf"
