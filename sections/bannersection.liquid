@@ -63,7 +63,7 @@
     
   .header2stuff{
     font-family:"{{section.settings.font1}}"!important;
-  font-size:50px;
+  font-size:{{section.settings.fontsize1}}px;
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
   }
@@ -77,7 +77,7 @@
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
   font-family:"{{section.settings.font2}}"!important;
-  font-size:17px;
+  font-size:{{section.settings.fontsize2}}px;
   }
   
   .mobileimg{
@@ -165,6 +165,20 @@ margin:40px 3.2rem;
 "font1", "label": "Font Headline 1" },
 { "type": "text", "id":
 "font2", "label": "Font Headline 2" },
+{
+  "type": "number",
+  "id": "fontsize1",
+  "label": "Font 1 Size",
+  "default": 50,
+"info": "Change how large Headline 1 is"
+},
+{
+  "type": "number",
+  "id": "fontsize2",
+  "label": "Font 2 Size",
+  "default": 20,
+"info": "Change how large Headline 2 is"
+},
 {
 "type":"text",
 "label":"Button Text",
