@@ -1,18 +1,5 @@
 {
   "sections": {
-    "16529990888c0f79b6": {
-      "type": "Left-aligned-image-text",
-      "disabled": true,
-      "settings": {
-        "section_width": 1120,
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_4.png",
-        "image_width": 1120,
-        "Headline2": "",
-        "show_headline2": false,
-        "paragraph": "",
-        "show_paragraph": false
-      }
-    },
     "165339302333ca4abd": {
       "type": "bannersection",
       "settings": {
@@ -29,28 +16,6 @@
         "button_text": "",
         "redirect_link": "",
         "show_button": false
-      }
-    },
-    "16534054084a6a9dd2": {
-      "type": "embedcode",
-      "settings": {
-        "code": "<div class=\"klaviyo-form-SSAQW2\"><\/div>"
-      }
-    },
-    "1653405413c7d00dbd": {
-      "type": "apps",
-      "blocks": {
-        "eb80f3ec-b469-4206-8f34-e02958f0d4b7": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "WBfvkn"
-          }
-        }
-      },
-      "block_order": [
-        "eb80f3ec-b469-4206-8f34-e02958f0d4b7"
-      ],
-      "settings": {
       }
     },
     "1653001399cae35bcb": {
@@ -119,29 +84,10 @@
         "show_button": false
       }
     },
-    "1653002346f1a85e7a": {
-      "type": "custom-content",
-      "blocks": {
-        "1653002346068a8833-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_5_b2b0841f-36c0-4fe4-b661-0eafe0a254c8.png",
-            "width": "one_whole",
-            "alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "1653002346068a8833-1"
-      ],
-      "settings": {
-        "title": "",
-        "mobile_layout": "grid"
-      }
-    },
     "1653405590739a5145": {
       "type": "bannersection",
       "settings": {
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_7.png",
         "Headline1": "",
         "Headline2": "",
         "subHeadline": "",
@@ -157,14 +103,10 @@
     }
   },
   "order": [
-    "16529990888c0f79b6",
     "165339302333ca4abd",
-    "16534054084a6a9dd2",
-    "1653405413c7d00dbd",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
     "1653002455625e82bc",
-    "1653002346f1a85e7a",
     "1653405590739a5145"
   ]
 }
