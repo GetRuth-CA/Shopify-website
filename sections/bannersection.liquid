@@ -62,7 +62,7 @@
   
     
   .header2stuff{
-  font-family:"montserrat-v18-latin-600"!important;
+    font-family:"{{section.settings.font1}}"!important;
   font-size:50px;
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
@@ -76,7 +76,7 @@
   .image-with-text__text{
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
-  font-family:"montserrat-v18-latin-600"!important;
+  font-family:"{{section.settings.font2}}"!important;
   font-size:17px;
   }
   
@@ -161,6 +161,10 @@ margin:40px 3.2rem;
 "subHeadline", "label": "Sub-Headline" },
 { "type": "text", "id":
 "maxheight", "label": "Max Section Height" },
+{ "type": "text", "id":
+"font1", "label": "Font Headline 1" },
+{ "type": "text", "id":
+"font2", "label": "Font Headline 2" },
 {
 "type":"text",
 "label":"Button Text",
