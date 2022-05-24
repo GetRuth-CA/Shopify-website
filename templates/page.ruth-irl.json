@@ -31,6 +31,28 @@
         "show_button": false
       }
     },
+    "16534054084a6a9dd2": {
+      "type": "embedcode",
+      "settings": {
+        "code": "<div class=\"klaviyo-form-SSAQW2\"><\/div>"
+      }
+    },
+    "1653405413c7d00dbd": {
+      "type": "apps",
+      "blocks": {
+        "eb80f3ec-b469-4206-8f34-e02958f0d4b7": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "WBfvkn"
+          }
+        }
+      },
+      "block_order": [
+        "eb80f3ec-b469-4206-8f34-e02958f0d4b7"
+      ],
+      "settings": {
+      }
+    },
     "1653001399cae35bcb": {
       "type": "custom-content",
       "blocks": {
@@ -117,30 +139,32 @@
         "mobile_layout": "grid"
       }
     },
-    "1653405413c7d00dbd": {
-      "type": "apps",
-      "blocks": {
-        "eb80f3ec-b469-4206-8f34-e02958f0d4b7": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "WBfvkn"
-          }
-        }
-      },
-      "block_order": [
-        "eb80f3ec-b469-4206-8f34-e02958f0d4b7"
-      ],
+    "1653405590739a5145": {
+      "type": "bannersection",
       "settings": {
+        "Headline1": "",
+        "Headline2": "",
+        "subHeadline": "",
+        "maxheight": "",
+        "font1": "",
+        "font2": "",
+        "fontsize1": 50,
+        "fontsize2": 20,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     }
   },
   "order": [
     "16529990888c0f79b6",
     "165339302333ca4abd",
+    "16534054084a6a9dd2",
+    "1653405413c7d00dbd",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
     "1653002455625e82bc",
     "1653002346f1a85e7a",
-    "1653405413c7d00dbd"
+    "1653405590739a5145"
   ]
 }
