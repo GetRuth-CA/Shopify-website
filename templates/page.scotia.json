@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "title": "What is MH Day?",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Menstrual Hygiene (MH) Day works to:<\/p><p>- Break the taboos and end the stigma surrounding menstruation<\/p><p>- Raise awareness about the challenges regarding access to menstrual products, education about menstruation and period-friendly sanitation facilities<\/p><p>- Mobilize the funding required for action at scale<\/p>",
             "button_label": "Enter to Win Ruth IRL prizes",
             "button_url": "shopify:\/\/pages\/ruth-irl",
             "text_size": "medium",
