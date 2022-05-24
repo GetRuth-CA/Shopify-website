@@ -77,6 +77,12 @@
       ],
       "settings": {
       }
+    },
+    "1653407859ecfe79b2": {
+      "type": "embedcode",
+      "settings": {
+        "code": "<div class=\"klaviyo-form-SSAQW2\"><\/div>"
+      }
     }
   },
   "order": [
@@ -84,6 +90,7 @@
     "1653402795c7daaa0f",
     "16534036417df2ead5",
     "1652996213970f041b",
-    "1653407863c3411d58"
+    "1653407863c3411d58",
+    "1653407859ecfe79b2"
   ]
 }
