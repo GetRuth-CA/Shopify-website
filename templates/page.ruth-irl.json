@@ -83,30 +83,12 @@
         "redirect_link": "",
         "show_button": false
       }
-    },
-    "1653405590739a5145": {
-      "type": "bannersection",
-      "settings": {
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_7.png",
-        "Headline1": "",
-        "Headline2": "",
-        "subHeadline": "",
-        "maxheight": "",
-        "font1": "",
-        "font2": "",
-        "fontsize1": 50,
-        "fontsize2": 20,
-        "button_text": "",
-        "redirect_link": "",
-        "show_button": false
-      }
     }
   },
   "order": [
     "165339302333ca4abd",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
-    "1653002455625e82bc",
-    "1653405590739a5145"
+    "1653002455625e82bc"
   ]
 }
