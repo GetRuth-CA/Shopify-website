@@ -101,12 +101,15 @@
     "165339302333ca4abd": {
       "type": "bannersection",
       "settings": {
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_4.png",
         "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_3.png",
-        "Headline1": "<b><i>Ruth IRL:<\/i><\/b><br> Menstrual Hygiene Day Celebration",
-        "Headline2": "Destigmatize the conversation around Menstruation",
-        "subHeadline1": "May 28 | GTA | Edmonton | Vancouver",
-        "subHeadline": "May 28 | GTA | Edmonton | Vancouver"
+        "Headline1": "",
+        "Headline2": "",
+        "subHeadline": "",
+        "maxheight": "700",
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     }
   },
