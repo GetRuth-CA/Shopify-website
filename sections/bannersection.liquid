@@ -79,7 +79,7 @@
   
   .mobileimg{
   display:none;
-     background-image:url("https://cdn.shopify.com/s/files/1/0587/8674/2454/files/MH_Day_Celebration_Banner_Webpage_Image.png?v=1652472316");
+     background-image:url("{{section.settings.image2| image_url: master}}");
  height:300px;
 
   /* Position and center the image to scale nicely on all screens */
@@ -146,7 +146,10 @@ margin:40px 3.2rem;
     "settings": [
 {"type": "image_picker",
       "id": "image1",
-      "label": "Image 1"}
+      "label": "Image 1"},
+{"type": "image_picker",
+      "id": "image2",
+      "label": "Image 2"}
 
 ],
 
