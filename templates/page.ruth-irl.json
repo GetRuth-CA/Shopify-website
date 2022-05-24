@@ -90,22 +90,6 @@
         "background_color": "#ffffff",
         "text_color": "#5d633b"
       }
-    },
-    "1653407653a2fe35bb": {
-      "type": "apps",
-      "blocks": {
-        "83f16c4b-f6ef-4761-b654-44c86bc26564": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "SSAQW2"
-          }
-        }
-      },
-      "block_order": [
-        "83f16c4b-f6ef-4761-b654-44c86bc26564"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -113,7 +97,6 @@
     "1653407533d7b537f4",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
-    "1653405890b29566cf",
-    "1653407653a2fe35bb"
+    "1653405890b29566cf"
   ]
 }
