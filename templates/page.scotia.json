@@ -21,8 +21,8 @@
           "settings": {
             "title": "What is MH Day?",
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_label": "",
-            "button_url": "",
+            "button_label": "Enter to Win Ruth IRL prizes",
+            "button_url": "shopify:\/\/pages\/ruth-irl",
             "text_size": "medium",
             "width": "one_whole",
             "alignment": "middle",
