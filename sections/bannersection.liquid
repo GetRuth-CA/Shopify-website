@@ -21,10 +21,11 @@
       <div class="image-with-text__text rte" style="font-size:25px;">{{section.settings.Headline2}}</div>
       <div class="image-with-text__text rte">{{section.settings.subHeadline}}</div>
 
-
-        <a class="image-with-text__button button lightbutton" href="http://getruth.hubspotpagebuilder.com/ruth_newsletter" target="_blank">
-          Get Updates!
+		{% if section.settings.show_button %}
+        <a class="image-with-text__button button lightbutton" href="{{ section.settings.redirect_link.url }}" target="_blank">
+         {{section.settings.button_text}}
         </a>
+      {%endif%}
       
     </div>
 
