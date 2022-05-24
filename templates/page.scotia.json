@@ -10,9 +10,9 @@
         "subHeadline": "Let's talk about periods.",
         "maxheight": "600",
         "font1": "playfair-display-v22-latin-700",
-        "font2": "",
-        "fontsize1": 50,
-        "fontsize2": 20,
+        "font2": "montserrat-v18-latin-600",
+        "fontsize1": 60,
+        "fontsize2": 45,
         "button_text": "",
         "redirect_link": "",
         "show_button": false
