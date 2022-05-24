@@ -50,7 +50,7 @@
         "show_quantity_selector": false,
         "show_vendor": false,
         "enable_dynamic_checkout": true,
-        "show_social_buttons": true
+        "show_social_buttons": false
       }
     },
     "1652996213970f041b": {
