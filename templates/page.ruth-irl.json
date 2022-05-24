@@ -88,7 +88,7 @@
       "type": "banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_7.png",
-        "heading": "",
+        "heading": "Thanks to our sponsors!",
         "heading_size": "medium",
         "description": "",
         "button_label": "",
@@ -97,8 +97,8 @@
         "banner_width": "full",
         "image_alignment": "center center",
         "text_box_alignment": "top_left",
-        "background_color": "#F9EEE1",
-        "text_color": "#181818"
+        "background_color": "#ffffff",
+        "text_color": "#5d633b"
       }
     }
   },
