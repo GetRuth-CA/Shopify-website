@@ -1,16 +1,22 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "1652996600f6243ee6": {
-      "type": "Left-aligned-image-text",
+    "16534031925e570748": {
+      "type": "bannersection",
       "settings": {
-        "section_width": 1120,
-        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
-        "image_width": 1120,
-        "Headline2": "Welcome to Ruth IRL in Partnership with Scotiabank",
-        "show_headline2": false,
-        "paragraph": "Welcome to Ruth IRL in Partnership with Scotiabank",
-        "show_paragraph": false
+        "image1": "shopify:\/\/shop_images\/1_b0c5d4ae-a6a8-4787-900c-704117b8f6f0.png",
+        "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image.png",
+        "Headline1": "",
+        "Headline2": "",
+        "subHeadline": "",
+        "maxheight": "",
+        "font1": "",
+        "font2": "",
+        "fontsize1": 50,
+        "fontsize2": 20,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     },
     "1653402795c7daaa0f": {
@@ -59,7 +65,7 @@
     }
   },
   "order": [
-    "1652996600f6243ee6",
+    "16534031925e570748",
     "1653402795c7daaa0f",
     "16529928620c2bb239",
     "1652996213970f041b"
