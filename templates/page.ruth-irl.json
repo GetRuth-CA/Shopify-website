@@ -126,7 +126,7 @@
         "Headline1": "",
         "Headline2": "",
         "subHeadline": "",
-        "maxheight": "900",
+        "maxheight": "unset",
         "font1": "",
         "font2": "",
         "fontsize1": 50,
