@@ -36,7 +36,7 @@
 
 .image-with-text--full_background{
   background-image: url("{{section.settings.image1| image_url: master}}");
-  height:750px;
+  height:{{section.settings.maxheight}}px;
     background-position: center right;
     background-size: cover;
     
@@ -157,7 +157,9 @@ margin:40px 3.2rem;
 { "type": "text", "id":
 "Headline2", "label": "Headline 2" },
 { "type": "text", "id":
-"subHeadline", "label": "Sub-Headline" }
+"subHeadline", "label": "Sub-Headline" },
+{ "type": "text", "id":
+"maxheight", "label": "Max Section Height" }
 
 ],
 
