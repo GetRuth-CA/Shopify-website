@@ -43,7 +43,7 @@
                           {%- if block.settings.image.width >= 1006 -%}{{ block.settings.image | img_url: '1006x' }} 1006w,{%- endif -%}
                           {%- if block.settings.image.width >= 685 -%}{{ block.settings.image | img_url: '685x' }} 685w,{%- endif -%}
                           {%- if block.settings.image.width >= 1370 -%}{{ block.settings.image | img_url: '1370x' }} 1370w{%- endif -%}"
-                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 2), (min-width: 750px) calc((100vw - 19.5rem) / 2), calc(100vw - 6.4rem)"
+                        
                         src="{{ block.settings.image | img_url: master }}"
                         width="{{ block.settings.image.width }}"
                         height="{{ block.settings.image.height }}"
