@@ -37,7 +37,7 @@
         "69ae6f77-9180-44fb-b1d1-3217754bfc5f": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "SSAQW2"
+            "formId": "klaviyo-form-SSAQW2"
           }
         }
       },
