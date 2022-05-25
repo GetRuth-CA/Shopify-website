@@ -1,4 +1,4 @@
-<div class ="mobileimg">
+<div class ="mobileimg" style="background-image:url("{{section.settings.image2| image_url: master}}");">
 	
 </div>
 
@@ -20,8 +20,10 @@
       
 
 
-      <div class="image-with-text__text rte" style="font-size:25px;">{{section.settings.Headline2}}</div>
-      <div class="image-with-text__text rte">{{section.settings.subHeadline}}</div>
+      <div class="image-with-text__text rte" style="font-size:25px;font-family:"{{section.settings.font2}}"!important;
+  font-size:{{section.settings.fontsize2}}px;">{{section.settings.Headline2}}</div>
+      <div class="image-with-text__text rte" style="font-family:"{{section.settings.font2}}"!important;
+  font-size:{{section.settings.fontsize2}}px;">{{section.settings.subHeadline}}</div>
 
 		{% if section.settings.show_button %}
         <a class="image-with-text__button button lightbutton" href="{{ section.settings.redirect_link.url }}" target="_blank">
@@ -76,13 +78,12 @@
   .image-with-text__text{
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
-  font-family:"{{section.settings.font2}}"!important;
-  font-size:{{section.settings.fontsize2}}px;
+  
   }
   
   .mobileimg{
   display:none;
-     background-image:url("{{section.settings.image2| image_url: master}}");
+     
  height:300px;
 
   /* Position and center the image to scale nicely on all screens */
