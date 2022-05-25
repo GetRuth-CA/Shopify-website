@@ -2,7 +2,8 @@
 	
 </div>
 
-<section class="image-with-text image-with-text--full_background" style ="position:relative;" >
+<section class="image-with-text image-with-text--full_background" style ="position:relative; background-image: url("{{section.settings.image1| image_url: master}}");
+  height:{{section.settings.maxheight}}px;" >
   <div class="image-with-text__inner grid grid--2-col-tablet">
     
     <div class="image-with-text__content
@@ -11,7 +12,8 @@
        {% if section.settings.mobile_layout == 'top' %} image-with-text__content--mobile-image-top{% endif %}"> 
 
       
-        <h2 class="header2stuff" style="margin-bottom:17px;">
+        <h2 class="header2stuff" style="margin-bottom:17px;font-family:"{{section.settings.font1}}"!important;
+  font-size:{{section.settings.fontsize1}}px;">
           {{section.settings.Headline1}}
           
         </h2>
@@ -36,8 +38,7 @@
 <style>
 
 .image-with-text--full_background{
-  background-image: url("{{section.settings.image1| image_url: master}}");
-  height:{{section.settings.maxheight}}px;
+ 
     background-position: center right;
     background-size: cover;
     
@@ -62,8 +63,7 @@
   
     
   .header2stuff{
-    font-family:"{{section.settings.font1}}"!important;
-  font-size:{{section.settings.fontsize1}}px;
+    
   color:#fff;
    text-shadow: 3px 3px 7px #5D633B;
   }
