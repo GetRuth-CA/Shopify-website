@@ -2,8 +2,7 @@
 	
 </div>
 
-<section class="image-with-text image-with-text--full_background" style ="position:relative; background-image: url({{section.settings.image1 | image_url: master}});
-  height:{{section.settings.maxheight}}px;" >
+<section class="image-with-text image-with-text--full_background" style ="position:relative;" >
   <div class="image-with-text__inner grid grid--2-col-tablet">
     
     <div class="image-with-text__content
@@ -40,7 +39,8 @@
 <style>
 
 .image-with-text--full_background{
- 
+ background-image: url({{section.settings.image1 | image_url: master}});
+  height:{{section.settings.maxheight}}px;
     background-position: center right;
     background-size: cover;
     
