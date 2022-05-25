@@ -1,12 +1,18 @@
+<img src="{{section.settings.image1 | image_url: master}}" />
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Full Screen Image",
+    "settings": [
+{"type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"}
+],
+"presets":[
+	{
+		"category":"image",
+		"name":"Full Screen Image"
+  }]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
