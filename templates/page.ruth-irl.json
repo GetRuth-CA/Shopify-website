@@ -6,8 +6,8 @@
         "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
         "image2": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_2.png",
         "Headline1": "Welcome to Ruth IRL:<br>MH Day Celebration!",
-        "Headline2": "",
-        "subHeadline": "Let's talk about periods.",
+        "Headline2": "Let's talk about periods.",
+        "subHeadline": "",
         "maxheight": "600",
         "font1": "playfair-display-v22-latin-700",
         "font2": "montserrat-v18-latin-600",
@@ -76,6 +76,7 @@
     },
     "1653405890b29566cf": {
       "type": "banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_10.png",
         "heading": "Thanks to our sponsors!",
@@ -90,6 +91,39 @@
         "background_color": "#ffffff",
         "text_color": "#5d633b"
       }
+    },
+    "165347167781b792b4": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "Thanks to our Sponsors!",
+        "show_headline": true,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false,
+        "center_align": true,
+        "max_width": 1120,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
+    },
+    "1653471586ee23e757": {
+      "type": "bannersection",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/MH_Day_Celebration_Banner_Webpage_Image_5_b2b0841f-36c0-4fe4-b661-0eafe0a254c8.png",
+        "Headline1": "",
+        "Headline2": "",
+        "subHeadline": "",
+        "maxheight": "700",
+        "font1": "",
+        "font2": "",
+        "fontsize1": 50,
+        "fontsize2": 20,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
+      }
     }
   },
   "order": [
@@ -97,6 +131,8 @@
     "1653407533d7b537f4",
     "1653001399cae35bcb",
     "1653001420e7ed9001",
-    "1653405890b29566cf"
+    "1653405890b29566cf",
+    "165347167781b792b4",
+    "1653471586ee23e757"
   ]
 }
