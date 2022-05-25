@@ -47,8 +47,8 @@
           "enable_secondary_background": true,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Disposable menstrual pads that biodegrade in less than a year vs 800 years delivered to your door",
-          "announcement_bar_url": "shopify:\/\/collections\/ruth-pads",
+          "announcement_bar_text": "Happy Menstrual Hygiene (MH) Week! We'll see you at RuthIRL: MH Day Celebration at a city near you!",
+          "announcement_bar_url": "shopify:\/\/pages\/mhday",
           "announcement_bar_color_background": "#768052",
           "announcement_bar_color_text": "#ffffff",
           "announcement_bar_new_tab": false
