@@ -3,11 +3,33 @@
   "sections": {
     "main": {
       "type": "product",
+      "disabled": true,
+      "settings": {
+        "show_quantity_selector": false,
+        "show_vendor": false,
+        "enable_dynamic_checkout": false,
+        "show_social_buttons": true
+      }
+    },
+    "1653516802a8e88861": {
+      "type": "apps",
+      "blocks": {
+        "175455ee-3580-4498-b797-891d6de3e7d2": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-W9wB5F\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "175455ee-3580-4498-b797-891d6de3e7d2"
+      ],
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1653516802a8e88861"
   ]
 }
