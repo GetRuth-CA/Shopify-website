@@ -53,6 +53,13 @@
             "question": "Landfills are not meant to break down materials, so how are Ruth Pads more sustainable than other pads?",
             "answer": "Very true! But plastic in traditional menstrual pads has a production process that can still be harmful to the environment based on the petrochemicals used. Ruth pads are made from 93% renewable materials, which are actually beneficial to the environment to produce. Kenaf fibre is good for soil health and used by farmers as a rotational crop."
           }
+        },
+        "88d4d934-6623-4207-a7ac-88895ceadc04": {
+          "type": "text",
+          "settings": {
+            "question": "What are the pads made of?",
+            "answer": "Ruth pads are made from 93% plant-based materials, including bamboo fibre, kenaf fibre, and starch based bioplastic. Please note that there may be some discolouration in the pads due to the natural fibres used."
+          }
         }
       },
       "block_order": [
@@ -60,7 +67,8 @@
         "2d660688-84b4-47f0-8560-ae3680e45b39",
         "98048c19-8b7b-419d-bf0d-ae6688fa4c64",
         "a26cd133-0c62-49c1-9c56-f9e2363139b3",
-        "f5b309be-28ea-4dc4-8a3c-327a0efc3bbc"
+        "f5b309be-28ea-4dc4-8a3c-327a0efc3bbc",
+        "88d4d934-6623-4207-a7ac-88895ceadc04"
       ],
       "settings": {
       }
