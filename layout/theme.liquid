@@ -59,7 +59,8 @@
 {% include 'scapp-customerinfo' %} 
 <script>var scaaffCheck = false;</script>
 {{ 'sca_affiliate.js' | asset_url | script_tag }}
-{% render 'bon-loyalty' %}</head>
+{% render 'bon-loyalty' %} {% include 'talkable-partial' %}
+</head>
 
   <body>
       
