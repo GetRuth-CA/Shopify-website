@@ -3,10 +3,31 @@
     "main": {
       "type": "product",
       "settings": {
+        "show_quantity_selector": false,
+        "show_vendor": false,
+        "enable_dynamic_checkout": false,
+        "show_social_buttons": true
+      }
+    },
+    "1658360187ea6d7c5d": {
+      "type": "Text-Section",
+      "settings": {
+        "Headline": "Our Partners",
+        "show_headline": true,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "At Ruth, we want to see sustainable menstrual products made accessible. That’s why we’re partnering with shelters and organizations across Canada to help reduce period poverty nationally. Pads from our crowdfunding campaign in 2021 were donated to our partner organizations below:",
+        "show_paragraph": true,
+        "center_align": true,
+        "max_width": 1120,
+        "button_text": "",
+        "redirect_link": "",
+        "show_button": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1658360187ea6d7c5d"
   ]
 }
