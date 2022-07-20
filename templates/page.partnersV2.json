@@ -1,14 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "product",
-      "settings": {
-        "show_quantity_selector": false,
-        "show_vendor": false,
-        "enable_dynamic_checkout": false,
-        "show_social_buttons": true
-      }
-    },
     "1658360187ea6d7c5d": {
       "type": "Text-Section",
       "settings": {
@@ -27,7 +18,6 @@
     }
   },
   "order": [
-    "main",
     "1658360187ea6d7c5d"
   ]
 }
