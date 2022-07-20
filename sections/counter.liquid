@@ -19,7 +19,47 @@
 </div>
   </div></div>
 
+<style>
+  
+  .counterNum {
+  margin: 5px 0;  font-size:70px;
+  
+  }
+  .counterimg{
+  width: 60px;
+    height:60px;
+  }
+  .counter {
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 600px;
+  }
+  
+  .counterCol {
+  display:block;
+  margin: 20px 40px;
+  }
 
+.sectionDivBottom{
+  	max-width:1200px;
+  	margin: 0px auto;
+    height:100%;
+  padding-bottom: 50px;">
+}
+  
+  @media only screen and (max-width: 800px) {
+  .counter {
+    
+    display:block;}
+    
+    .counterNum{
+    font-size:60px;
+    }
+    .counterCol {width:80%; margin: 40px auto;}
+  }
+</style>
 {% schema %} { "name": "Section name", "settings": [ { "type": "text", "id":
 "plastics", "label": "Plastics diverted" }, { "type": "text", "id": "donated",
 "label": "Pads donated" } ],
