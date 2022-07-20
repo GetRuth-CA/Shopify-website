@@ -19,13 +19,26 @@
     "16583606297aa7f1c3": {
       "type": "counter",
       "settings": {
-        "plastics": "45.7",
-        "donated": "3,925"
+        "donated": "3,925",
+        "plastics": "45.7"
+      }
+    },
+    "16583608600fa47c8c": {
+      "type": "Left-aligned-image-text",
+      "settings": {
+        "section_width": 920,
+        "image1": "shopify:\/\/shop_images\/Donation_Partners_Map.png",
+        "image_width": 920,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false
       }
     }
   },
   "order": [
     "1658360187ea6d7c5d",
-    "16583606297aa7f1c3"
+    "16583606297aa7f1c3",
+    "16583608600fa47c8c"
   ]
 }
