@@ -15,9 +15,17 @@
         "redirect_link": "",
         "show_button": false
       }
+    },
+    "16583606297aa7f1c3": {
+      "type": "counter",
+      "settings": {
+        "plastics": "45.7",
+        "donated": "3,925"
+      }
     }
   },
   "order": [
-    "1658360187ea6d7c5d"
+    "1658360187ea6d7c5d",
+    "16583606297aa7f1c3"
   ]
 }
