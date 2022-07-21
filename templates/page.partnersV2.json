@@ -42,8 +42,9 @@
           "type": "text",
           "settings": {
             "image1": "shopify:\/\/shop_images\/MTS_logo.png",
-            "question": "",
-            "answer": ""
+            "partner_link": "https:\/\/truenorthaid.ca\/mts-bc\/",
+            "headline": "Moontime Sisters",
+            "description": "North Vancouver, BC<br><br>  We are excited to donate products to Moon Time Sisters because they are committed to providing Northern Canadian communities with menstrual products."
           }
         }
       },
