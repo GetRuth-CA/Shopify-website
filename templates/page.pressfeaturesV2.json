@@ -4,9 +4,27 @@
       "type": "past_press",
       "settings": {
       }
+    },
+    "16584112614de815bf": {
+      "type": "press_block",
+      "blocks": {
+        "7098f519-b7e0-43dd-9f7b-2a787c1001e3": {
+          "type": "text",
+          "settings": {
+            "headline": "CBC News: Edmonton entrepreneurs hope their eco-friendly products can help end period shaming",
+            "description": "A lot of people are not talking about menstruation and that has to change, according to one health expert."
+          }
+        }
+      },
+      "block_order": [
+        "7098f519-b7e0-43dd-9f7b-2a787c1001e3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "16584107181be1a405"
+    "16584107181be1a405",
+    "16584112614de815bf"
   ]
 }
