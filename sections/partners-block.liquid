@@ -1,7 +1,93 @@
+<div class="page" style="padding-top:0px; padding-bottom:0px">
+    <div class="rte">
+{% for block in section.blocks %}
+        <div class="founderstory" style="align-items: center;">
+
+      <img class="founderstoryImg" style="margin-bottom:20px;"
+        src="{{settings.image1 | image_url: master}}" />
+
+      <div style="display:block;font-size: 18px; padding-left: 20px; padding-right: 20px; line-height: 35px;">
+        <a href="https://truenorthaid.ca/mts-bc/" style="text-decoration: none;" target="_blank">
+          <h5 class="specialH5" style="text-align:left;margin-bottom:10px;margin-top:0px;">Moon Time Sisters</h5>
+
+          North Vancouver, BC<br /><br />
+
+          We are excited to donate products to Moon Time Sisters because they are committed to providing Northern
+          Canadian communities with menstrual products.
+        </a>
+      </div>
+
+    </div><br />
+{%endfor%}
+</div>
+</div>
+
+<style>
+  .founderstory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .founderstory {
+      display: block;
+    }
+
+    .founderstoryImg {
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .foundername {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+  .founderstoryImg {
+
+    display: block;
+    border-radius: 2%;
+    width: 170px;
+    height: 100%;
+  }
+</style>
+
+
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [],
+"blocks" : [
+{
+"type":"text",
+"name":"partner block",
+"settings":[
+{"type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"},
+{ "type": "text", "id":
+"question", "label": "Question" },
+{ "type": "text", "id":
+"answer", "label": "Answer" }
+]
+}
+],
+"presets":[
+	{
+		"category":"Text",
+		"name":"Partners Block"
+}
+]
   }
 {% endschema %}
 
