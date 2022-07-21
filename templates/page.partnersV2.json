@@ -113,12 +113,25 @@
       ],
       "settings": {
       }
+    },
+    "1658363347967b11c6": {
+      "type": "Left-aligned-image-text",
+      "settings": {
+        "section_width": 1120,
+        "image1": "shopify:\/\/shop_images\/AmpersandGrey-02-2022_Ruth-076.jpg",
+        "image_width": 620,
+        "Headline2": "",
+        "show_headline2": false,
+        "paragraph": "",
+        "show_paragraph": false
+      }
     }
   },
   "order": [
     "1658360187ea6d7c5d",
     "16583606297aa7f1c3",
     "16583608600fa47c8c",
-    "1658362043e49d9079"
+    "1658362043e49d9079",
+    "1658363347967b11c6"
   ]
 }
