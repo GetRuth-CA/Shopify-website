@@ -51,15 +51,65 @@
           "type": "text",
           "settings": {
             "image1": "shopify:\/\/shop_images\/All_Cycles.png",
-            "partner_link": "",
+            "partner_link": "https:\/\/www.allcyclesyeg.ca\/",
             "headline": "All Cycles YEG",
             "description": "Edmonton, AB<br><br>All Cycles YEG provides menstrual products to homeless and income insecure Canadians and emphasizes inclusive menstruation within the 2SLGBTQIA+ community."
+          }
+        },
+        "f6cee274-c957-45f1-b58c-ae0991e66ca7": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/IWS-Logo-300x300.jpg",
+            "partner_link": "https:\/\/iwssaskatoon.org\/",
+            "headline": "International Women of Saskatoon (IWS)",
+            "description": "Saskatoon, SK<br><br>  Founded in 1985, the International Women of Saskatoon is a grassroots organization that aims to improve the status of immigrant and refugee women and their families."
+          }
+        },
+        "67aef41a-b95f-4664-9e64-b7fae4b54702": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/91501039_10156738578952364_2810901369035161600_n_0.png",
+            "partner_link": "https:\/\/ymcagta.org\/find-a-y\/ymca-sprott-house",
+            "headline": "YMCA Sprott House",
+            "description": "Toronto, ON<br><br>  The YMCA Sprott House is one of Canada's first transitional housing programs for LGBTQ2S+ youth. Serving the Greater Toronto Area, the Sprott House first opened its doors in 2007."
+          }
+        },
+        "e9e59f59-385d-4330-af9b-7b8cd13d539e": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/English-Dark-Letters-PNG.png",
+            "partner_link": "https:\/\/www.sghottawa.com\/",
+            "headline": "Shepherds of Good Hope",
+            "description": "Ottawa, ON<br><br>  Shepherds of Good Hope supports those experiencing homeless and aims to reduce harm in Ottawa. They provide specialized shelter programs, supportive housing facilities, and many other programs that support their community."
+          }
+        },
+        "aadfc867-7499-4feb-851f-f81ec89186ba": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/image_6.png",
+            "partner_link": "https:\/\/www.chezdoris.org\/en\/",
+            "headline": "Chez Doris",
+            "description": "Montréal, QC<br><br>  Chez Doris provides shelter and support to women in need, with programs specifically for Inuit and Indigenous women."
+          }
+        },
+        "7a924fd3-1541-45a8-9dc3-55e3392ed04d": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/St_Johns_Womens_Shelter.png",
+            "partner_link": "https:\/\/sjwomenscentre.ca\/programs\/st-johns-womens-centre\/",
+            "headline": "St. John's Women's Centre",
+            "description": "St. John's, NL<br><br>  From its inception in 1973, the St. John's Women's Centre started the province's first rape crisis centre and transition house for women fleeing domestic violence. The St. John's Women's Centre is a shelter that offers a safe and non-judgemental place for women."
           }
         }
       },
       "block_order": [
         "ebbba6b1-e86e-4012-a41d-182d10098fd1",
-        "f3c10b54-7bef-4279-8c2f-ad0dc579b776"
+        "f3c10b54-7bef-4279-8c2f-ad0dc579b776",
+        "f6cee274-c957-45f1-b58c-ae0991e66ca7",
+        "67aef41a-b95f-4664-9e64-b7fae4b54702",
+        "e9e59f59-385d-4330-af9b-7b8cd13d539e",
+        "aadfc867-7499-4feb-851f-f81ec89186ba",
+        "7a924fd3-1541-45a8-9dc3-55e3392ed04d"
       ],
       "settings": {
       }
