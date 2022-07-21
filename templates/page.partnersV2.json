@@ -34,11 +34,30 @@
         "paragraph": "",
         "show_paragraph": false
       }
+    },
+    "1658362043e49d9079": {
+      "type": "partners-block",
+      "blocks": {
+        "ebbba6b1-e86e-4012-a41d-182d10098fd1": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/MTS_logo.png",
+            "question": "",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "ebbba6b1-e86e-4012-a41d-182d10098fd1"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "1658360187ea6d7c5d",
     "16583606297aa7f1c3",
-    "16583608600fa47c8c"
+    "16583608600fa47c8c",
+    "1658362043e49d9079"
   ]
 }
