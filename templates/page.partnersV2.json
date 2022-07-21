@@ -46,10 +46,20 @@
             "headline": "Moontime Sisters",
             "description": "North Vancouver, BC<br><br>  We are excited to donate products to Moon Time Sisters because they are committed to providing Northern Canadian communities with menstrual products."
           }
+        },
+        "f3c10b54-7bef-4279-8c2f-ad0dc579b776": {
+          "type": "text",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/All_Cycles.png",
+            "partner_link": "",
+            "headline": "All Cycles YEG",
+            "description": "Edmonton, AB<br><br>All Cycles YEG provides menstrual products to homeless and income insecure Canadians and emphasizes inclusive menstruation within the 2SLGBTQIA+ community."
+          }
         }
       },
       "block_order": [
-        "ebbba6b1-e86e-4012-a41d-182d10098fd1"
+        "ebbba6b1-e86e-4012-a41d-182d10098fd1",
+        "f3c10b54-7bef-4279-8c2f-ad0dc579b776"
       ],
       "settings": {
       }
