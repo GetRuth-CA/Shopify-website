@@ -23,7 +23,9 @@
           "type": "text",
           "settings": {
             "headline": "CBC News: Edmonton entrepreneurs hope their eco-friendly products can help end period shaming",
-            "description": "A lot of people are not talking about menstruation and that has to change, according to one health expert."
+            "date_descr": "Oct 27, 2021",
+            "description": "A lot of people are not talking about menstruation and that has to change, according to one health expert.",
+            "article_link": ""
           }
         }
       },
