@@ -2,6 +2,14 @@
     <div class="rte">
 {% for block in section.blocks %}
         <div class="founderstory" style="align-items: start">
+          
+          <video controls class="founderstoryVid">
+                <source
+                    src="https://globalnewsdigitalvideo.corusdigitaldev.com/news/jwo4086c0b-txygv7v219/RUTH_video.mp4"
+                />
+                Your browser does not support the video tag.
+            </video>
+          
             <img
                 class="founderstoryImg"
                 src="{{block.settings.img_link}}"
@@ -112,9 +120,16 @@
 "name":"press block",
 "settings":[
 {
+  "type": "checkbox",
+  "id": "show_video",
+  "label": "Video?",
+  "default": false
+},
+
+{
   "type": "url",
-  "id": "img_link",
-  "label": "Image link"
+  "id": "media_link",
+  "label": "Media link"
 },
 { "type": "text", "id":
 "headline", "label": "Headline" },
