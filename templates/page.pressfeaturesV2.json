@@ -22,17 +22,19 @@
         "7098f519-b7e0-43dd-9f7b-2a787c1001e3": {
           "type": "text",
           "settings": {
-            "img_link": "https:\/\/i.cbc.ca\/1.6224731.1635211880!\/fileImage\/httpImage\/image.jpg_gen\/derivatives\/16x9_780\/menstrual-pads.jpg",
+            "show_video": false,
+            "media_link": "https:\/\/i.cbc.ca\/1.6224731.1635211880!\/fileImage\/httpImage\/image.jpg_gen\/derivatives\/16x9_780\/menstrual-pads.jpg",
             "headline": "CBC News: Edmonton entrepreneurs hope their eco-friendly products can help end period shaming",
             "date_descr": "Oct 27, 2021",
             "description": "A lot of people are not talking about menstruation and that has to change, according to one health expert.",
-            "article_link": ""
+            "article_link": "https:\/\/www.cbc.ca\/news\/canada\/edmonton\/edmonton-entrepreneurs-hope-their-eco-friendly-products-help-end-period-shaming-1.6224669"
           }
         },
         "fea3ac58-3ca7-4e10-85d0-74def6a58ec2": {
           "type": "text",
           "settings": {
-            "img_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/Combo_product_page_image_2_2__square_copy.jpg?v=1634682091",
+            "show_video": false,
+            "media_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/Combo_product_page_image_2_2__square_copy.jpg?v=1634682091",
             "headline": "Taproot Edmonton: Ruth wraps up Next 36, prepares to launch products",
             "date_descr": "Sept. 29, 2021",
             "description": "Edmonton startup Ruth is preparing to launch its environmentally friendly menstrual pads on its website next month, with co-founders Anka Chan and Nicole Sanchez continuing to build on the momentum they’ve created throughout this year.",
@@ -42,7 +44,8 @@
         "c9c279c6-1fd6-4730-b291-6e3673c83327": {
           "type": "text",
           "settings": {
-            "img_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/20210607_133022_copy.webp?v=1634515561",
+            "show_video": false,
+            "media_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/20210607_133022_copy.webp?v=1634515561",
             "headline": "660 City News: Alberta students create biodegradable period product in hopes of reducing plastic waste",
             "date_descr": "Jul 5, 2021",
             "description": "CALGARY (660 NEWS) — Founded by a pair of students from the University of Alberta, Ruth Pads, a menstrual product, is made from 93 per cent plant-based materials.",
@@ -52,7 +55,8 @@
         "9ea0bd88-19fd-403f-98a8-b5652ee77a41": {
           "type": "text",
           "settings": {
-            "img_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/ruth-2.jpg?v=1634681580",
+            "show_video": false,
+            "media_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/ruth-2.jpg?v=1634681580",
             "headline": "Taproot Edmonton: Local startup launches sustainable menstrual products, aims to end period poverty",
             "date_descr": "June 30, 2021",
             "description": "Edmonton-based startup company Ruth recently launched its environmentally-friendly menstrual pads made of plant-based materials.",
@@ -62,7 +66,8 @@
         "87690a51-782e-4fb9-9a6f-c22872a068bd": {
           "type": "text",
           "settings": {
-            "img_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/Screen_Shot_2021-06-28_at_9_45_31_AM.webp?v=1634515561",
+            "show_video": false,
+            "media_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/Screen_Shot_2021-06-28_at_9_45_31_AM.webp?v=1634515561",
             "headline": "Edmonton Journal: Edmonton startup business creates eco-friendly menstrual pads",
             "date_descr": "June 27, 2021",
             "description": "An Edmonton-based startup company is offering women an eco-friendly option when purchasing menstrual pads. Ruth, named after former U.S. associate justice of the Supreme Court Ruth Bader Ginsburg, officially launched on Tuesday with a Kickstarter campaign.",
