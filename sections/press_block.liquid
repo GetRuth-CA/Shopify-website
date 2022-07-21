@@ -48,6 +48,61 @@
 </div>
 </div>
 
+<style>
+    .founderstory {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    
+
+    .founderstoryImg {
+        display: block;
+        border-radius: 2%;
+    }
+
+    .founderstoryVid {
+        display: block;
+        max-width: 100% !important;
+        width: 480px !important;
+        height: auto !important;
+        border-radius: 2%;
+    }
+  
+  @media only screen and (max-width: 1000px) {
+        .founderstory {
+            display: block;
+        }
+
+        .founderstoryImg {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 2%;
+        }
+
+        .founderstoryVid {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 2%;
+            width: 99%;
+            object-fit: fill;
+        }
+
+        .foundername {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+</style>
+
 
 {% schema %}
   {
