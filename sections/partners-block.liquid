@@ -7,13 +7,10 @@
         src="{{block.settings.image1 | image_url: master}}" />
 
       <div style="display:block;font-size: 18px; padding-left: 20px; padding-right: 20px; line-height: 35px;">
-        <a href="https://truenorthaid.ca/mts-bc/" style="text-decoration: none;" target="_blank">
-          <h5 class="specialH5" style="text-align:left;margin-bottom:10px;margin-top:0px;">Moon Time Sisters</h5>
+        <a href="{{block.settings.partner_link}}" style="text-decoration: none;" target="_blank">
+          <h5 class="specialH5" style="text-align:left;margin-bottom:10px;margin-top:0px;">{{block.settings.Headline}}</h5>
 
-          North Vancouver, BC<br /><br />
-
-          We are excited to donate products to Moon Time Sisters because they are committed to providing Northern
-          Canadian communities with menstrual products.
+          {{block.settings.Description}}
         </a>
       </div>
 
@@ -75,10 +72,15 @@
 {"type": "image_picker",
       "id": "image1",
       "label": "Image 1"},
+{
+  "type": "url",
+  "id": "partner_link",
+  "label": "Partner link"
+},
 { "type": "text", "id":
-"question", "label": "Question" },
+"headline", "label": "Headline" },
 { "type": "text", "id":
-"answer", "label": "Answer" }
+"description", "label": "Description" }
 ]
 }
 ],
