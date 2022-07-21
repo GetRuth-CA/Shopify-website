@@ -19,6 +19,17 @@
     "16584112614de815bf": {
       "type": "press_block",
       "blocks": {
+        "53b3d7ce-0276-4002-a945-9308fdb21c86": {
+          "type": "text",
+          "settings": {
+            "show_video": true,
+            "media_link": "https:\/\/globalnewsdigitalvideo.corusdigitaldev.com\/news\/jwo4086c0b-txygv7v219\/RUTH_video.mp4",
+            "headline": "U of A students create sustainable menstruation products",
+            "date_descr": "March 6, 2022",
+            "description": "When it comes to feminine hygiene products, some say there aren’t many options to choose from. But some students out of the University of Alberta are hoping to change that, by making menstruation products more sustainable and more widely available with their company “Ruth.” Co-founder Anka Chan explains.",
+            "article_link": "https:\/\/globalnews.ca\/video\/8662429\/u-of-a-students-create-sustainable-menstruation-products\/"
+          }
+        },
         "7098f519-b7e0-43dd-9f7b-2a787c1001e3": {
           "type": "text",
           "settings": {
@@ -73,14 +84,27 @@
             "description": "An Edmonton-based startup company is offering women an eco-friendly option when purchasing menstrual pads. Ruth, named after former U.S. associate justice of the Supreme Court Ruth Bader Ginsburg, officially launched on Tuesday with a Kickstarter campaign.",
             "article_link": "https:\/\/edmontonjournal.com\/business\/local-business\/edmonton-business-creates-eco-friendly-menstrual-pad"
           }
+        },
+        "2c5982a3-219c-4f5c-a821-e87ead290dde": {
+          "type": "text",
+          "settings": {
+            "show_video": true,
+            "media_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0587\/8674\/2454\/files\/Global_News_June_22_2021.mp4?v=1634517512",
+            "headline": "Global News Feature: Su-Ling Goh reports on how Edmonton students created sustainable period pads",
+            "date_descr": "June 22, 2021",
+            "description": "Story included as a part of the Global News broadcast.",
+            "article_link": "https:\/\/globalnews.ca\/video\/7972886\/health-matters-vaccine-menstrual-side-effect-biodegradable-pads-adaptive-bike-donation\/"
+          }
         }
       },
       "block_order": [
+        "53b3d7ce-0276-4002-a945-9308fdb21c86",
         "7098f519-b7e0-43dd-9f7b-2a787c1001e3",
         "fea3ac58-3ca7-4e10-85d0-74def6a58ec2",
         "c9c279c6-1fd6-4730-b291-6e3673c83327",
         "9ea0bd88-19fd-403f-98a8-b5652ee77a41",
-        "87690a51-782e-4fb9-9a6f-c22872a068bd"
+        "87690a51-782e-4fb9-9a6f-c22872a068bd",
+        "2c5982a3-219c-4f5c-a821-e87ead290dde"
       ],
       "settings": {
       }
