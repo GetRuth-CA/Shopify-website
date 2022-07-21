@@ -2,20 +2,20 @@
     <div class="rte">
 {% for block in section.blocks %}
         <div class="founderstory" style="align-items: start">
-          
+          {% if block.settings.show_video %}
           <video controls class="founderstoryVid">
                 <source
-                    src="https://globalnewsdigitalvideo.corusdigitaldev.com/news/jwo4086c0b-txygv7v219/RUTH_video.mp4"
+                    src="{{block.settings.media_link}}"
                 />
                 Your browser does not support the video tag.
             </video>
-          
+          {% else %}
             <img
                 class="founderstoryImg"
-                src="{{block.settings.img_link}}"
+                src="{{block.settings.media_link}}"
                 width="480px"
             />
-
+{% endif %}
             <div
                 style="
                     display: block;
