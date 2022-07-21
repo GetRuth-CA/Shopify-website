@@ -3,10 +3,20 @@
     "main": {
       "type": "product",
       "settings": {
+        "show_quantity_selector": false,
+        "show_vendor": false,
+        "enable_dynamic_checkout": false,
+        "show_social_buttons": true
+      }
+    },
+    "16584107181be1a405": {
+      "type": "past_press",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16584107181be1a405"
   ]
 }
