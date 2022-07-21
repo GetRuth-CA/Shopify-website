@@ -84,11 +84,20 @@
       "type": "past_press",
       "settings": {
       }
+    },
+    "165841226972606004": {
+      "type": "product-redirect",
+      "settings": {
+        "heading": "Ready to make a switch?",
+        "button_text": "Shop Pads",
+        "redirect_link": "ruth-pads"
+      }
     }
   },
   "order": [
     "1658411704cd9df311",
     "16584112614de815bf",
-    "16584107181be1a405"
+    "16584107181be1a405",
+    "165841226972606004"
   ]
 }
