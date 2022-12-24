@@ -47,7 +47,7 @@
           "enable_secondary_background": true,
           "show_search": false,
           "announcement_bar_enabled": true,
-          "announcement_bar_text": "Sustainable menstrual pads delivered to your door. Subscribe and save now.",
+          "announcement_bar_text": "Happy holidays! Please allow extra time for shipping during this season ☃️",
           "announcement_bar_url": "shopify:\/\/collections\/ruth-pads",
           "announcement_bar_color_background": "#768052",
           "announcement_bar_color_text": "#ffffff",
@@ -315,15 +315,7 @@
       "1630648240b540e431",
       "16306527338b1b8ee8",
       "16306545650463d8d7"
-    ],
-    "blocks": {
-      "6174324309569838175": {
-        "type": "shopify:\/\/apps\/smile-rewards-loyalty\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Bistro": {
