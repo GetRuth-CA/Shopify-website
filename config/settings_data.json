@@ -315,7 +315,16 @@
       "1630648240b540e431",
       "16306527338b1b8ee8",
       "16306545650463d8d7"
-    ]
+    ],
+    "blocks": {
+      "12107416968155278870": {
+        "type": "shopify:\/\/apps\/paywhirl-subscription-payments\/blocks\/paywhirl-customer-portal\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
+        "disabled": false,
+        "settings": {
+          "container_selector": "main#MainContent"
+        }
+      }
+    }
   },
   "presets": {
     "Bistro": {
