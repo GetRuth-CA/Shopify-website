@@ -40,7 +40,7 @@
       "signup_form_email_placeholder": "Your email",
       "signup_form_submit": "Submit",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"password__footer-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"password__footer-link\">Log in here<\/a>",
       "password_link": "Enter using password",
       "create_your_own_store": "Create your own online store with Shopify",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
@@ -105,8 +105,8 @@
       "check_other_stores": "Check availability at other stores",
       "pick_up_available": "Pickup available",
       "pick_up_currently_unavailable": "Pickup currently unavailable",
-      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>",
+      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}<\/strong>",
       "unavailable": "Couldn't load pickup availability",
       "refresh": "Refresh"
     }
@@ -149,7 +149,7 @@
       "page_title": "Your Cart",
       "remove": "Remove",
       "remove_title": "Remove {{ title }}",
-      "note": "Special instructions for seller",
+      "note": "Special instructions and how you heard about us",
       "subtotal": "Subtotal",
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
       "update": "Update Cart",
@@ -162,11 +162,11 @@
       "qty": "Qty",
       "quantity": "Quantity",
       "savings": "You're saving",
-      "cart_quantity_error_html": "You can only add {{ quantity }} <strong>{{ title }}</strong> to your cart.",
+      "cart_quantity_error_html": "You can only add {{ quantity }} <strong>{{ title }}<\/strong> to your cart.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
     },
     "label": {
       "product": "Product",
@@ -222,7 +222,7 @@
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal/Zip Code",
+      "zip": "Postal\/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -362,7 +362,7 @@
       "regular_price": "Regular price",
       "sale_price": "Sale price",
       "sold_out": "Sold Out",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "view_details": "View details",
       "vendor": "Vendor",
       "unavailable": "Unavailable",
