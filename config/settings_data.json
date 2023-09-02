@@ -46,7 +46,7 @@
           "main_menu": "main-menu",
           "enable_secondary_background": true,
           "show_search": false,
-          "announcement_bar_enabled": true,
+          "announcement_bar_enabled": false,
           "announcement_bar_text": "FREE SHIPPING on all Canadian orders!",
           "announcement_bar_url": "shopify:\/\/products\/day-pads",
           "announcement_bar_color_background": "#768052",
