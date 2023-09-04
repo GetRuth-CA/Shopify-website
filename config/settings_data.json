@@ -84,12 +84,14 @@
         "blocks": {
           "footer-2": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "title": "Sign up to our newsletter for product updates!"
             }
           },
           "0d68c2bd-9537-4458-988e-a29da702390d": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "title": "Shop",
               "menu": "shop"
@@ -97,6 +99,7 @@
           },
           "3a1d8287-2594-45ed-92d6-ac4ade34febf": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "title": "Learn",
               "menu": "learn"
@@ -104,6 +107,7 @@
           },
           "5adcec80-3945-4c03-97f8-8616c3eeaa20": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "title": "About",
               "menu": "about"
